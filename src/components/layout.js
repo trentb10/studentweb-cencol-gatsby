@@ -9,11 +9,12 @@ import style from '../styles/trentb10-style.css';
 
 import image from '../images/logo.gif';
 
-export default function Layout ({ children }) {
+export default function Layout ({ title, children }) {
     return (
         <div>
             <Navi />
             <HeaderImage image = {image} />
+            <HeaderTitle title = {title} />
 
             <div class="content-body">
                 { children }

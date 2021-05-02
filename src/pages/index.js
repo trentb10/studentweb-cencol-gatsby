@@ -10,18 +10,13 @@
 
 import React from 'react';
 
-import Navi from '../components/navi';
-import HeaderTitle from '../components/header-title';
-import HeaderImage from '../components/header-image';
-import Footer from '../components/footer';
-
 import style from '../styles/trentb10-style.css';
 
 import Layout from '../components/layout';
 
 export default function Home() {
 	return (
-		<Layout>
+		<Layout title="Trent B's Dream World">
 			<h2>Welcome to my home page!</h2>
 					
 			<p>
