@@ -17,11 +17,16 @@ export default function Home() {
 
             <h2>Select an institution:</h2>
 
-            <button type="button" class="collapsible">
+            <div class="collapsible">
                 University of Toronto
-            </button>
-            <div class="collapsible-content">
-                My lovely documentary will show up here!
+            </div>
+            <div class="collapsible-content-container">
+                <div class="collapsible-content">
+                    My lovely documentary will show up here!
+                </div>
+                <div class="collapsible-content">
+                    And maybe an essay that I'm not ashamed of, if I had one.
+                </div>
             </div>
 
         </Layout>

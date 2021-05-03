@@ -1,14 +1,6 @@
 /*	
 
-	tm- (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ 
-	
-	Last modified 200527
-
-*/
-
-/*	
-
-	tm- Styling Colours:
+	trentb10 Styling Colours:
  
  	Main Colour		Blue			#50ffff
  	Background1		Carbon Black	#212121
@@ -19,6 +11,14 @@
 	Accent3			Orange 			#ff9f50
  	Accent4			Yellow			#ffd350
   
+*/
+
+/*
+	Table of Contents
+
+	[NAVI]	Header > Navi
+	[PGTL]	Page Title
+	[COCO]	Content > Collapsibles
 */
 
 /* --------------------- */
@@ -144,11 +144,12 @@ img.header {
 	width: auto;
 }
 
-/* Navigation Bar */
+/* [NAVI] Navigation Bar */
 
 .mainNavi {
     position: sticky;
     top: 0;
+	transition: 0.4s;
 
     /* Disable Text Selection */
     -moz-user-select: none; /* Firefox */
@@ -193,6 +194,7 @@ img.header {
     color: white;
 	text-align: center;
 	padding: 12px 18px 12px 18px;
+	transition: 0.4s;
 }
 
 .mainNavi .item:hover, .mainNavi .dropbtn:hover {
@@ -209,6 +211,7 @@ li.dropdown {
     display: block;
 	text-align: center;
 	padding: 12px 18px 12px 18px;
+	transition: 0.4s;
 }
 
 .dropdown-content {
@@ -216,6 +219,7 @@ li.dropdown {
 	position: absolute;
 	background-color: #212121;
 	min-width: 160px;
+	transition: 0.4s;
 	z-index: 1;
 }
 
@@ -225,6 +229,7 @@ li.dropdown {
 	text-decoration: none;
 	display: block;
 	text-align: left;
+	transition: 0.4s;
 }
 
 .dropdown:hover .dropdown-content {
@@ -241,9 +246,9 @@ li.dropdown {
 	transition: 0.4s;
 }
 
-/* ---------------- */
-/* -= Page Title =- */
-/* ---------------- */
+/* ----------------------- */
+/* -= [PGTL] Page Title =- */
+/* ----------------------- */
 
 div.page-title {
 	background-image: linear-gradient(#191919 21px, #212121);
@@ -297,30 +302,57 @@ blockquote cite {
 	font-style: normal;	
 }
 
-/* Collapsibles */
+/* [COCO] Collapsibles */
 
 .collapsible {
-	background-color: #eee;
-	color: #444;
-	cursor: pointer;
+	background-color: #0a0a0a;
+	border-bottom: 5px solid #9fff50;
+	color: #9fff50;
+	cursor: default;
+	font-size: 18px;
 	padding: 18px;
 	width: 100%;
-	border: none;
 	text-align: left;
+	transition: 0.4s;
 	outline: none;
-	font-size: 15px;
+
+    /* Disable Text Selection */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
 }
 
 .active, .collapsible:hover {
-	background-color: #ccc;
+	background-color: #383838;
+	transition: 0.4s;
 }
 
-.collapsible-content {
-	padding: 0 18px;
+.collapsible-content-container {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
-	background-color: black;
+	background-color: #0a0a0a;
+}
+
+.collapsible-content {
+	cursor: pointer;
+	padding: 18px;
+	transition: 0.4s;
+}
+
+.collapsible-content:hover {
+	background-color: #383838;
+	transition: 0.4s;
+}
+
+.collapsible:after {
+	content: '\02795';
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: '\2796';
 }
 
 /* Links */
