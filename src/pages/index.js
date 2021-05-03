@@ -2,16 +2,11 @@
  * 
  * Made with love and care by trentb10 (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
  * 
- * Last modified 210428
- * 
  * This page was first created as part as Assignment 1 for COMP213 | 190117
  * 
  */
 
 import React from 'react';
-
-import style from '../styles/trentb10-style.css';
-
 import Layout from '../components/layout';
 
 export default function Home() {
@@ -38,8 +33,7 @@ export default function Home() {
 			</p>
 	
 			<p>
-				This page is looking bland right now, but I hope to dress it 
-				up with stuffs like a navigation bar to make this feel more like home.
+				Get started by using the navbar at the top!
 			</p>
 		</Layout>
 	);
