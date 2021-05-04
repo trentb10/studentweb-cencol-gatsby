@@ -357,11 +357,12 @@ blockquote cite {
 }
 
 .collapsible-header {
-	background-color: #383838;
+	background-color: #0a0a0a;
 	border-bottom: 1px solid white;
+	color: #50ffff;
 	cursor: default;
-	font-weight: bold;
-	padding: 12px;
+	font-size: 18px;
+	padding: 12px 0 12px 24px;
 	transition: 0.4s;
 
 }
