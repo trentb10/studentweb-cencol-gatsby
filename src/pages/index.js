@@ -7,11 +7,16 @@
  */
 
 import React from 'react';
+import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 
 export default function Home() {
 	return (
 		<Layout title="Trent B's Dream World">
+			<Helmet>
+				<title>trentb10 on Gatsby</title>
+			</Helmet>
+
 			<h2>Welcome to my home page!</h2>
 					
 			<p>
