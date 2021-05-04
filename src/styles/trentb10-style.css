@@ -304,11 +304,13 @@ blockquote cite {
 
 /* [COCO] Collapsibles */
 
-.collapsible {
+.collapsible-main-container {
+	box-shadow: 5px 5px 8px #0a0a0a;
+}
+
+.collapsible-title {
 	background-color: #0a0a0a;
-	border-bottom: 5px solid #9fff50;
-	color: #9fff50;
-	cursor: default;
+	cursor: pointer;
 	font-size: 18px;
 	padding: 18px;
 	width: 100%;
@@ -322,9 +324,29 @@ blockquote cite {
     user-select: none;
 }
 
-.active, .collapsible:hover {
+.cencol {
+	border-bottom: 5px solid #d4df38;
+	color: #d4df38;
+}
+
+.uoft {
+	border-bottom: 5px solid #7ba4d9;
+	color: #7ba4d9;
+}
+
+.active, .collapsible-title:hover {
 	background-color: #383838;
 	transition: 0.4s;
+}
+
+.collapsible-title:after {
+	content: '\02795';
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: '\2796';
 }
 
 .collapsible-content-container {
@@ -334,7 +356,18 @@ blockquote cite {
 	background-color: #0a0a0a;
 }
 
+.collapsible-header {
+	background-color: #383838;
+	border-bottom: 1px solid white;
+	cursor: default;
+	font-weight: bold;
+	padding: 12px;
+	transition: 0.4s;
+
+}
+
 .collapsible-content {
+	border-bottom: 1px solid white;
 	cursor: pointer;
 	padding: 18px;
 	transition: 0.4s;
@@ -343,16 +376,6 @@ blockquote cite {
 .collapsible-content:hover {
 	background-color: #383838;
 	transition: 0.4s;
-}
-
-.collapsible:after {
-	content: '\02795';
-	float: right;
-	margin-left: 5px;
-}
-
-.active:after {
-	content: '\2796';
 }
 
 /* Links */

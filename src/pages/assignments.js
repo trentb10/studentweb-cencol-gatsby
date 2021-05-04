@@ -17,15 +17,27 @@ export default function Home() {
 
             <h2>Select an institution:</h2>
 
-            <div class="collapsible">
-                University of Toronto
-            </div>
-            <div class="collapsible-content-container">
-                <div class="collapsible-content">
-                    My lovely documentary will show up here!
+            <div class="collapsible-main-container">
+                <div class="collapsible-title cencol">
+                    Centennial College
                 </div>
-                <div class="collapsible-content">
-                    And maybe an essay that I'm not ashamed of, if I had one.
+                <div class="collapsible-content-container">
+                </div>
+            </div>
+
+            <br />
+
+            <div class="collapsible-main-container">
+                <div class="collapsible-title uoft">
+                    University of Toronto
+                </div>
+                <div class="collapsible-content-container">
+                    <div class="collapsible-header">
+                        ENGD94 Stranger Than Fiction
+                    </div>
+                    <div class="collapsible-content">
+                        Our lovely documentary will appear here!
+                    </div>
                 </div>
             </div>
 
