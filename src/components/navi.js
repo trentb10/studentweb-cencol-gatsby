@@ -11,8 +11,8 @@ export default function Header() {
                 <li class="dropdown">
                     <Link to="/assignments"><div class="mainNavi dropbtn">Assignments</div></Link>
                     <div class="dropdown-content">
-                        <Link to=""><div>Centennial College</div></Link>
-                        <Link to=""><div>University of Toronto</div></Link>
+                        <Link to="/assignments/cencol"><div>Centennial College</div></Link>
+                        <Link to="/assignments/uoft"><div>University of Toronto</div></Link>
                     </div>
                 </li>
                 <li class="dropdown">
