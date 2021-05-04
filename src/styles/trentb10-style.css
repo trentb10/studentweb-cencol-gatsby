@@ -1,25 +1,31 @@
-/*	
-
-	trentb10 Styling Colours:
- 
- 	Main Colour		Blue			#50ffff
- 	Background1		Carbon Black	#212121
-	Background2		Midnight Black	#0a0a0a
-	Background3		Hover Black		#383838 
- 	Accent1			Pink			#ff5085 / f26995
-	Accent2			Green			#9fff50
-	Accent3			Orange 			#ff9f50
- 	Accent4			Yellow			#ffd350
-  
-*/
-
 /*
 	Table of Contents
 
+	[GLVA]	Global Variables
 	[NAVI]	Header > Navi
 	[PGTL]	Page Title
 	[COCO]	Content > Collapsibles
 */
+
+/* ----------------------------- */
+/* -= [GLVA] Global Variables =- */
+/* ----------------------------- */
+
+:root {
+	/* Styling Colours */
+
+	--blue: #50ffff;
+	--carbonBlack: #212121;
+	--midnightBlack: #0a0a0a;
+	--hoverBlack: #383838;
+	--pink1: #ff5085;
+	--pink2: #f26995;
+	--green: #9fff50;
+	--orange: #ff9f50;
+	--yellow: #ffd350;
+
+	/*  */
+}
 
 /* --------------------- */
 /* -= Global Elements =- */
@@ -31,10 +37,10 @@ body {
 		135deg,
 		#070707,
 		#070707 5px,
-		#0a0a0a 5px,
-		#0a0a0a 10px
+		var(--midnightBlack) 5px,
+		var(--midnightBlack) 10px
 	);
-	background-color: #0a0a0a;
+	background-color: var(--midnightBlack);
 	background-attachment: fixed;
 	color: #ffffff;
 	font-family: "PT Sans", Arial, sans-serif;
@@ -59,9 +65,9 @@ select, input [type=button],
 			  [type=text],
 			  [type=password],
 			  [type=email] {
-	background: #0a0a0a;
+	background: var(--midnightBlack);
 	border: none;
-	color: #9fff50;
+	color: var(--green);
 	font-family: Share Tech Mono, monospace;
 	font-size: 16px;
 	padding: 2px;
@@ -70,7 +76,7 @@ select, input [type=button],
 input[type=button], [type=reset], [type=submit] {
 	background: #343434;
 	border: none;
-	color: #50ffff;
+	color: var(--blue);
 	font-family: "Share Tech Mono", monospace;
 	font-size: 16px;
 	padding: 10px;
@@ -98,8 +104,8 @@ td, th {
 }
 
 th {
-	background-color: #50ffff;
-	color: #212121;
+	background-color: var(--blue);
+	color: var(--carbonBlack);
 }
 
 tr:nth-child(even) {
@@ -113,13 +119,13 @@ tr:nth-child(odd) {
 /* Text Selection */
 
 ::selection {
-	background: #f26995; 
-	color: #212121;
+	background: var(--pink2); 
+	color: var(--carbonBlack);
 }
 
 ::-moz-selection {
-	background: #f26995;
-	color: #212121;
+	background: var(--pink2);
+	color: var(--carbonBlack);
 }
 
 /* ------------ */
@@ -169,22 +175,22 @@ img.header {
 }
 
 .ulNavi {
-	border-bottom: 5px solid #ff9f50;
+	border-bottom: 5px solid var(--orange);
 	max-width: 1024px;
 	min-width: 480px;
     display: flex;
 	list-style-type: none;
 	margin: 30px auto 30px auto;
-	background-color: #212121;
+	background-color: var(--carbonBlack);
 	padding: 0;
 }
 
 .title {
-    background-color: #212121;
+    background-color: var(--carbonBlack);
     font-weight: bold;
     font-size: 21px;
     display: block;
-    color: #ff9f50;
+    color: var(--orange);
 	text-align: center;
 	padding: 9px 36px 9px 36px;
 }
@@ -198,8 +204,8 @@ img.header {
 }
 
 .mainNavi .item:hover, .mainNavi .dropbtn:hover {
-    color: #ff9f50;
-    background-color: #383838;
+    color: var(--orange);
+    background-color: var(--hoverBlack);
 	transition: 0.4s;
 }
 
@@ -217,7 +223,7 @@ li.dropdown {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #212121;
+	background-color: var(--carbonBlack);
 	min-width: 160px;
 	transition: 0.4s;
 	z-index: 1;
@@ -237,12 +243,12 @@ li.dropdown {
 }
 
 .dropdown:hover .dropbtn {
-	background-color: #383838;
+	background-color: var(--hoverBlack);
 }
 
 .mainNavi .dropdown-content :hover {
-	background-color:#383838;
-	color: #9fff50;
+	background-color:var(--hoverBlack);
+	color: var(--green);
 	transition: 0.4s;
 }
 
@@ -251,8 +257,8 @@ li.dropdown {
 /* ----------------------- */
 
 div.page-title {
-	background-image: linear-gradient(#191919 21px, #212121);
-	border-top: 5px solid #f26995;
+	background-image: linear-gradient(#191919 21px, var(--carbonBlack));
+	border-top: 5px solid var(--pink2);
 	max-width: 1024px;
 	margin: 30px auto 30px auto;
 	padding: 10px 10px 10px 20px;
@@ -260,11 +266,11 @@ div.page-title {
 
 h1 {
 	/* for use inside div.pageTitle */
-	color: #f26995;
+	color: var(--pink2);
 }
 
 h2 {
-	color: #50ffff;
+	color: var(--blue);
 	font-weight: normal;
 }
 
@@ -273,8 +279,8 @@ h2 {
 /* ------------- */
 
 .content-body {
-	background-image: linear-gradient(#191919, #212121);
-	border-top: 5px solid #50ffff;
+	background-image: linear-gradient(#191919, var(--carbonBlack));
+	border-top: 5px solid var(--blue);
 	margin: 30px auto 30px auto;
 	max-width: 1024px;
 	min-width: 480px;
@@ -284,7 +290,7 @@ h2 {
 /* Blockquotes */
 
 blockquote {
-	border-left: 0.125em solid #50ffff;
+	border-left: 0.125em solid var(--blue);
 	margin-left: 10px;
 }
 
@@ -305,11 +311,11 @@ blockquote cite {
 /* [COCO] Collapsibles */
 
 .collapsible-main-container {
-	box-shadow: 5px 5px 8px #0a0a0a;
+	box-shadow: 5px 5px 8px var(--midnightBlack);
 }
 
 .collapsible-title {
-	background-color: #0a0a0a;
+	background-color: var(--midnightBlack);
 	cursor: pointer;
 	font-size: 18px;
 	padding: 18px;
@@ -335,7 +341,7 @@ blockquote cite {
 }
 
 .active, .collapsible-title:hover {
-	background-color: #383838;
+	background-color: var(--hoverBlack);
 	transition: 0.4s;
 }
 
@@ -353,13 +359,13 @@ blockquote cite {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
-	background-color: #0a0a0a;
+	background-color: var(--midnightBlack);
 }
 
 .collapsible-header {
-	background-color: #0a0a0a;
+	background-color: var(--midnightBlack);
 	border-bottom: 1px solid white;
-	color: #50ffff;
+	color: var(--blue);
 	cursor: default;
 	font-size: 18px;
 	padding: 12px 0 12px 24px;
@@ -375,7 +381,7 @@ blockquote cite {
 }
 
 .collapsible-content:hover {
-	background-color: #383838;
+	background-color: var(--hoverBlack);
 	transition: 0.4s;
 }
 
@@ -391,25 +397,25 @@ a, a:visited {
 }
 
 a:hover {
-	color: #9fff50;
+	color: var(--green);
 	transition: 0.4s;
 }
 
 a:active {
-	color: #f26995;
+	color: var(--pink2);
 	transition-duration: 0s;
 }
 
 /* Text Selection */
 
 content ::selection {
-	background: #50ffff;
-	color: #212121;
+	background: var(--blue);
+	color: var(--carbonBlack);
 }
 
 content ::-moz-selection {
-	background: #50ffff;
-	color: #212121;
+	background: var(--blue);
+	color: var(--carbonBlack);
 }
 
 /* ------------ */
@@ -417,12 +423,12 @@ content ::-moz-selection {
 /* ------------ */
 
 .footer-content {
-	background-image: linear-gradient(#191919, #212121);
-	background-color: #212121;
-	border-top: 5px solid #f26995;
+	background-image: linear-gradient(#191919, var(--carbonBlack));
+	background-color: var(--carbonBlack);
+	border-top: 5px solid var(--pink2);
 	border-top-style: solid;
 	border-width: 5px;
-	color: #f26995; 
+	color: var(--pink2); 
 	font-size: 0.8125em;
 	max-width: 1024px;
 	margin: 30px auto 40px auto;
@@ -432,7 +438,7 @@ content ::-moz-selection {
 /* Links */
 
 .footer-content a, .footer-content a:visited {
-	color: #f26995;
+	color: var(--pink2);
 }
 
 .footer-content a:hover{
@@ -440,7 +446,7 @@ content ::-moz-selection {
 }
 
 .footer-content a:active {
-	color: #f26995;
+	color: var(--pink2);
 }
 
 /**
