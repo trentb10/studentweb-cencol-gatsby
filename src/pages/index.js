@@ -12,7 +12,7 @@ import Layout from '../components/layout';
 
 export default function Home() {
 	return (
-		<Layout title="Trent B's Dream World">
+		<Layout title="trentb10 on Gatsby!">
 			<Helmet>
 				<title>trentb10 on Gatsby</title>
 			</Helmet>
@@ -28,8 +28,12 @@ export default function Home() {
 
 			<p>
 				The home page you are looking at right now was built as part 
-				as an assignment for COMP213 at Centennial College, and it was 
-				hosted on <a href="http://studentweb.cencol.ca/">studentweb.cencol.ca</a>. 
+				as <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment1/assignment1.html">
+				Assignment 1</a> for COMP213 at Centennial College, and it was 
+				hosted on <a href="http://studentweb.cencol.ca/">studentweb.cencol.ca</a>.
+			</p>
+
+			<p>
 				I have now expanded it into my own little site to host some 
 				of my past works and assignments I did as a student at Centennial 
 				and UofT; a writer with 24OurMusic, Amp the Sound, and Feed My 

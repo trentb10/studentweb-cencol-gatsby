@@ -363,20 +363,18 @@ blockquote cite {
 }
 
 .collapsible-header {
-	background-color: var(--midnightBlack);
-	border-bottom: 1px solid white;
+	background-color: var(--carbonBlack);
 	color: var(--blue);
 	cursor: default;
 	font-size: 18px;
-	padding: 12px 0 12px 24px;
+	padding: 18px;
 	transition: 0.4s;
 
 }
 
 .collapsible-content {
-	border-bottom: 1px solid white;
 	cursor: pointer;
-	padding: 18px;
+	padding: 12px 0 12px 36px;
 	transition: 0.4s;
 }
 
@@ -393,7 +391,7 @@ a, a:visited {
 	color: #ffffff;
 	text-decoration: none;
 	transition-property: color;
-	transition-duration: 0.18s;
+	transition-duration: 0.4s;
 }
 
 a:hover {
