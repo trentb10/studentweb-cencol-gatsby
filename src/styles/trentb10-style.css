@@ -366,8 +366,8 @@ blockquote cite {
 	background-color: var(--carbonBlack);
 	color: var(--blue);
 	cursor: default;
-	font-size: 18px;
-	padding: 18px;
+	font-size: 16px;
+	padding: 12px 0 12px 24px;
 	transition: 0.4s;
 
 }
