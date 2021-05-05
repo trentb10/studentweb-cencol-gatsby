@@ -7,7 +7,7 @@ export default function UofT() {
     return (
         <Layout title="Assignments from University of Toronto">
             <Helmet>
-                <title>trentb10 on Gatsby - Assignments - UofT</title>
+                <title>UofT Assignments - trentb10 on Gatsby</title>
             </Helmet>
             <p>
                 Here are some select assignments I have completed from the University 

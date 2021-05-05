@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <Layout title="Assignments">
             <Helmet>
-                <title>trentb10 on Gatsby - Assignments</title>
+                <title>Assignments - trentb10 on Gatsby</title>
                 <script src={withPrefix('collapsible-script.js')} type="text/javascript" />
             </Helmet>
 

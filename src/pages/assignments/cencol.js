@@ -6,7 +6,7 @@ export default function Cencol() {
     return (
         <Layout title="Assignments from Centennial College">
             <Helmet>
-                <title>trentb10 on Gatsby - Assignments - Cencol</title>
+                <title>Cencol Assignments - trentb10 on Gatsby</title>
             </Helmet>
             
             <p>
