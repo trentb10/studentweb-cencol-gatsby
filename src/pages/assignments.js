@@ -22,35 +22,20 @@ export default function Home() {
                 <div class="collapsible-title cencol">
                     Centennial College
                 </div>
-                <div class="collapsible-content-container">     
+                <div class="collapsible-content-container">    
                     <div class="collapsible-header">
-                        COMP213 Web Interface Design
+                        COMP100 Programming I
+                    </div> 
+                    <a href="">               
+                        <div class="collapsible-content">
+                            View GitHub Repository
+                        </div>
+                    </a>
+
+                    <div class="collapsible-header">
+                        COMP123 Programming II
                     </div>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment1/assignment1.html">               
-                        <div class="collapsible-content">
-                            Assignment 1
-                        </div>
-                    </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment2/assignment2.html">
-                        <div class="collapsible-content">
-                            Assignment 2
-                        </div>
-                    </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment3/assignment3.html">
-                        <div class="collapsible-content">
-                            Assignment 3
-                        </div>
-                    </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment4/assignment4.html">
-                        <div class="collapsible-content">
-                            Assignment 4
-                        </div>
-                    </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/termproject/home.html">
-                        <div class="collapsible-content">
-                            Term Project
-                        </div>
-                    </a>
+
                     <div class="collapsible-header">
                         COMP125 Client-Side Development
                     </div>
@@ -84,6 +69,57 @@ export default function Home() {
                             Assignment 6
                         </div>
                     </a>
+
+                    <div class="collapsible-header">
+                        COMP213 Web Interface Design
+                    </div>
+                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment1/assignment1.html">               
+                        <div class="collapsible-content">
+                            Assignment 1
+                        </div>
+                    </a>
+                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment2/assignment2.html">
+                        <div class="collapsible-content">
+                            Assignment 2
+                        </div>
+                    </a>
+                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment3/assignment3.html">
+                        <div class="collapsible-content">
+                            Assignment 3
+                        </div>
+                    </a>
+                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment4/assignment4.html">
+                        <div class="collapsible-content">
+                            Assignment 4
+                        </div>
+                    </a>
+                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/termproject/home.html">
+                        <div class="collapsible-content">
+                            Term Project
+                        </div>
+                    </a>
+
+                    <div class="collapsible-header">
+                        COMP228 Java Programming
+                    </div>
+
+                    <div class="collapsible-header">
+                        COMP308 Emerging Technologies
+                    </div>
+
+                    <div class="collapsible-header">
+                        COMP397 Web Game Programming
+                    </div>
+                    <a href="https://github.com/trentb10/COMP397-W2021-Group14-Assignment1-Part3-BUILD">
+                        <div class="collapsible-content">
+                            Assignment 1 Part 3 - Robo Escape - Build
+                        </div>
+                    </a>
+                    <a href="https://github.com/trentb10/COMP397-W2021-Group14-Final">
+                        <div class="collapsible-content">
+                            Assignment 2 Part 3/Final - Robo Escape
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -98,7 +134,7 @@ export default function Home() {
                         ENGD94 Stranger Than Fiction
                     </div>
                     <div class="collapsible-content">
-                        Our lovely documentary will appear here!
+                        <i>Life After Grad</i> (2019) - Term Documentary Project
                     </div>
                 </div>
             </div>
