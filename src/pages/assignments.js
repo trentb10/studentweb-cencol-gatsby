@@ -133,9 +133,11 @@ export default function Home() {
                     <div class="collapsible-header">
                         ENGD94 Stranger Than Fiction
                     </div>
-                    <div class="collapsible-content">
-                        <i>Life After Grad</i> (2019) - Term Documentary Project
-                    </div>
+                    <a><Link to="/assignments/uoft/life-after-grad">
+                        <div class="collapsible-content">
+                            <i>Life After Grad</i> (2019) - Term Documentary Project
+                        </div></Link>
+                    </a>
                 </div>
             </div>
 
