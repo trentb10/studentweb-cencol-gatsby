@@ -26,7 +26,10 @@ export default function Home() {
                     <div class="collapsible-header">
                         COMP100 Programming I
                     </div> 
-                    <a href="">               
+                    <a 
+                        href="https://github.com/trentb10/COMP100-2019"
+                        target="_blank"
+                    >               
                         <div class="collapsible-content">
                             View GitHub Repository
                         </div>
@@ -39,32 +42,50 @@ export default function Home() {
                     <div class="collapsible-header">
                         COMP125 Client-Side Development
                     </div>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment1/assignment1.html">               
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment1/assignment1.html" 
+                        target="_blank"
+                    >               
                         <div class="collapsible-content">
                             Assignment 1
                         </div>
                     </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment2/assignment2.html">               
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment2/assignment2.html" 
+                        target="_blank"
+                    >               
                         <div class="collapsible-content">
                             Assignment 2
                         </div>
                     </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment3/assignment3.html">               
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment3/assignment3.html" 
+                        target="_blank"
+                    >               
                         <div class="collapsible-content">
                             Assignment 3
                         </div>
                     </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment4/Membership.html">               
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment4/Membership.html" 
+                        target="_blank"
+                    >               
                         <div class="collapsible-content">
                             Assignment 4
                         </div>
                     </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment5/assignment5.html">               
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment5/assignment5.html" 
+                        target="_blank"
+                    >               
                         <div class="collapsible-content">
                             Assignment 5
                         </div>
                     </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment6/assignment6.html">               
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment6/assignment6.html" 
+                        target="_blank"
+                    >               
                         <div class="collapsible-content">
                             Assignment 6
                         </div>
@@ -73,27 +94,42 @@ export default function Home() {
                     <div class="collapsible-header">
                         COMP213 Web Interface Design
                     </div>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment1/assignment1.html">               
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment1/assignment1.html" 
+                        target="_blank"
+                    >               
                         <div class="collapsible-content">
                             Assignment 1
                         </div>
                     </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment2/assignment2.html">
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment2/assignment2.html" 
+                        target="_blank"
+                    >
                         <div class="collapsible-content">
                             Assignment 2
                         </div>
                     </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment3/assignment3.html">
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment3/assignment3.html" 
+                        target="_blank"
+                    >
                         <div class="collapsible-content">
                             Assignment 3
                         </div>
                     </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment4/assignment4.html">
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment4/assignment4.html" 
+                        target="_blank"
+                    >
                         <div class="collapsible-content">
                             Assignment 4
                         </div>
                     </a>
-                    <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/termproject/home.html">
+                    <a 
+                        href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/termproject/home.html" 
+                        target="_blank"
+                    >
                         <div class="collapsible-content">
                             Term Project
                         </div>
@@ -110,12 +146,18 @@ export default function Home() {
                     <div class="collapsible-header">
                         COMP397 Web Game Programming
                     </div>
-                    <a href="https://github.com/trentb10/COMP397-W2021-Group14-Assignment1-Part3-BUILD">
+                    <a 
+                        href="https://github.com/trentb10/COMP397-W2021-Group14-Assignment1-Part3-BUILD" 
+                        target="_blank"
+                    >
                         <div class="collapsible-content">
                             Assignment 1 Part 3 - Robo Escape - Build
                         </div>
                     </a>
-                    <a href="https://github.com/trentb10/COMP397-W2021-Group14-Final">
+                    <a 
+                        href="https://github.com/trentb10/COMP397-W2021-Group14-Final" 
+                        target="_blank"
+                    >
                         <div class="collapsible-content">
                             Assignment 2 Part 3/Final - Robo Escape
                         </div>
