@@ -177,7 +177,7 @@ export default function Home() {
                     </div>
                     <a><Link to="/assignments/uoft/life-after-grad">
                         <div class="collapsible-content">
-                            <i>Life After Grad</i> (2019) - Term Documentary Project
+                            <i>Life After Grad</i> (2018) - Term Documentary Project
                         </div></Link>
                     </a>
                 </div>

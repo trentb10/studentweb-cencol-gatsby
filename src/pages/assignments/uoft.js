@@ -15,9 +15,12 @@ export default function UofT() {
             </p>
 
             <h2>ENGD94 Stranger than Fiction</h2>
-            <Link to="/assignments/uoft/life-after-grad">
-                <li><i>Life After Grad</i> (2019) - Term Documentary Project</li>
-            </Link>
+            
+            <li>
+                <Link to="/assignments/uoft/life-after-grad">
+                    <i>Life After Grad</i> (2018) - Term Documentary Project
+                </Link>
+            </li>
 
         </Layout>
     );
