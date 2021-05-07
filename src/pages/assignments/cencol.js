@@ -26,6 +26,24 @@ export default function Cencol() {
             </li>
 
             <h2>COMP123 Programming II</h2>
+            
+            <li>
+                <a 
+                    href="https://github.com/trentb10/COMP123-2019-Assignment04" 
+                    target="_blank"
+                >
+                    Assignment 4 - BMI Calculator
+                </a>
+            </li>
+
+            <li>
+                <a 
+                    href="https://github.com/trentb10/COMP123-2019-Assignment05" 
+                    target="_blank"
+                >
+                    Assignment 5 - Dollar Computers
+                </a>
+            </li>
 
             <h2>COMP125 Client-Side Development</h2>
 
@@ -127,6 +145,17 @@ export default function Cencol() {
                     target="_blank"
                 >
                     Term Project
+                </a>
+            </li>
+
+            <h2>COMP228 Java Programming</h2>
+
+            <li>
+                <a 
+                    href=""
+                    target="_blank"
+                >
+                    View GitHub Repository
                 </a>
             </li>
 

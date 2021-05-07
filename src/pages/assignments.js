@@ -38,6 +38,22 @@ export default function Home() {
                     <div class="collapsible-header">
                         COMP123 Programming II
                     </div>
+                    <a
+                        href="https://github.com/trentb10/COMP123-2019-Assignment04"
+                        target="_blank"
+                    >
+                        <div class="collapsible-content">
+                            Assignment 4 - BMI Calculator
+                        </div>
+                    </a>
+                    <a
+                        href="https://github.com/trentb10/COMP123-2019-Assignment05"
+                        target="_blank"
+                    >
+                        <div class="collapsible-content">
+                            Assignment 5 - Dollar Computers
+                        </div>
+                    </a>
 
                     <div class="collapsible-header">
                         COMP125 Client-Side Development
@@ -138,6 +154,14 @@ export default function Home() {
                     <div class="collapsible-header">
                         COMP228 Java Programming
                     </div>
+                    <a 
+                        href="https://github.com/trentb10/COMP100-2019"
+                        target="_blank"
+                    >               
+                        <div class="collapsible-content">
+                            View GitHub Repository
+                        </div>
+                    </a>
 
                     <div class="collapsible-header">
                         COMP308 Emerging Technologies
