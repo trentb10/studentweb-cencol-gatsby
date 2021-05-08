@@ -20,9 +20,9 @@ export default function Layout ({ title, children }) {
     
     return (
         <div>
+            <HeaderImage image = {image} />
             <Navi />
             <HeaderTitle title = {title} />
-            <HeaderImage image = {image} />
 
             <div class="content-body">
                 { children }
