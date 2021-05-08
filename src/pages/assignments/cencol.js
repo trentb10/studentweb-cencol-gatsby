@@ -20,7 +20,7 @@ export default function Cencol() {
 
             <li>
                 <a 
-                    href="W:\Projects\Visual Studio\tminia-studentweb\gatsby"
+                    href="https://github.com/trentb10/COMP100-2019"
                     target="_blank"
                 >
                     View GitHub Repository

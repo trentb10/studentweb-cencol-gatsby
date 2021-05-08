@@ -30,8 +30,10 @@ export default function Home() {
 
 			<p>
 				The home page you are looking at right now was built as part 
-				as <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment1/assignment1.html">
-				Assignment 1</a> for COMP213 at Centennial College, and it was 
+				as <a 
+					href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment1/assignment1.html"
+					target="_blank"
+				>Assignment 1</a> for COMP213 at Centennial College, and it was 
 				hosted on <a href="http://studentweb.cencol.ca/">studentweb.cencol.ca</a>.
 			</p>
 
