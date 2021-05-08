@@ -138,7 +138,7 @@ tr:nth-child(odd) {
 div.image-header {
 	margin: 30px auto 30px auto;
 	max-width: 1024px;
-	min-width: 480px;
+	min-width: 300px;
 }
 
 img.header { 
