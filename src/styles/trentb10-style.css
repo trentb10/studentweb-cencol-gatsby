@@ -2,6 +2,7 @@
 	Table of Contents
 
 	[GLVA]	Global Variables
+	[HEAD] 	Header
 	[NAVI]	Header > Navi
 	[PGTL]	Page Title
 	[COCO]	Content > Collapsibles
@@ -128,9 +129,9 @@ tr:nth-child(odd) {
 	color: var(--carbonBlack);
 }
 
-/* ------------ */
-/* -= Header =- */
-/* ------------ */
+/* ------------------- */
+/* -= [HEAD] Header =- */
+/* ------------------- */
 
 /*
 /* Image */

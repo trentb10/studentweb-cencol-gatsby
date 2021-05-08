@@ -6,6 +6,7 @@ import HeaderImage from './header-image';
 import Footer from './footer';
 
 import style from '../styles/trentb10-style.css';
+import '@fontsource/pt-sans';
 
 import HeaderImage1 from '../images/header-1.png';
 import HeaderImage2 from '../images/header-2.png';
