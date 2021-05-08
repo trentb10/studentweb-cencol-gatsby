@@ -1,13 +1,15 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
+import { siteMetadata } from '../../../gatsby-config';
+
 import Layout from '../../components/layout';
 
 export default function UofT() {
     return (
         <Layout title="Assignments from University of Toronto">
             <Helmet>
-                <title>UofT Assignments - trentb10 on Gatsby</title>
+                <title>UofT Assignments - {siteMetadata.title}</title>
             </Helmet>
             <p>
                 Here are some select assignments I have completed from the University 

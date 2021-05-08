@@ -1,13 +1,15 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
+import { siteMetadata } from '../../../../gatsby-config';
+
 import Layout from '../../../components/layout';
 
 export default function LifeAfterGrad() {
     return (
         <Layout title="Life After Grad (2018)">
         <Helmet>
-            <title>Life After Grad (2018) - trentb10 on Gatsby</title>
+            <title>Life After Grad (2018) - {siteMetadata.title}</title>
         </Helmet>
             <iframe 
                 src="https://drive.google.com/file/d/1I32LILSjQviDnruKBSauQZvyFbpUooYn/preview" 

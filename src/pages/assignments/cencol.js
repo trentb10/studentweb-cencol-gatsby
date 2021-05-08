@@ -2,11 +2,13 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../../components/layout';
 
+import { siteMetadata } from '../../../gatsby-config';
+
 export default function Cencol() {
     return (
         <Layout title="Assignments from Centennial College">
             <Helmet>
-                <title>Cencol Assignments - trentb10 on Gatsby</title>
+                <title>Cencol Assignments - {siteMetadata.title}</title>
             </Helmet>
             
             <p>

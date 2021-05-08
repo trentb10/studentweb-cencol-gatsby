@@ -8,13 +8,15 @@
 
 import React from 'react';
 import Helmet from 'react-helmet';
+import { siteMetadata } from '../../gatsby-config';
+
 import Layout from '../components/layout';
 
 export default function Home() {
 	return (
-		<Layout title="trentb10 on Gatsby!">
+		<Layout title="Trent B's Dream World!">
 			<Helmet>
-				<title>trentb10 on Gatsby</title>
+				<title>{siteMetadata.title}</title>
 			</Helmet>
 
 			<h2>Welcome to my home page!</h2>

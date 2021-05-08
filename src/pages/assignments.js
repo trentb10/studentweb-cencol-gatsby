@@ -1,13 +1,15 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { withPrefix, Link } from 'gatsby';
+import { siteMetadata } from '../../gatsby-config';
+
 import Layout from '../components/layout';
 
 export default function Home() {
     return (
         <Layout title="Assignments">
             <Helmet>
-                <title>Assignments - trentb10 on Gatsby</title>
+                <title>Assignments - {siteMetadata.title}</title>
                 <script src={withPrefix('collapsible-script.js')} type="text/javascript" />
             </Helmet>
 
