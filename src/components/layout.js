@@ -33,7 +33,7 @@ export default function Layout ({ title, children }) {
 }
 
 function randomizeImage() {
-    let number = Math.floor(Math.random() * 6) + 1;
+    let number = Math.floor(Math.random() * 5) + 1;
     let image;
 
     switch (number) {
