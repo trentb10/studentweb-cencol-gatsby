@@ -52,9 +52,6 @@ function randomizeImage() {
         case 5:
             image = HeaderImage5;
             break;
-        case 6:
-            image = HeaderImage6;
-            break;
     }
 
     return image;
