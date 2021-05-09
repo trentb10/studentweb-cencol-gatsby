@@ -17,6 +17,7 @@
 
 	--blue: #50ffff;
 	--carbonBlack: #212121;
+	--vampireBlack: #141414;
 	--midnightBlack: #0a0a0a;
 	--hoverBlack: #383838;
 	--pink1: #ff5085;
@@ -25,7 +26,7 @@
 	--orange: #ff9f50;
 	--yellow: #ffd350;
 
-	/*  */
+	/* */
 }
 
 /* --------------------- */
@@ -258,7 +259,7 @@ li.dropdown {
 /* ----------------------- */
 
 div.page-title {
-	background-image: linear-gradient(#191919 21px, var(--carbonBlack));
+	background-image: linear-gradient(var(--vampireBlack), var(--carbonBlack));
 	border-top: 5px solid var(--pink2);
 	max-width: 1024px;
 	margin: 30px auto 30px auto;
@@ -280,12 +281,13 @@ h2 {
 /* ------------- */
 
 .content-body {
-	background-image: linear-gradient(#191919, var(--carbonBlack));
+	background-image: linear-gradient(var(--vampireBlack), var(--carbonBlack));
 	border-top: 5px solid var(--blue);
 	margin: 30px auto 30px auto;
 	max-width: 1024px;
 	min-width: 480px;
 	padding: 10px 10px 60px 10px;
+	transition: 0.4s;
 }
 
 /* Blockquotes */
@@ -429,7 +431,7 @@ content ::-moz-selection {
 /* ------------ */
 
 .footer-content {
-	background-image: linear-gradient(#191919, var(--carbonBlack));
+	background-image: linear-gradient(var(--vampireBlack), var(--carbonBlack));
 	background-color: var(--carbonBlack);
 	border-top: 5px solid var(--pink2);
 	border-top-style: solid;
