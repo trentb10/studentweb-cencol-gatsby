@@ -13,7 +13,6 @@ import HeaderImage2 from '../images/headers/header-2.png';
 import HeaderImage3 from '../images/headers/header-3.png';
 import HeaderImage4 from '../images/headers/header-4.png';
 import HeaderImage5 from '../images/headers/header-5.png';
-import HeaderImage6 from '../images/headers/header-6.png';
 
 export default function Layout ({ title, children }) {
     let image = randomizeImage();
