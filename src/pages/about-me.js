@@ -31,24 +31,17 @@ export default function AboutMe() {
                 >
                     <div class="skillbox-skill-info">
                         <p>
-                            I am very proficient in HTML. I've built static web pages using HTML
-                            ever since I was in high school. My first web site project was built
-                            using HTML and Dreamweaver! I wish I had saved this site, but it was
-                            on a flash drive with all of my other high school assignments that 
-                            became corrupted 😭. All I can tell you about that site was that it
-                            was about Katy Perry...
+                            The earliest exposure I had to HTML was building web pages through web
+                            development tools. In high school, I built a web site using Dreamweaver!
+                            I wish I had saved this site, but it was on a flash drive that became 
+                            corrupted 😭. All I can tell you about that site was that it was about 
+                            Katy Perry...
                         </p>
                         <p>
-                            I believe the first time I built a website without using a web 
-                            development tool was for Centennial College, when I wrote the code for 
-                            COMP213 Assignment 1 in Sublime Text 3! Although it initially felt
-                            daunting to build a website without any of the usual tools I'd use in
-                            Dreamweaver and FrontPage, I was able to learn a lot about the different
-                            kinds of HTML tags used to create elements on a page. 
-                        </p>
-                        <p>
-                            I am most comfortable writing HTML in text editors. Currently, I write
-                            HTML in Visual Studio Code, as I'm doing right now with this website!
+                            The first time I built a web site using a text editor was for Centennial 
+                            College, when I wrote HTML code for COMP213 Assignment 1 in Sublime Text!
+                            I'm pretty comfortable writing HTML in text editors, as I'm doing so 
+                            right now for this web site in VS Code!
                         </p>
                     </div>
                 </Collapsible>
@@ -57,8 +50,7 @@ export default function AboutMe() {
                 >
                     <div class="skillbox-skill-info">
                         <p>
-                            As my learning and experience grew with HTML, so did with CSS, too. I 
-                            can't remember whether I used CSS with that Katy Perry website I made 
+                            I can't remember whether I used CSS with that Katy Perry website I made 
                             for high school. Although COMP213 Assignment 1 didn't use CSS and was
                             just styled using the style attribute, I did learn to use CSS afterward,
                             and I re-coded Assignment 1 to use styles from a CSS file.
@@ -79,13 +71,14 @@ export default function AboutMe() {
                         <p>
                             I didn't learn JavaScript until my second term at Centennial College,
                             but it has quickly become one of my favourite languages, along with HTML,
-                            CSS, and Java. I improved my JS proficiency during my last term, when
-                            I began learning about node.js and building apps using Express.js and
-                            React.js.
+                            CSS, and Java. I am comfortable programming in JS for client-side web 
+                            development as well as for non-browser applications. During my last term
+                            at Centennial College, I have programmed in Node.js to build applications
+                            using the Express.js framework and the React library.
                         </p>
                         <p>
                             Currently, I am writing a Discord bot using the Discord.js library. I 
-                            am also using Gatsby to build this web site, which uses JS!
+                            am also using Gatsby to build this web site!
                         </p>
                     </div>
                 </Collapsible>
@@ -95,7 +88,11 @@ export default function AboutMe() {
                     <div class="skillbox-skill-info">
                         <p>
                             Java is the first programming language I have academically learned, and 
-                            that makes it the first object-oriented language I have learned.
+                            that makes it the first object-oriented language I have learned. Throughout
+                            high-school and my third term at Centennial College, I have programmed
+                            Java console applications. In the following terms, I used Java to build 
+                            Android applications in Android Studio as well as web applications using 
+                            Spring MVC and Spring Boot. 
                         </p>
                     </div>
                 </Collapsible>
@@ -115,7 +112,13 @@ export default function AboutMe() {
                 >
                     <div class="skillbox-skill-info">
                         <p>
-                            Wish I learned more about py in cencol :(
+                            I was fortunate to have learned Python in a course at Centennial College
+                            that wasn't actually dedicated to Python. It was a course on Linux systems
+                            and I didn't learn Python until the second half of the course. The most
+                            I did was basic console applications. Although I don't have enough 
+                            experience with Python as much as I like, I aim to find more learning
+                            opportunities so I can practice Python as much as I can and become 
+                            proficient with it!
                         </p>
                     </div>
                 </Collapsible>
