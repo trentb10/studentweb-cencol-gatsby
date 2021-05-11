@@ -2,56 +2,37 @@
 	Table of Contents
 
 	[GLVA]	Global Variables
-    [FOIM]      Font Imports
-    [STCL]      Styling Colours
-
-    [GLEL]  Global Elements
-    [BOXS]      Box-Sizing
-    [INPT]      Input
-    [LIST]      Lists
-    [TABL]      Tables
-    [TXSL]      Text Selection
-    
 	[HEAD] 	Header
-    [IMGE]      Image
-	[NAVI]	    Navi
-
+	[NAVI]	Header > Navi
 	[PGTL]	Page Title
-
-    [CONT]  Content
-    [BLQT]      Blockquotes
-	[COCO]	    Collapsibles
-	[COSB]	    Skill Box
-    [LINK]      Links
-
-    [FOOT]  Footer
-    [FOLI]      Footer Links
+	[COCO]	Content > Collapsibles
+	[COSB]	Content > Skill Box
 */
 
 /* ----------------------------- */
 /* -= [GLVA] Global Variables =- */
 /* ----------------------------- */
 
-/* [FOIM] Font Imports */
+:root {
+	/* Styling Colours */
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+	--blue: #50ffff;
+	--carbonBlack: #212121;
+	--vampireBlack: #141414;
+	--midnightBlack: #0a0a0a;
+	--hoverBlack: #383838;
+	--pink1: #ff5085;
+	--pink2: #f26995;
+	--green: #9fff50;
+	--orange: #ff9f50;
+	--yellow: #ffd350;
 
-/* [STCL] Styling Colours */
+	/* */
+}
 
-$blue: #50ffff;
-$carbonBlack: #212121;
-$vampireBlack: #141414;
-$midnightBlack: #0a0a0a;
-$hoverBlack: #383838;
-$pink1: #ff5085;
-$pink2: #f26995;
-$green: #9fff50;
-$orange: #ff9f50;
-$yellow: #ffd350;
-
-/* --------------------------- */
-/* -= [GLEL Global Elements =- */
-/* --------------------------- */
+/* --------------------- */
+/* -= Global Elements =- */
+/* --------------------- */
  
 body {
 	align-items: center;
@@ -59,10 +40,10 @@ body {
 		135deg,
 		#070707,
 		#070707 5px,
-		$midnightBlack 5px,
-		$midnightBlack 10px
+		var(--midnightBlack) 5px,
+		var(--midnightBlack) 10px
 	);
-	background-color: $midnightBlack;
+	background-color: var(--midnightBlack);
 	background-attachment: fixed;
 	color: #ffffff;
 	font-family: "PT Sans", Arial, sans-serif;
@@ -70,7 +51,7 @@ body {
 	min-width: 480px;
 }
 
-/* [BOXS] Box-Sizing */ 
+/* Box-Sizing */ 
 
 * {
 	box-sizing: border-box;
@@ -78,7 +59,7 @@ body {
 	-webkit-box-sizing: border-box;
 }
 
-/* [INPT] Input */
+/* Input */
 
 select, input [type=button], 
 			  [type=number], 
@@ -87,9 +68,9 @@ select, input [type=button],
 			  [type=text],
 			  [type=password],
 			  [type=email] {
-	background: $midnightBlack;
+	background: var(--midnightBlack);
 	border: none;
-	color: $green;
+	color: var(--green);
 	font-family: Share Tech Mono, monospace;
 	font-size: 16px;
 	padding: 2px;
@@ -98,14 +79,14 @@ select, input [type=button],
 input[type=button], [type=reset], [type=submit] {
 	background: #343434;
 	border: none;
-	color: $blue;
+	color: var(--blue);
 	font-family: "Share Tech Mono", monospace;
 	font-size: 16px;
 	padding: 10px;
 	text-transform: uppercase;
 }
 
-/* [LIST] Lists */
+/* Lists */
 
 ul.no-bullet-list {
 	list-style-type: none;
@@ -114,7 +95,7 @@ ul.no-bullet-list {
 }
 
 
-/* [TABL] Tables */
+/* Tables */
 
 table {
 	border-collapse: collapse;
@@ -126,8 +107,8 @@ td, th {
 }
 
 th {
-	background-color: $blue;
-	color: $carbonBlack;
+	background-color: var(--blue);
+	color: var(--carbonBlack);
 }
 
 tr:nth-child(even) {
@@ -138,23 +119,24 @@ tr:nth-child(odd) {
 	background-color: rgb(0,0,0,0.4);
 }
 
-/* [TXSL] Text Selection */
+/* Text Selection */
 
 ::selection {
-	background: $pink2; 
-	color: $carbonBlack;
+	background: var(--pink2); 
+	color: var(--carbonBlack);
 }
 
 ::-moz-selection {
-	background: $pink2;
-	color: $carbonBlack;
+	background: var(--pink2);
+	color: var(--carbonBlack);
 }
 
 /* ------------------- */
 /* -= [HEAD] Header =- */
 /* ------------------- */
 
-/* [IMGE] Image */
+/*
+/* Image */
 
 div.image-header {
 	margin: 30px auto 30px auto;
@@ -196,22 +178,22 @@ img.header {
 }
 
 .ulNavi {
-	border-bottom: 5px solid $orange;
+	border-bottom: 5px solid var(--orange);
 	max-width: 1024px;
 	min-width: 480px;
     display: flex;
 	list-style-type: none;
 	margin: 30px auto 30px auto;
-	background-color: $carbonBlack;
+	background-color: var(--carbonBlack);
 	padding: 0;
 }
 
 .title {
-    background-color: $carbonBlack;
+    background-color: var(--carbonBlack);
     font-weight: bold;
     font-size: 21px;
     display: block;
-    color: $orange;
+    color: var(--orange);
 	text-align: center;
 	padding: 9px 36px 9px 36px;
 }
@@ -225,8 +207,8 @@ img.header {
 }
 
 .mainNavi .item:hover, .mainNavi .dropbtn:hover {
-    color: $orange;
-    background-color: $hoverBlack;
+    color: var(--orange);
+    background-color: var(--hoverBlack);
 	transition: 0.4s;
 }
 
@@ -244,7 +226,7 @@ li.dropdown {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: $carbonBlack;
+	background-color: var(--carbonBlack);
 	min-width: 160px;
 	transition: 0.4s;
 	z-index: 1;
@@ -264,12 +246,12 @@ li.dropdown {
 }
 
 .dropdown:hover .dropbtn {
-	background-color: $hoverBlack;
+	background-color: var(--hoverBlack);
 }
 
 .mainNavi .dropdown-content :hover {
-	background-color:$hoverBlack;
-	color: $green;
+	background-color:var(--hoverBlack);
+	color: var(--green);
 	transition: 0.4s;
 }
 
@@ -278,8 +260,8 @@ li.dropdown {
 /* ----------------------- */
 
 div.page-title {
-	background-image: linear-gradient($vampireBlack, $carbonBlack);
-	border-top: 5px solid $pink2;
+	background-image: linear-gradient(var(--vampireBlack), var(--carbonBlack));
+	border-top: 5px solid var(--pink2);
 	max-width: 1024px;
 	margin: 30px auto 30px auto;
 	padding: 10px 10px 10px 20px;
@@ -287,21 +269,21 @@ div.page-title {
 
 h1 {
 	/* for use inside div.pageTitle */
-	color: $pink2;
+	color: var(--pink2);
 }
 
 h2 {
-	color: $blue;
+	color: var(--blue);
 	font-weight: normal;
 }
 
-/* -------------------- */
-/* -= [CONT] Content =- */
-/* -------------------- */
+/* ------------- */
+/* -= Content =- */
+/* ------------- */
 
 .content-body {
-	background-image: linear-gradient($vampireBlack, $carbonBlack);
-	border-top: 5px solid $blue;
+	background-image: linear-gradient(var(--vampireBlack), var(--carbonBlack));
+	border-top: 5px solid var(--blue);
 	margin: 30px auto 30px auto;
 	max-width: 1024px;
 	min-width: 480px;
@@ -309,10 +291,10 @@ h2 {
 	transition: 0.4s;
 }
 
-/* [BLQT] Blockquotes */
+/* Blockquotes */
 
 blockquote {
-	border-left: 0.125em solid $blue;
+	border-left: 0.125em solid var(--blue);
 	margin-left: 10px;
 }
 
@@ -332,18 +314,16 @@ blockquote cite {
 
 /* [COCO] Collapsibles */
 
-/* classParentString */
 .collapsible-main-container {
-	box-shadow: 5px 5px 8px $midnightBlack;
+	box-shadow: 5px 5px 8px var(--midnightBlack);
 }
 
-/* triggerClassName and triggerOpenedClassName */
 .collapsible-title {
-    display: block;
-	background-color: $midnightBlack;
+	background-color: var(--midnightBlack);
 	cursor: pointer;
-	font-size: 21px;
-    padding: 18px;
+	font-size: 18px;
+	padding: 18px;
+	width: 100%;
 	text-align: left;
 	transition: 0.4s;
 	outline: none;
@@ -352,19 +332,6 @@ blockquote cite {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
-
-    &:after {
-        content: '\02795';
-        float: right;
-        margin-left: 5px;
-    }
-
-    &.is-open {
-        &:after {
-            content: '\2796';
-        }
-    }
-
 }
 
 .cencol {
@@ -377,60 +344,48 @@ blockquote cite {
 	color: #7ba4d9;
 }
 
-.collapsible-title:hover {
-	background-color: $hoverBlack;
+.collapsible-title.active, .collapsible-title:hover {
+	background-color: var(--hoverBlack);
 	transition: 0.4s;
 }
 
-/* triggerClassName and triggerOpenedClassName */
-.collapsible-nested-header {
-	background-color: $carbonBlack;
-	color: $blue;
+.collapsible-title:after {
+	content: '\02795';
+	float: right;
+	margin-left: 5px;
+}
+
+.collapsible-title.active:after {
+	content: '\2796';
+}
+
+.collapsible-content-container {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.4s ease-out;
+	background-color: var(--midnightBlack);
+}
+
+.collapsible-header {
+	background-color: var(--carbonBlack);
+	color: var(--blue);
 	cursor: default;
 	font-size: 16px;
-    font-weight: 600;
-	padding: 12px 24px;
-    display: block;
-	cursor: pointer;
-	text-align: left;
-	outline: none;
-
-    /* Disable Text Selection */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none;
-
-    &:after {
-        content: '\02795';
-        float: right;
-        margin-left: 5px;
-    }
-
-    &.is-open {
-        &:after {
-            content: '\2796';
-        }
-    }
-}
-
-.collapsible-nested-header:hover {
-	background-color: $hoverBlack;
+	padding: 12px 0 12px 24px;
 	transition: 0.4s;
+
 }
 
-/* Use as its own div */
 .collapsible-content {
 	cursor: pointer;
 	padding: 12px 0 12px 36px;
-    transition:0.4s;
+	transition: 0.4s;
 }
 
 .collapsible-content:hover {
-    background-color:$hoverBlack;
-    transition:0.4s;
+	background-color: var(--hoverBlack);
+	transition: 0.4s;
 }
-
-
 
 /* [IFRA] IFrame */
 
@@ -439,7 +394,7 @@ iframe {
 	display: block;
 }
 
-/* [LINK] Links */
+/* Links */
 
 a, a:visited {
 	border-bottom-style: solid;
@@ -451,40 +406,104 @@ a, a:visited {
 }
 
 a:hover {
-	color: $green;
+	color: var(--green);
 	transition: 0.4s;
 }
 
 a:active {
-	color: $pink2;
+	color: var(--pink2);
 	transition-duration: 0s;
 }
 
 /* [COSB] Skill Box */
 
+.skillbox-container {
+    display: flex;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 550px;
+    margin-left: auto; margin-right: auto;
+}
 
+.skillbox-skill-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
 
-/* ------------------- */
-/* -= [FOOT] Footer =- */
-/* ------------------- */
+.skillbox-skill-container:hover {
+    background-color: grey;
+
+    transition: 0.4s;
+}
+
+.skillbox-skill-info {
+    max-height: 0;
+    overflow: hidden;
+	transition: max-height 0.4s ease-out;
+}
+
+.skillbox-skill-header {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+
+    transition: 0.4s;
+}
+
+.skillbox-skill-info {
+    background-color: grey;
+    padding: 0 20px 0 20px;
+}
+
+.skillbox-skill-meter-pt {
+    background-color: aqua;
+    margin: 5px;
+    padding: 2px;
+    width: 80px;
+}
+
+/* Text Selection */
+
+content ::selection {
+	background: var(--blue);
+	color: var(--carbonBlack);
+}
+
+content ::-moz-selection {
+	background: var(--blue);
+	color: var(--carbonBlack);
+}
+
+/* ------------ */
+/* -= Footer =- */
+/* ------------ */
 
 .footer-content {
-	background-image: linear-gradient($vampireBlack, $carbonBlack);
-	background-color: $carbonBlack;
-	border-top: 5px solid $pink2;
+	background-image: linear-gradient(var(--vampireBlack), var(--carbonBlack));
+	background-color: var(--carbonBlack);
+	border-top: 5px solid var(--pink2);
 	border-top-style: solid;
 	border-width: 5px;
-	color: $pink2; 
+	color: var(--pink2); 
 	font-size: 0.8125em;
 	max-width: 1024px;
 	margin: 30px auto 40px auto;
 	padding: 10px 10px 10px 10px;
 }
 
-/* [FOLI] Footer Links */
+/* Links */
 
 .footer-content a, .footer-content a:visited {
-	color: $pink2;
+	color: var(--pink2);
 }
 
 .footer-content a:hover{
@@ -492,7 +511,7 @@ a:active {
 }
 
 .footer-content a:active {
-	color: $pink2;
+	color: var(--pink2);
 }
 
 /**

@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { withPrefix, Link } from 'gatsby';
 import { siteMetadata } from '../../gatsby-config';
+import Collapsible from 'react-collapsible';
 
 import Layout from '../components/layout';
 
@@ -18,15 +19,17 @@ export default function Home() {
             </p>
 
             <h2>Select an institution:</h2>
-
-            <div class="collapsible-main-container">
-                <div class="collapsible-title cencol">
-                    Centennial College
-                </div>
-                <div class="collapsible-content-container">    
-                    <div class="collapsible-header">
-                        COMP100 Programming I
-                    </div> 
+            
+            <Collapsible
+                classParentString="collapsible-main-container"
+                triggerClassName="collapsible-title cencol"
+                triggerOpenedClassName="collapsible-title cencol"
+                trigger="Centennial College">
+                <Collapsible
+                    triggerClassName="collapsible-nested-header"
+                    triggerOpenedClassName="collapsible-nested-header"
+                    trigger="COMP100 Programming I"
+                >
                     <a 
                         href="https://github.com/trentb10/COMP100-2019"
                         target="_blank"
@@ -35,10 +38,13 @@ export default function Home() {
                             View GitHub Repository
                         </div>
                     </a>
-
-                    <div class="collapsible-header">
-                        COMP123 Programming II
-                    </div>
+                </Collapsible>
+                
+                <Collapsible
+                    triggerClassName="collapsible-nested-header"
+                    triggerOpenedClassName="collapsible-nested-header"
+                    trigger="COMP123 Programming II"
+                >
                     <a
                         href="https://github.com/trentb10/COMP123-2019-Assignment04"
                         target="_blank"
@@ -55,10 +61,14 @@ export default function Home() {
                             Assignment 5 - Dollar Computers
                         </div>
                     </a>
+                
+                </Collapsible>
 
-                    <div class="collapsible-header">
-                        COMP125 Client-Side Development
-                    </div>
+                <Collapsible
+                    triggerClassName="collapsible-nested-header"
+                    triggerOpenedClassName="collapsible-nested-header"
+                    trigger="COMP125 Client-Side Development"
+                >
                     <a 
                         href="https://trentb10.github.io/studentweb-cencol-github-pages/comp125-001/assignment1/assignment1.html" 
                         target="_blank"
@@ -107,10 +117,13 @@ export default function Home() {
                             Assignment 6
                         </div>
                     </a>
+                </Collapsible>
 
-                    <div class="collapsible-header">
-                        COMP213 Web Interface Design
-                    </div>
+                <Collapsible
+                    triggerClassName="collapsible-nested-header"
+                    triggerOpenedClassName="collapsible-nested-header"
+                    trigger="COMP213 Web Interface Design"
+                >
                     <a 
                         href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment1/assignment1.html" 
                         target="_blank"
@@ -151,26 +164,33 @@ export default function Home() {
                             Term Project
                         </div>
                     </a>
+                </Collapsible>
 
-                    <div class="collapsible-header">
-                        COMP228 Java Programming
+                <Collapsible
+                    triggerClassName="collapsible-nested-header"
+                    triggerOpenedClassName="collapsible-nested-header"
+                    trigger="COMP228 Java Programming"
+                >
+                    <div class="collapsible-content">
+                        Coming soon!
                     </div>
-                    <a 
-                        href="https://github.com/trentb10/COMP100-2019"
-                        target="_blank"
-                    >               
-                        <div class="collapsible-content">
-                            View GitHub Repository
-                        </div>
-                    </a>
+                </Collapsible>
 
-                    <div class="collapsible-header">
-                        COMP308 Emerging Technologies
+                <Collapsible
+                    triggerClassName="collapsible-nested-header"
+                    triggerOpenedClassName="collapsible-nested-header"
+                    trigger="COMP308 Emerging Technologies"
+                >
+                    <div class="collapsible-content">
+                        Coming soon!
                     </div>
+                </Collapsible>
 
-                    <div class="collapsible-header">
-                        COMP397 Web Game Programming
-                    </div>
+                <Collapsible
+                    triggerClassName="collapsible-nested-header"
+                    triggerOpenedClassName="collapsible-nested-header"
+                    trigger="COMP397 Web Game Programming"
+                >
                     <a 
                         href="https://github.com/trentb10/COMP397-W2021-Group14-Assignment1-Part3-BUILD" 
                         target="_blank"
@@ -187,26 +207,26 @@ export default function Home() {
                             Assignment 2 Part 3/Final - Robo Escape
                         </div>
                     </a>
-                </div>
-            </div>
+                </Collapsible>
+            </Collapsible>
 
-            <br />
-
-            <div class="collapsible-main-container">
-                <div class="collapsible-title uoft">
-                    University of Toronto
-                </div>
-                <div class="collapsible-content-container">
-                    <div class="collapsible-header">
-                        ENGD94 Stranger Than Fiction
-                    </div>
+            <Collapsible
+                classParentString="collapsible-main-container"
+                triggerClassName="collapsible-title uoft"
+                triggerOpenedClassName="collapsible-title uoft"
+                trigger="University of Toronto">
+                <Collapsible
+                    triggerClassName="collapsible-nested-header"
+                    triggerOpenedClassName="collapsible-nested-header"
+                    trigger="ENGD97 Stranger Than Fiction"
+                >
                     <a><Link to="/assignments/uoft/life-after-grad">
                         <div class="collapsible-content">
                             <i>Life After Grad</i> (2018) - Term Documentary Project
                         </div></Link>
                     </a>
-                </div>
-            </div>
+                </Collapsible>
+            </Collapsible>
 
         </Layout>
     );
