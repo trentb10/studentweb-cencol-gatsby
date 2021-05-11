@@ -1,0 +1,403 @@
+/*
+	Table of Contents
+
+	[GLVA]	Global Variables
+    [FOIM]      Font Imports
+    [STCL]      Styling Colours
+
+    [GLEL]  Global Elements
+    [BOXS]      Box-Sizing
+    [INPT]      Input
+    [LIST]      Lists
+    [TABL]      Tables
+    [TXSL]      Text Selection
+    
+	[HEAD] 	Header
+    [IMGE]      Image
+	[NAVI]	    Navi
+
+	[PGTL]	Page Title
+
+    [CONT]  Content
+    [BLQT]      Blockquotes
+	[COCO]	    Collapsibles
+	[COSB]	    Skill Box
+    [LINK]      Links
+
+    [FOOT]  Footer
+    [FOLI]      Footer Links
+*/
+
+/* ----------------------------- */
+/* -= [GLVA] Global Variables =- */
+/* ----------------------------- */
+
+/* [FOIM] Font Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* [STCL] Styling Colours */
+
+$blue: #50ffff;
+$carbonBlack: #212121;
+$vampireBlack: #141414;
+$midnightBlack: #0a0a0a;
+$hoverBlack: #383838;
+$pink1: #ff5085;
+$pink2: #f26995;
+$green: #9fff50;
+$orange: #ff9f50;
+$yellow: #ffd350;
+
+/* --------------------------- */
+/* -= [GLEL Global Elements =- */
+/* --------------------------- */
+ 
+body {
+	align-items: center;
+	background: repeating-linear-gradient(
+		135deg,
+		#070707,
+		#070707 5px,
+		$midnightBlack 5px,
+		$midnightBlack 10px
+	);
+	background-color: $midnightBlack;
+	background-attachment: fixed;
+	color: #ffffff;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 16px;
+	min-width: 480px;
+}
+
+/* [BOXS] Box-Sizing */ 
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/* [INPT] Input */
+
+select, input [type=button], 
+			  [type=number], 
+			  [type=reset], 
+			  [type=submit], 
+			  [type=text],
+			  [type=password],
+			  [type=email] {
+	background: $midnightBlack;
+	border: none;
+	color: $green;
+	font-family: Share Tech Mono, monospace;
+	font-size: 16px;
+	padding: 2px;
+}
+
+input[type=button], [type=reset], [type=submit] {
+	background: #343434;
+	border: none;
+	color: $blue;
+	font-family: "Share Tech Mono", monospace;
+	font-size: 16px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+/* [LIST] Lists */
+
+ul.no-bullet-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* [TABL] Tables */
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: $blue;
+	color: $carbonBlack;
+}
+
+tr:nth-child(even) {
+	background-color: rgb(255,255,255,0.2);
+}
+
+tr:nth-child(odd) {
+	background-color: rgb(0,0,0,0.4);
+}
+
+/* [TXSL] Text Selection */
+
+::selection {
+	background: $pink2; 
+	color: $carbonBlack;
+}
+
+::-moz-selection {
+	background: $pink2;
+	color: $carbonBlack;
+}
+
+/* ------------------- */
+/* -= [HEAD] Header =- */
+/* ------------------- */
+
+/* [IMGE] Image */
+
+div.image-header {
+	margin: 30px auto 30px auto;
+	max-width: 1024px;
+	min-width: 300px;
+}
+
+img.header { 
+	/* (for use inside div.imageHeader only. image size 1024x100) */
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+/* [NAVI] Navigation Bar */
+
+.mainNavi {
+    position: sticky;
+    top: 0;
+	transition: 0.4s;
+
+    /* Disable Text Selection */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.mainNavi li {
+    float: left;
+    text-decoration: none;
+}
+
+.ulNavi li a {
+	border-bottom: none;
+    color: white;
+    text-decoration: none;
+}
+
+.ulNavi {
+	border-bottom: 5px solid $orange;
+	max-width: 1024px;
+	min-width: 480px;
+    display: flex;
+	list-style-type: none;
+	margin: 30px auto 30px auto;
+	background-color: $carbonBlack;
+	padding: 0;
+}
+
+.title {
+    background-color: $carbonBlack;
+    font-weight: bold;
+    font-size: 21px;
+    display: block;
+    color: $orange;
+	text-align: center;
+	padding: 9px 36px 9px 36px;
+}
+
+.item {
+    display: block;
+    color: white;
+	text-align: center;
+	padding: 12px 18px 12px 18px;
+	transition: 0.4s;
+}
+
+.mainNavi .item:hover, .mainNavi .dropbtn:hover {
+    color: $orange;
+    background-color: $hoverBlack;
+	transition: 0.4s;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropbtn {
+    display: block;
+	text-align: center;
+	padding: 12px 18px 12px 18px;
+	transition: 0.4s;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: $carbonBlack;
+	min-width: 160px;
+	transition: 0.4s;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	transition: 0.4s;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: $hoverBlack;
+}
+
+.mainNavi .dropdown-content :hover {
+	background-color:$hoverBlack;
+	color: $green;
+	transition: 0.4s;
+}
+
+/* ----------------------- */
+/* -= [PGTL] Page Title =- */
+/* ----------------------- */
+
+div.page-title {
+	background-image: linear-gradient($vampireBlack, $carbonBlack);
+	border-top: 5px solid $pink2;
+	max-width: 1024px;
+	margin: 30px auto 30px auto;
+	padding: 10px 10px 10px 20px;
+}
+
+h1 {
+	/* for use inside div.pageTitle */
+	color: $pink2;
+}
+
+h2 {
+	color: $blue;
+	font-weight: normal;
+}
+
+/* -------------------- */
+/* -= [CONT] Content =- */
+/* -------------------- */
+
+.content-body {
+	background-image: linear-gradient($vampireBlack, $carbonBlack);
+	border-top: 5px solid $blue;
+	margin: 30px auto 30px auto;
+	max-width: 1024px;
+	min-width: 480px;
+	padding: 10px 10px 60px 10px;
+	transition: 0.4s;
+}
+
+/* [BLQT] Blockquotes */
+
+blockquote {
+	border-left: 0.125em solid $blue;
+	margin-left: 10px;
+}
+
+blockquote p {
+	padding-left: 10px;
+}
+
+blockquote q {
+	font-size: 1.125em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+blockquote cite {
+	font-style: normal;	
+}
+
+/* [COCO] Collapsibles */
+
+
+/* [IFRA] IFrame */
+
+iframe {
+	margin-left: auto; margin-right: auto;
+	display: block;
+}
+
+/* [LINK] Links */
+
+a, a:visited {
+	border-bottom-style: solid;
+	border-width: thin;
+	color: #ffffff;
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 0.4s;
+}
+
+a:hover {
+	color: $green;
+	transition: 0.4s;
+}
+
+a:active {
+	color: $pink2;
+	transition-duration: 0s;
+}
+
+/* [COSB] Skill Box */
+
+
+
+/* ------------------- */
+/* -= [FOOT] Footer =- */
+/* ------------------- */
+
+.footer-content {
+	background-image: linear-gradient($vampireBlack, $carbonBlack);
+	background-color: $carbonBlack;
+	border-top: 5px solid $pink2;
+	border-top-style: solid;
+	border-width: 5px;
+	color: $pink2; 
+	font-size: 0.8125em;
+	max-width: 1024px;
+	margin: 30px auto 40px auto;
+	padding: 10px 10px 10px 10px;
+}
+
+/* [FOLI] Footer Links */
+
+.footer-content a, .footer-content a:visited {
+	color: $pink2;
+}
+
+.footer-content a:hover{
+	color: #ffffff;
+}
+
+.footer-content a:active {
+	color: $pink2;
+}
+
+/**
+ * 
+ * trentb10 (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
+ * 
+ */

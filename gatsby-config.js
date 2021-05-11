@@ -2,5 +2,5 @@ module.exports = {
   siteMetadata: {
     title: "Trent B's Dream World",
   },
-  plugins: [],
+  plugins: ['gatsby-plugin-sass'],
 };
