@@ -10,7 +10,6 @@ export default function AboutMe() {
         <Layout title="About Me!">
             <Helmet>
                 <title>About Me! - {siteMetadata.title}</title>
-                <script src={withPrefix('skillbox-script.js')} type="text/javascript" />
             </Helmet>
 
             <h2>What languages do I have experience with?</h2>

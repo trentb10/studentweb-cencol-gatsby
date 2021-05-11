@@ -10,7 +10,6 @@ export default function Home() {
         <Layout title="Assignments">
             <Helmet>
                 <title>Assignments - {siteMetadata.title}</title>
-                <script src={withPrefix('collapsible-script.js')} type="text/javascript" />
             </Helmet>
 
             <p>
