@@ -462,6 +462,55 @@ a:active {
 
 /* [COSB] Skill Box */
 
+.skillbox-container {
+    display: flex;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 550px;
+    margin-left: auto; margin-right: auto;
+}
+
+/* triggerClassName and triggerOpenedClassName */
+.skillbox-skill-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.skillbox-skill-container:hover {
+    background-color: grey;
+
+    transition: 0.4s;
+}
+
+
+.skillbox-skill-header {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+
+    transition: 0.4s;
+}
+
+.skillbox-skill-info {
+    background-color: grey;
+    padding: 6px 12px;
+}
+
+.skillbox-skill-meter-pt {
+    background-color: aqua;
+    margin: 5px;
+    padding: 2px;
+    width: 80px;
+}
 
 
 /* ------------------- */
