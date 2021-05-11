@@ -506,7 +506,14 @@ a:active {
 }
 
 .skillbox-skill-meter-pt {
-    background-color: aqua;
+    background-color: $blue;
+    margin: 5px;
+    padding: 2px;
+    width: 80px;
+}
+
+.skillbox-skill-meter-empty {
+    background-color: grey;
     margin: 5px;
     padding: 2px;
     width: 80px;

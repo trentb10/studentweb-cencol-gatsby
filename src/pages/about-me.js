@@ -136,6 +136,14 @@ function determineSkill(skillName, rating) {
         meter.push(<div className='skillbox-skill-meter-pt'></div>)
     }
 
+    let fill = 4 - rating;
+
+    if (fill > 0) {
+        for (let i = 1; i <= fill; i++) {
+            meter.push(<div className='skillbox-skill-meter-empty'></div>)
+        }
+    }
+
     return (
         <div class="skillbox-skill-container">
             <div class="skillbox-skill-header">
