@@ -26,6 +26,23 @@ export default function AboutMe() {
             <h2>How proficient am I with different languages?</h2>
 
             <div class="skillbox-container">
+                <div class="skillbox-skill-legend-container">
+                    <div class="skillbox-skill-header">
+                        &nbsp;
+                    </div>
+                    <div class="skillbox-skill-legend-label">
+                        Willing to learn more!
+                    </div>
+                    <div class="skillbox-skill-legend-label">
+                        Familiar!
+                    </div>
+                    <div class="skillbox-skill-legend-label">
+                        Fairly confident!
+                    </div>
+                    <div class="skillbox-skill-legend-label">
+                        Very confident!
+                    </div>
+                </div>
                 <Collapsible
                     trigger={html}
                 >
@@ -56,11 +73,22 @@ export default function AboutMe() {
                             and I re-coded Assignment 1 to use styles from a CSS file.
                         </p>
                         <p>
-                            I consider writing CSS to be such a pleasing task. It's very laid-back 
-                            for me because I like to put so much care into how a web page 
-                            aesthetically looks. I like to play around with different attributes and
-                            values until I get a specific element to look exactly the way I want,
-                            and that it blends in very well with the rest of the website.
+                            Out of all the parts regarding web design, I consider writing CSS to be
+                            the most fun. I feel a lot of pleasure adding attributes to elements
+                            and classes and watching the web site "come alive."
+                        </p>
+                        <p>
+                            Take a look at this skill box, for example. I didn't really like most 
+                            of the examples on the web because they didn't really fit what I was 
+                            looking for in a skill box. I didn't want to use progress bars with 
+                            percentages because I don't think that's an appropriate  way to gouge 
+                            how good a programmer is with a language. I wanted a skill box with my 
+                            own scale defined. 
+                        </p>
+                        <p>
+                            Once I sketched out how I wanted my skill box to look like, I began 
+                            building it from scratch with CSS. You can see my sketches in the 
+                            Works &#62; Personal Works section!
                         </p>
                     </div>
                 </Collapsible>
@@ -114,14 +142,25 @@ export default function AboutMe() {
                         <p>
                             I was fortunate to have learned Python in a course at Centennial College
                             that wasn't actually dedicated to Python. It was a course on Linux systems
-                            and I didn't learn Python until the second half of the course. The most
-                            I did was basic console applications. Although I don't have enough 
-                            experience with Python as much as I like, I aim to find more learning
-                            opportunities so I can practice Python as much as I can and become 
-                            proficient with it!
+                            and I didn't learn Python until the second half of the course.
+                        </p>
+                        <p>    
+                            The most I did with Python was write basic console applications, as well
+                            as running and modifying code for lab assignments for COMP309 Data 
+                            Warehouse & Mining. 
+                        </p>
+                        <p>    
+                            Although I don't have much experience with Python as I'd like to, I aim 
+                            to find more learning opportunities so I can practice Python as much as 
+                            I can and become proficient with it!
                         </p>
                     </div>
                 </Collapsible>
+                <div class="skillbox-skill-legend-container">
+                    <div class="skillbox-skill-hint">
+                        Click on a programming language to see what I have to say about it!
+                    </div>
+                </div>
             </div>
 
 

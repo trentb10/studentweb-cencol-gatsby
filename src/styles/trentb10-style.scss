@@ -177,6 +177,7 @@ img.header {
     position: sticky;
     top: 0;
 	transition: 0.4s;
+	z-index: 2;
 
     /* Disable Text Selection */
     -moz-user-select: none; /* Firefox */
@@ -401,7 +402,7 @@ blockquote cite {
     user-select: none;
 
     &:after {
-        content: '\02795';
+		content: '\02795';
         float: right;
         margin-left: 5px;
     }
@@ -426,7 +427,7 @@ blockquote cite {
 }
 
 .collapsible-content:hover {
-    background-color:$hoverBlack;
+    background-color: $hoverBlack;
     transition:0.4s;
 }
 
@@ -463,14 +464,13 @@ a:active {
 /* [COSB] Skill Box */
 
 .skillbox-container {
+	background-color: $vampireBlack;
     display: flex;
-    border-color: white;
-    border-style: solid;
-    border-width: 1px;
     flex-direction: column;
     justify-content: flex-start;
-    width: 550px;
+    width: 500px;
     margin-left: auto; margin-right: auto;
+	text-align: justify;
 }
 
 /* triggerClassName and triggerOpenedClassName */
@@ -479,11 +479,11 @@ a:active {
     display: flex;
     flex-direction: row;
     cursor: pointer;
+	transition: 0.4s;
 }
 
 .skillbox-skill-container:hover {
-    background-color: grey;
-
+    background-color: $hoverBlack;
     transition: 0.4s;
 }
 
@@ -501,8 +501,9 @@ a:active {
 }
 
 .skillbox-skill-info {
-    background-color: grey;
-    padding: 6px 12px;
+	font-size: 14px;
+    padding: 6px 24px;
+	cursor: default;
 }
 
 .skillbox-skill-meter-pt {
@@ -513,10 +514,36 @@ a:active {
 }
 
 .skillbox-skill-meter-empty {
-    background-color: grey;
+    background-color: #323232;
     margin: 5px;
     padding: 2px;
     width: 80px;
+}
+
+.skillbox-skill-legend-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    cursor: default;
+}
+
+.skillbox-skill-legend-label {
+	font-size: 12px;
+	color: #959595;
+	text-align: center;
+	position: relative;
+	top: 5px;
+    margin: 5px;
+    width: 80px;
+	z-index: 1;
+}
+
+.skillbox-skill-hint {
+	font-size: 12px;
+	color: #959595;
+	text-align: right;
+	margin: 5px;
+	padding: 10px;
 }
 
 
