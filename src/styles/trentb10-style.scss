@@ -14,7 +14,7 @@
     
 	[HEAD] 	Header
     [IMGE]      Image
-	[NAVI]	    Navi
+	[HENA]	    Navi
 
 	[PGTL]	Page Title
 
@@ -35,6 +35,10 @@
 /* [FOIM] Font Imports */
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$header: 'PT Sans', Arial;
+$content: 'Raleway', 'Trebuchet MS', Arial;
 
 /* [STCL] Styling Colours */
 
@@ -65,8 +69,6 @@ body {
 	background-color: $midnightBlack;
 	background-attachment: fixed;
 	color: #ffffff;
-	font-family: "PT Sans", Arial, sans-serif;
-	font-size: 16px;
 	min-width: 480px;
 }
 
@@ -171,9 +173,11 @@ img.header {
 	width: auto;
 }
 
-/* [NAVI] Navigation Bar */
+/* [HENA] Navigation Bar */
 
 .mainNavi {
+	font-family: $header;
+	font-size: 20px;
     position: sticky;
     top: 0;
 	transition: 0.4s;
@@ -208,13 +212,12 @@ img.header {
 }
 
 .title {
+	font-weight: bold;
     background-color: $carbonBlack;
-    font-weight: bold;
-    font-size: 21px;
     display: block;
     color: $orange;
 	text-align: center;
-	padding: 9px 36px 9px 36px;
+	padding: 12px 36px 12px 36px;
 }
 
 .item {
@@ -288,32 +291,40 @@ div.page-title {
 
 h1 {
 	/* for use inside div.pageTitle */
+	font-family: $header;
+	font-size: 2.25rem;
 	color: $pink2;
-}
-
-h2 {
-	color: $blue;
-	font-weight: normal;
 }
 
 /* -------------------- */
 /* -= [CONT] Content =- */
 /* -------------------- */
 
+h2 {
+	font-family: $header;
+	font-size: 1.75rem;
+	color: $blue;
+	font-weight: normal;
+}
+
 .content-body {
+	font-family: $content;
+	font-size: 1.125rem;
 	background-image: linear-gradient($vampireBlack, $carbonBlack);
 	border-top: 5px solid $blue;
+	display: block;
 	margin: 30px auto 30px auto;
 	max-width: 1024px;
 	min-width: 480px;
-	padding: 10px 10px 60px 10px;
+	padding: 10px 30px 60px 30px;
 	transition: 0.4s;
+	text-align: justify;
 }
 
 /* [BLQT] Blockquotes */
 
 blockquote {
-	border-left: 0.125em solid $blue;
+	border-left: 4px solid $blue;
 	margin-left: 10px;
 }
 
@@ -322,7 +333,6 @@ blockquote p {
 }
 
 blockquote q {
-	font-size: 1.125em;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -335,6 +345,7 @@ blockquote cite {
 
 /* classParentString */
 .collapsible-main-container {
+	font-family: $header;
 	box-shadow: 5px 5px 8px $midnightBlack;
 }
 
@@ -343,7 +354,7 @@ blockquote cite {
     display: block;
 	background-color: $midnightBlack;
 	cursor: pointer;
-	font-size: 21px;
+	font-size: 1.5rem;
     padding: 18px;
 	text-align: left;
 	transition: 0.4s;
@@ -388,8 +399,6 @@ blockquote cite {
 	background-color: $carbonBlack;
 	color: $blue;
 	cursor: default;
-	font-size: 16px;
-    font-weight: 600;
 	padding: 12px 24px;
     display: block;
 	cursor: pointer;
@@ -470,7 +479,6 @@ a:active {
     justify-content: flex-start;
     width: 500px;
     margin-left: auto; margin-right: auto;
-	text-align: justify;
 }
 
 /* triggerClassName and triggerOpenedClassName */
@@ -489,9 +497,9 @@ a:active {
 
 
 .skillbox-skill-header {
-    font-size: 16px;
+	font-family: $header;
+    font-size: 18px;
     font-weight: bold;
-    color: white;
     text-align: right;
     margin: 5px;
     padding: 10px;
@@ -501,7 +509,8 @@ a:active {
 }
 
 .skillbox-skill-info {
-	font-size: 14px;
+	font-size: 1rem;
+	background-color: $midnightBlack;
     padding: 6px 24px;
 	cursor: default;
 }
@@ -558,7 +567,7 @@ a:active {
 	border-top-style: solid;
 	border-width: 5px;
 	color: $pink2; 
-	font-size: 0.8125em;
+	font-size: 0.875rem;
 	max-width: 1024px;
 	margin: 30px auto 40px auto;
 	padding: 10px 10px 10px 10px;

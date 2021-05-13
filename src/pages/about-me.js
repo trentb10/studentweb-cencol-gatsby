@@ -12,6 +12,8 @@ export default function AboutMe() {
     let js = determineSkill("JavaScript", 3)
     let java = determineSkill("Java", 3);
     let csharp = determineSkill("C#", 2);
+    let actionscript = determineSkill("ActionScript", 2);
+    let vb = determineSkill("Visual BASIC", 2);
     let python = determineSkill("Python", 1);
 
 

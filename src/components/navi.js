@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <nav class="mainNavi">
             <ul class="ulNavi">
-                <li class="title">tm-</li>
+                <li class="title">Trent B's Dream World!</li>
                 <li><Link to="/"><div class="item">Home</div></Link></li>
                 <li><Link to="/about-me"><div class="item">About Me</div></Link></li>
                 <li class="dropdown">
