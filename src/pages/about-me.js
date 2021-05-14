@@ -12,8 +12,7 @@ export default function AboutMe() {
   let js = determineSkill("JavaScript", 3)
   let java = determineSkill("Java", 3);
   let csharp = determineSkill("C#", 2);
-  let actionscript = determineSkill("ActionScript", 2);
-  let vb = determineSkill("Visual Basic", 2);
+  let vb = determineSkill("VB", 2);
   let python = determineSkill("Python", 1);
 
 
@@ -39,10 +38,10 @@ export default function AboutMe() {
             Familiar!
           </div>
           <div class="skillbox-skill-legend-label">
-            Fairly confident!
+            Fairly proficient!
           </div>
           <div class="skillbox-skill-legend-label">
-            Very confident!
+            Very proficient!
           </div>
         </div>
         <Collapsible
@@ -50,17 +49,17 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-              The earliest exposure I had to HTML was building web pages through web
-              development tools. In high school, I built a web site using Dreamweaver!
+              The earliest exposure I had to HTML was building web pages through 
+              web development tools. In high school, I built a web site using Dreamweaver!
               I wish I had saved this site, but it was on a flash drive that became 
               corrupted 😭. All I can tell you about that site was that it was about 
               Katy Perry...
             </p>
             <p>
               The first time I built a web site using a text editor was for Centennial 
-              College, when I wrote HTML code for COMP213 Assignment 1 in Sublime Text!
-              I'm pretty comfortable writing HTML in text editors, as I'm doing so 
-              right now for this web site in VS Code!
+              College, when I wrote HTML code for COMP213 Assignment 1 in Sublime 
+              Text! I'm pretty comfortable writing HTML in text editors, as I'm 
+              doing so right now for this web site in VS Code!
             </p>
           </div>
         </Collapsible>
@@ -69,23 +68,24 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-              I can't remember whether I used CSS with that Katy Perry website I made 
-              for high school. Although COMP213 Assignment 1 didn't use CSS and was
-              just styled using the style attribute, I did learn to use CSS afterward,
-              and I re-coded Assignment 1 to use styles from a CSS file.
+              I can't remember whether I used CSS with that Katy Perry website I 
+              made for high school. Although COMP213 Assignment 1 didn't use CSS 
+              and was just styled using the style attribute, I did learn to use 
+              CSS afterward, and I re-coded Assignment 1 to use styles from a CSS 
+              file.
             </p>
             <p>
-              Out of all the parts regarding web design, I consider writing CSS to be
-              the most fun. I feel a lot of pleasure adding attributes to elements
-              and classes and watching the web site "come alive."
+              Out of all the parts regarding web design, I consider writing CSS 
+              to be the most fun. I enjoyt adding attributes to elements and classes 
+              and watching the web site "come alive."
             </p>
             <p>
               Take a look at this skill box, for example. I didn't really like most 
               of the examples on the web because they didn't really fit what I was 
               looking for in a skill box. I didn't want to use progress bars with 
               percentages because I don't think that's an appropriate  way to gouge 
-              how good a programmer is with a language. I wanted a skill box with my 
-              own scale defined. 
+              how good a programmer is with a language. I wanted a skill box with 
+              my own scale defined. 
             </p>
             <p>
               Once I sketched out how I wanted my skill box to look like, I began 
@@ -100,15 +100,15 @@ export default function AboutMe() {
           <div class="skillbox-skill-info">
             <p>
               I didn't learn JavaScript until my second term at Centennial College,
-              but it has quickly become one of my favourite languages, along with HTML,
-              CSS, and Java. I am comfortable programming in JS for client-side web 
-              development as well as for non-browser applications. During my last term
-              at Centennial College, I have programmed in Node.js to build applications
-              using the Express.js framework and the React library.
+              but it has quickly become one of my favourite languages, along with 
+              HTML, CSS, and Java. I am comfortable programming in JS for client-side 
+              web development as well as for non-browser applications. During my 
+              last term at Centennial College, I have programmed in Node.js to build 
+              applications using the Express.js framework and the React library.
             </p>
             <p>
-              Currently, I am writing a Discord bot using the Discord.js library. I 
-              am also using Gatsby to build this web site!
+              My current JavaScript projects include a Discord bot using the Discord.js 
+              library, as well as this website using Gatsby!
             </p>
           </div>
         </Collapsible>
@@ -117,12 +117,11 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-              Java is the first programming language I have academically learned, and 
-              that makes it the first object-oriented language I have learned. Throughout
-              high-school and my third term at Centennial College, I have programmed
-              Java console applications. In the following terms, I used Java to build 
-              Android applications in Android Studio as well as web applications using 
-              Spring MVC and Spring Boot. 
+              I have been learning and developing Java applications since high school.
+              throughout high-school and my third term at Centennial College, I 
+              have programmed Java console applications. In the following terms, 
+              I used Java to build Android applications in Android Studio as well 
+              as web applications using Spring MVC and Spring Boot. 
             </p>
           </div>
         </Collapsible>
@@ -132,8 +131,17 @@ export default function AboutMe() {
           <div class="skillbox-skill-info">
             <p>
               C# was the language I've learned and used for the majority of my academic 
-              career at Centennial College. I have built a lot of console applications
-              as well as a few web applications that use the .net core framework.
+              career at Centennial College. Among the kinds of applications I have
+              developed using C# include console applications, windows forms, WPF 
+              forms, and web applications. I've also used C# in Unity for COMP397 
+              Web Game Programming, in which my group and I developed <i>Robo 
+              Escape</i> for our term project. You may check it out <a 
+                href="https://github.com/trentb10/COMP397-W2021-Group14-Assignment1-Part3-BUILD" 
+                target="_blank"
+              >here</a> and <a 
+                href="https://github.com/trentb10/COMP397-W2021-Group14-Final" 
+                target="_blank"
+              >here!</a>
             </p>
           </div>
         </Collapsible>
@@ -142,15 +150,11 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-            </p>
-          </div>
-        </Collapsible>
-        <Collapsible
-          trigger={actionscript}
-        >
-          <div class="skillbox-skill-info">
-            <p>
-              
+              Visual Basic .NET is another programming language I have learned in
+              high school! Some of the applications I remember developing include
+              a simple calculator and a BMI calculator. Although it's been roughly
+              ten years since I've used VB, I would appreciate any opportunity to 
+              develop in VB again!
             </p>
           </div>
         </Collapsible>
@@ -160,18 +164,20 @@ export default function AboutMe() {
           <div class="skillbox-skill-info">
             <p>
               I was fortunate to have learned Python in a course at Centennial College
-              that wasn't actually dedicated to Python. It was a course on Linux systems
-              and I didn't learn Python until the second half of the course.
+              that wasn't actually dedicated to Python. It was a course on Linux 
+              systems and I didn't learn Python until the second half of the course.
             </p>
             <p>    
-              The most I did with Python was write basic console applications, as well
-              as running and modifying code for lab assignments for COMP309 Data 
-              Warehouse & Mining. 
+              The most I did with Python was write basic console applications, as 
+              well as running and modifying code for lab assignments for COMP309 
+              Data Warehouse & Mining. 
             </p>
             <p>    
-              Although I don't have much experience with Python as I'd like to, I aim 
-              to find more learning opportunities so I can practice Python as much as 
-              I can and become proficient with it!
+              Although I don't have much experience with Python as I'd like to, 
+              I aim to find more learning opportunities so I can practice Python 
+              as much as I can and become proficient with it! I've recently enrolled
+              myself into <i>Automate the Boring Stuff with Python Programming</i>
+              on Udemy!
             </p>
           </div>
         </Collapsible>
@@ -181,9 +187,6 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-
-
-
     </Layout>
   );
 }
