@@ -13,7 +13,7 @@ export default function AboutMe() {
   let java = determineSkill("Java", 3);
   let csharp = determineSkill("C#", 2);
   let actionscript = determineSkill("ActionScript", 2);
-  let vb = determineSkill("Visual BASIC", 2);
+  let vb = determineSkill("Visual Basic", 2);
   let python = determineSkill("Python", 1);
 
 
@@ -134,6 +134,23 @@ export default function AboutMe() {
               C# was the language I've learned and used for the majority of my academic 
               career at Centennial College. I have built a lot of console applications
               as well as a few web applications that use the .net core framework.
+            </p>
+          </div>
+        </Collapsible>
+        <Collapsible
+          trigger={vb}
+        >
+          <div class="skillbox-skill-info">
+            <p>
+            </p>
+          </div>
+        </Collapsible>
+        <Collapsible
+          trigger={actionscript}
+        >
+          <div class="skillbox-skill-info">
+            <p>
+              
             </p>
           </div>
         </Collapsible>
