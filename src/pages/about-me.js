@@ -11,7 +11,7 @@ export default function AboutMe() {
   let css = determineSkill("CSS", 3);
   let js = determineSkill("JavaScript", 3)
   let java = determineSkill("Java", 3);
-  let csharp = determineSkill("C#", 2);
+  let csharp = determineSkill("C#", 3);
   let vb = determineSkill("VB", 2);
   let python = determineSkill("Python", 1);
 
@@ -23,6 +23,138 @@ export default function AboutMe() {
       <Helmet>
         <title>About Me! - {siteMetadata.title}</title>
       </Helmet>
+
+      <div class="profilebox-container">
+        <div class="profilebox-pfp">
+          pfp goes here
+        </div>
+        <div class="profilebox-info">
+          <div class="profilebox-name">
+            Trent B Minia
+          </div>
+          <div>
+            Toronto, Ontario
+          </div>
+          <br/>
+          <div>
+            <a
+              href="https://github.com/trentb10"
+              target="_blank">
+              GitHub
+            </a>
+            &nbsp;|&nbsp;
+          <a
+            href=""
+            target="_blank">
+            LinkedIn
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tagline">
+        Writing code to make a difference on the WWW,<br/>
+        one line at a time.
+      </div>
+
+      <h2>Nice to meet you!</h2>
+
+      <p>
+        Hi! My name is Trent B Minia, and I'm a recent graduate from Centennial
+        College with an Advanced Diploma in Software Engineering Technology.
+      </p>
+
+      <p>
+        Here's a summary about who I am, my skills, and my experiences:
+      </p>
+
+      <ul>
+        <li>Passion for programming, especially for the web</li>
+        <li>Familiar with HTML, CSS, JavaScript, Java, and C#</li>
+        <li>Good with troubleshooting computer-related issues</li>
+        <li>
+          Proficient in Microsoft Office, Google Drive, and other related office
+          suite products
+        </li>
+        <li>Proficient in WordPress and other blog-publishing websites</li>
+        <li>
+          Experience with music and video editing for education, as well as 
+          graphic design for work
+        </li>
+        <li>Works well independently or with a team!</li>
+      </ul>
+
+      <h2>Education</h2>
+
+      <p>
+        Here is an overview of my education:
+      </p>
+
+      <p>
+        <h3>Centennial College (Jan. 2019 - Apr. 2021)</h3>
+        <ul>
+          <li>Advanced Diploma in Software Engineering Technology</li>
+        </ul>
+      </p>
+
+      <p>
+        <h3>University of Toronto Scarborough (Sept. 2014 - Dec. 2018)</h3>
+        <ul>
+          <li>
+            Honours Bachelor of Arts in Media Studies, English, Psychology
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <h3>
+          Saint John Paul II Catholic Secondary School (Sept. 2009 - June 2013)
+        </h3>
+        <ul>
+          <li>
+            Received an academic award for Outstanding Accomplishment and 
+            Excellence in Grade 11 Information & Communication Technology
+          </li>
+          <li>
+            Received a graduation certificate for fulfilling requirements for the 
+            Focus on Information Technology (FIT) program
+          </li>
+        </ul>
+      </p>
+      
+      <h2>Work</h2>
+
+      <p>
+        Here is an overview of my work experience:
+      </p>
+
+      <p>
+        Writer &mdash; Review & Write-Up Articles (May 2014 - Jul. 2017)<br/>
+        24Our Music
+        <ul>
+          <li>
+            Wrote articles and reviews for albums, sometimes at the request from
+            artists themselves, paid or free
+          </li>
+          <li>
+            Handled the social media accounts (Facebook, Twitter)
+          </li>
+          <li>
+            Uploaded articles to the website via WordPress
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        Writer &mdash; YouTube Scripts (2018 - present)<br/>
+        Feed My Curiosity
+        <ul>
+          <li>
+            Writing video scripts covering a variety of topics including
+            technology, history, nature, space, food, and more.
+          </li>
+        </ul>
+      </p>
 
       <h2>How proficient am I with different languages?</h2>
 
@@ -76,16 +208,16 @@ export default function AboutMe() {
             </p>
             <p>
               Out of all the parts regarding web design, I consider writing CSS 
-              to be the most fun. I enjoyt adding attributes to elements and classes 
+              to be the most fun. I enjoy adding attributes to elements and classes 
               and watching the web site "come alive."
             </p>
             <p>
-              Take a look at this skill box, for example. I didn't really like most 
-              of the examples on the web because they didn't really fit what I was 
-              looking for in a skill box. I didn't want to use progress bars with 
-              percentages because I don't think that's an appropriate  way to gouge 
-              how good a programmer is with a language. I wanted a skill box with 
-              my own scale defined. 
+              Something I've had to build from scratch using CSS is this skill box, 
+              for example. I didn't really like most of the examples on the web 
+              because they didn't really fit what I was looking for in a skill box. 
+              I didn't want to use progress bars with percentages because I don't 
+              think that's an appropriate way to gouge how good a programmer is 
+              with a language. I wanted a skill box with my own scale defined. 
             </p>
             <p>
               Once I sketched out how I wanted my skill box to look like, I began 

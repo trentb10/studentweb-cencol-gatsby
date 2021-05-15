@@ -21,6 +21,7 @@
   [CONT]  Content
   [BLQT]    Blockquotes
   [COCO]    Collapsibles
+  [COPB]    Profile Box    
   [COSB]    Skill Box
   [LINK]    Links
 
@@ -324,6 +325,24 @@ h2 {
   text-align: justify;
 }
 
+.tagline {
+  font-family: 'PT Sans', 'Trebuchet MS', Arial;
+  display: block;
+  margin: 0.83em 0 0.83em;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: $pink2;
+  text-align: center;
+}
+
+h3 {
+  display: block;
+  margin: 0 0 0 0;
+  font-family: $header1;
+  font-weight: normal;
+  color: $blue;
+}
+
 /* [BLQT] Blockquotes */
 
 blockquote {
@@ -395,6 +414,10 @@ blockquote cite {
 .collapsible-title:hover {
   background-color: $hoverBlack;
   transition: 0.4s;
+}
+
+ul {
+  list-style-position: outside;
 }
 
 /* triggerClassName and triggerOpenedClassName */
@@ -471,6 +494,37 @@ a:hover {
 a:active {
   color: $pink2;
   transition-duration: 0s;
+}
+
+/* [COPB] Profile Box */
+
+.profilebox-container {
+  background-color: $vampireBlack;
+  border: 1px solid $blue;
+  display: flex;
+  flex-direction: row;
+  max-width: 550px;
+  margin: 0.83em auto 0.83em auto;
+}
+
+.profilebox-pfp {
+  background-color: grey;
+  border: 1px solid $blue;
+  margin: 12px;
+  width: 200px;
+  height: 200px;
+}
+
+.profilebox-info {
+  flex-grow: 1;
+  margin: 12px;
+  padding: 12px;
+}
+
+.profilebox-name {
+  font-family: 'PT Sans', 'Trebuchet MS', Arial;
+  font-size: 24px;
+  color: $blue;
 }
 
 /* [COSB] Skill Box */
