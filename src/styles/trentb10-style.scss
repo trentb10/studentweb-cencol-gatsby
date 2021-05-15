@@ -39,9 +39,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-$content: 'Raleway', 'Trebuchet MS', Arial;
-$header1: 'PT Sans', Arial;
-$header2: 'Monda', Arial;
+$content: 'Raleway', 'Trebuchet MS', sans-serif;
+$header1: 'Monda', Arial, Helvetica, sans-serif;
+$header2: 'PT Sans', Arial, Helvetica, sans-serif;
 
 /* [STCL] Styling Colours */
 
@@ -50,11 +50,11 @@ $carbonBlack: #212121;
 $vampireBlack: #141414;
 $midnightBlack: #0a0a0a;
 $hoverBlack: #383838;
-$pink1: #ff5085;
-$pink2: #f26995;
+$pink1: #f26995;
+$pink2: #ff5085;
 $green: #9fff50;
 $orange: #ff9f50;
-$yellow: #ffd350;
+$yellow: #ffd35c;
 
 /* --------------------------- */
 /* -= [GLEL] Global Elements =- */
@@ -146,12 +146,12 @@ tr:nth-child(odd) {
 /* [TXSL] Text Selection */
 
 ::selection {
-  background: $pink2; 
+  background: $pink1; 
   color: $carbonBlack;
 }
 
 ::-moz-selection {
-  background: $pink2;
+  background: $pink1;
   color: $carbonBlack;
 }
 
@@ -179,7 +179,7 @@ img.header {
 /* [HENA] Navigation Bar */
 
 .mainNavi {
-  font-family: $header2;
+  font-family: $header1;
   font-size: 18px;
   position: sticky;
   top: 0;
@@ -286,7 +286,7 @@ li.dropdown {
 
 div.page-title {
   background-image: linear-gradient($vampireBlack, $carbonBlack);
-  border-top: 5px solid $pink2;
+  border-top: 5px solid $pink1;
   max-width: 1024px;
   margin: 30px auto 30px auto;
   padding: 10px 40px 10px 40px;
@@ -297,7 +297,7 @@ h1 {
   font-family: $header1;
   font-size: 2.25rem;
   font-weight: normal;
-  color: $pink2;
+  color: $pink1;
 }
 
 /* -------------------- */
@@ -305,7 +305,7 @@ h1 {
 /* -------------------- */
 
 h2 {
-  font-family: $header1;
+  font-family: $header2;
   font-size: 1.75rem;
   color: $blue;
   font-weight: normal;
@@ -331,16 +331,16 @@ h2 {
   margin: 0.83em 0 0.83em;
   font-size: 1.5rem;
   font-style: italic;
-  color: $pink2;
+  color: $pink1;
   text-align: center;
 }
 
 h3 {
   display: block;
   margin: 0 0 0 0;
-  font-family: $header1;
+  font-family: $header2;
   font-weight: normal;
-  color: $blue;
+  color: $yellow;
 }
 
 /* [BLQT] Blockquotes */
@@ -367,7 +367,7 @@ blockquote cite {
 
 /* classParentString */
 .collapsible-main-container {
-  font-family: $header2;
+  font-family: $header1;
   box-shadow: 5px 5px 8px $midnightBlack;
 }
 
@@ -492,7 +492,7 @@ a:hover {
 }
 
 a:active {
-  color: $pink2;
+  color: $pink1;
   transition-duration: 0s;
 }
 
@@ -500,7 +500,8 @@ a:active {
 
 .profilebox-container {
   background-color: $vampireBlack;
-  border: 1px solid $blue;
+  border: 2px solid $blue;
+  border-radius: 24px;
   display: flex;
   flex-direction: row;
   max-width: 550px;
@@ -554,7 +555,7 @@ a:active {
 
 
 .skillbox-skill-header {
-  font-family: $header2;
+  font-family: $header1;
   font-size: 16px;
   font-weight: bold;
   text-align: right;
@@ -620,12 +621,12 @@ a:active {
 .footer-content {
   background-image: linear-gradient($vampireBlack, $carbonBlack);
   background-color: $carbonBlack;
-  border-top: 5px solid $pink2;
+  border-top: 5px solid $pink1;
   border-top-style: solid;
   border-width: 5px;
-  color: $pink2; 
+  color: $pink1; 
   font-size: 0.75rem;
-  font-family: $header2;
+  font-family: $header1;
   max-width: 1024px;
   margin: 30px auto 40px auto;
   padding: 10px 10px 10px 10px;
@@ -634,7 +635,7 @@ a:active {
 /* [FOLI] Footer Links */
 
 .footer-content a, .footer-content a:visited {
-  color: $pink2;
+  color: $pink1;
 }
 
 .footer-content a:hover{
@@ -642,7 +643,7 @@ a:active {
 }
 
 .footer-content a:active {
-  color: $pink2;
+  color: $pink1;
 }
 
 /**

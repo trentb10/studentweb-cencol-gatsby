@@ -6,6 +6,11 @@ import { siteMetadata } from '../../gatsby-config';
 
 import Layout from '../components/layout';
 
+let h3header = {
+  display: "flex",
+  "justify-content": "space-between"
+}
+
 export default function AboutMe() {    
   let html = determineSkill("HTML5", 3);
   let css = determineSkill("CSS", 3);
@@ -91,14 +96,20 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <h3>Centennial College (Jan. 2019 - Apr. 2021)</h3>
+        <div style={h3header}>
+          <h3>Centennial College</h3>
+          <h3>(Jan. 2019 - Apr. 2021)</h3>
+        </div>
         <ul>
           <li>Advanced Diploma in Software Engineering Technology</li>
         </ul>
       </p>
 
       <p>
-        <h3>University of Toronto Scarborough (Sept. 2014 - Dec. 2018)</h3>
+        <div style={h3header}>
+          <h3>University of Toronto Scarborough</h3>
+          <h3>(Sept. 2014 - Dec. 2018)</h3>
+        </div>
         <ul>
           <li>
             Honours Bachelor of Arts in Media Studies, English, Psychology
@@ -107,9 +118,14 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <h3>
-          Saint John Paul II Catholic Secondary School (Sept. 2009 - June 2013)
-        </h3>
+        <div style={h3header}>
+          <h3>
+            Saint John Paul II Catholic Secondary School
+          </h3>
+          <h3>
+            (Sept. 2009 - June 2013)
+          </h3>
+        </div>
         <ul>
           <li>
             Received an academic award for Outstanding Accomplishment and 
@@ -129,7 +145,10 @@ export default function AboutMe() {
       </p>
 
       <p>
-        Writer &mdash; Review & Write-Up Articles (May 2014 - Jul. 2017)<br/>
+        <div style={h3header}>
+          <h3>Writer &mdash; Review & Write-Up Articles</h3>
+          <h3>(May 2014 - Jul. 2017)</h3>
+        </div>
         24Our Music
         <ul>
           <li>
@@ -146,7 +165,10 @@ export default function AboutMe() {
       </p>
 
       <p>
-        Writer &mdash; YouTube Scripts (2018 - present)<br/>
+        <div style={h3header}>
+          <h3>Writer &mdash; YouTube Video Scripts</h3>
+          <h3>(2018 - present)</h3>
+        </div>
         Feed My Curiosity
         <ul>
           <li>
@@ -156,7 +178,13 @@ export default function AboutMe() {
         </ul>
       </p>
 
-      <h2>How proficient am I with different languages?</h2>
+      <p>
+        Now that I've given an overview of my experiences, I will go into further
+        detail about myself, including which programming languages, frameworks/
+        libraries, and IDEs and office suites I'm proficient in!
+      </p>
+
+      <h2>My Proficiencies in Programming Languages</h2>
 
       <div class="skillbox-container">
         <div class="skillbox-skill-legend-container">
