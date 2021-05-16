@@ -6,6 +6,8 @@ import { siteMetadata } from '../../gatsby-config';
 
 import Layout from '../components/layout';
 
+import avatar from '../images/avatar.gif';
+
 let experienceTitle = {
   display: "flex",
   "justify-content": "space-between"
@@ -31,7 +33,7 @@ export default function AboutMe() {
 
       <div class="profilebox-container">
         <div class="profilebox-pfp">
-          pfp goes here
+          <img src={avatar}></img>
         </div>
         <div class="profilebox-info">
           <div class="profilebox-name">
