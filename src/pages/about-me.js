@@ -20,10 +20,10 @@ export default function AboutMe() {
   let java = determineSkill("Java", 3);
   let csharp = determineSkill("C#", 3);
   let vb = determineSkill("VB", 2);
+  let actionscript = determineSkill("ActionScript", 2);
   let python = determineSkill("Python", 1);
 
-
-  let lessthan3 = "<3";
+  
 
   return (
     <Layout title="About Me!">
@@ -228,7 +228,41 @@ export default function AboutMe() {
         libraries, and IDEs and office suites I'm proficient in!
       </p>
 
+      <p>
+        To measure my proficiency, I used a skillbox with my own defined scale:
+      </p>
+
+      <p>
+        1 - Willing to Learn More! I've used it for a little bit and I can do
+        some basic stuff with it, but I'm not as proficient and comfortable 
+        with it as the others as much as I like. I'm willing to devote some 
+        time and learn more about it so I can become more proficient and familiar 
+        with it!
+      </p>
+
+      <p>
+        2 - Familiar! I've used it and had some practice with it, allowing me to
+        build some small/medium projects. In some cases I haven't used it in a 
+        long time, or I still think there's more to learn, but a little refresher 
+        or a review will help me become more proficient with it.
+      </p>
+
+      <p>
+        3 - Fairly Proficient! I've used it for a good amount of time and I've 
+        built a number of projects with it. With a given language/framework, I 
+        can visualize/sketch out a task and have an idea of how I want to 
+        approach the task before I go and write out the code.
+      </p>
+
+      <p>
+        4 - Very Proficient! I'm so good with it I can use it with my eyes closed!
+      </p>
+
       <h2>My Proficiencies in Programming Languages</h2>
+
+      <p>
+        Here is an in-depth list of languages I have used before.
+      </p>
 
       <div class="skillbox-container">
         <div class="skillbox-skill-legend-container">
@@ -289,7 +323,13 @@ export default function AboutMe() {
               because they didn't really fit what I was looking for in a skill box. 
               I didn't want to use progress bars with percentages because I don't 
               think that's an appropriate way to gouge how good a programmer is 
-              with a language. I wanted a skill box with my own scale defined. 
+              with a language. I wanted a skill box with my own scale defined, 
+              and I wanted to make it possible for the user to click a skill 
+              so the description container is expanded and the user can read 
+              a little more of what I have to say about it. For this, I've used 
+              a <a href="https://www.npmjs.com/package/react-collapsible">React
+              plugin</a> for collapsibles, the same plugin I used for the <Link
+              to="/assignments">Assignments</Link> page as well.
             </p>
             <p>
               Once I sketched out how I wanted my skill box to look like, I began 
@@ -359,6 +399,17 @@ export default function AboutMe() {
               a simple calculator and a BMI calculator. Although it's been roughly
               ten years since I've used VB, I would appreciate any opportunity to 
               develop in VB again!
+            </p>
+          </div>
+        </Collapsible><Collapsible
+          trigger={actionscript}
+        >
+          <div class="skillbox-skill-info">
+            <p>
+              I have used ActionScript to make some Flash games during my last 
+              semester in high school. Although there aren't opportunities to 
+              use ActionScript today, I just wanted to point out that I've used 
+              it at some point!
             </p>
           </div>
         </Collapsible>
