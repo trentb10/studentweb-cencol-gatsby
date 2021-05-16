@@ -7,13 +7,14 @@
 
   [GLEL]  Global Elements
   [BOXS]    Box-Sizing
+  [IMGE]    Image
   [INPT]    Input
   [LIST]    Lists
   [TABL]    Tables
   [TXSL]    Text Selection
     
   [HEAD] 	Header
-  [IMGE]    Image
+  [HEIM]    Header-Image
   [HENA]    Navi
 
   [PGTL]	Page Title
@@ -35,11 +36,11 @@
 
 /* [FOIM] Font Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-$content: 'Raleway', 'Trebuchet MS', sans-serif;
+$content: 'IBM Plex Sans', 'Trebuchet MS', sans-serif;
 $header1: 'Monda', Arial, Helvetica, sans-serif;
 $header2: 'PT Sans', Arial, Helvetica, sans-serif;
 
@@ -59,7 +60,7 @@ $yellow: #ffd35c;
 /* --------------------------- */
 /* -= [GLEL] Global Elements =- */
 /* --------------------------- */
- 
+
 body {
   align-items: center;
   background: repeating-linear-gradient(
@@ -81,6 +82,16 @@ body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+/* [IMGE] Image */
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
 }
 
 /* [INPT] Input */
@@ -159,21 +170,12 @@ tr:nth-child(odd) {
 /* -= [HEAD] Header =- */
 /* ------------------- */
 
-/* [IMGE] Image */
+/* [HEIM] Header-Image */
 
 div.image-header {
   margin: 30px auto 30px auto;
   max-width: 1024px;
   min-width: 300px;
-}
-
-img.header { 
-  /* (for use inside div.imageHeader only. image size 1024x100) */
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  height: auto;
-  width: auto;
 }
 
 /* [HENA] Navigation Bar */

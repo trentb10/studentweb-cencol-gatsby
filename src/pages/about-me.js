@@ -6,7 +6,7 @@ import { siteMetadata } from '../../gatsby-config';
 
 import Layout from '../components/layout';
 
-let h3header = {
+let experienceTitle = {
   display: "flex",
   "justify-content": "space-between"
 }
@@ -96,7 +96,7 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <div style={h3header}>
+        <div style={experienceTitle}>
           <h3>Centennial College</h3>
           <h3>(Jan. 2019 - Apr. 2021)</h3>
         </div>
@@ -106,7 +106,7 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <div style={h3header}>
+        <div style={experienceTitle}>
           <h3>University of Toronto Scarborough</h3>
           <h3>(Sept. 2014 - Dec. 2018)</h3>
         </div>
@@ -118,7 +118,7 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <div style={h3header}>
+        <div style={experienceTitle}>
           <h3>
             Saint John Paul II Catholic Secondary School
           </h3>
@@ -145,7 +145,7 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <div style={h3header}>
+        <div style={experienceTitle}>
           <h3>Writer &mdash; Review & Write-Up Articles</h3>
           <h3>(May 2014 - Jul. 2017)</h3>
         </div>
@@ -163,9 +163,32 @@ export default function AboutMe() {
           </li>
         </ul>
       </p>
+      
+      <p>
+        <div style={experienceTitle}>
+          <h3>Writer &mdash; Review & Write-Up Articles</h3>
+          <h3>(Dec 2017 - Mar. 2018)</h3>
+        </div>
+        Amp the Sound
+        <ul>
+          <li>
+            Wrote articles and reviews for albums, sometimes at the request from
+            artists themselves, paid or free
+          </li>
+          <li>
+            Handled the social media accounts (Facebook, Twitter)
+          </li>
+          <li>
+            Uploaded articles to the website via WordPress
+          </li>
+          <li>
+            Designed the logo (Check it out here!)
+          </li>
+        </ul>
+      </p>
 
       <p>
-        <div style={h3header}>
+        <div style={experienceTitle}>
           <h3>Writer &mdash; YouTube Video Scripts</h3>
           <h3>(2018 - present)</h3>
         </div>
@@ -174,6 +197,25 @@ export default function AboutMe() {
           <li>
             Writing video scripts covering a variety of topics including
             technology, history, nature, space, food, and more.
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <div style={experienceTitle}>
+          <h3>Writer &mdash; Review and Write-Up Articles</h3>
+          <h3>(2019)</h3>
+        </div>
+        Dollar Gamers
+        <ul>
+          <li>
+            Wrote articles and reviews for cheap indie games
+          </li>
+          <li>
+            Handled the social media accounts
+          </li>
+          <li>
+            Uploaded articles to the website via WordPress
           </li>
         </ul>
       </p>
