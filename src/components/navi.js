@@ -19,7 +19,7 @@ export default function Header() {
           <Link to="/works"><div class="dropbtn">Works</div></Link>
           <div class="dropdown-content">
             <Link to=""><div>24Our Music</div></Link>
-            <Link to=""><div>Amp the Sound</div></Link>
+            <Link to="/works/amp-the-sound"><div>Amp the Sound</div></Link>
             <Link to=""><div>Dollar Gamers</div></Link>
             <Link to=""><div>Feed My Curiosity</div></Link>
             <Link to=""><div>Personal Works</div></Link>

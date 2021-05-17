@@ -324,7 +324,7 @@ export default function AboutMe() {
               I didn't want to use progress bars with percentages because I don't 
               think that's an appropriate way to gouge how good a programmer is 
               with a language. I wanted a skill box with my own scale defined, 
-              and I wanted to make it possible for the user to click a skill 
+              and I wanted to make it possible for the user to click on a skill 
               so the description container is expanded and the user can read 
               a little more of what I have to say about it. For this, I've used 
               a <a href="https://www.npmjs.com/package/react-collapsible">React
