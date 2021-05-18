@@ -460,7 +460,7 @@ ul {
 .collapsible-content {
   cursor: pointer;
   padding: 12px 0 12px 36px;
-  transition:0.4s;
+  transition: 0.4s;
 }
 
 .collapsible-content:hover {
@@ -468,7 +468,14 @@ ul {
   transition:0.4s;
 }
 
+/* [COFI] Figure Captions */
 
+.figure-caption {
+  font-family: $header2;
+  font-size: 1rem;
+  margin: 4px auto 4px auto;
+  text-align: center;
+}
 
 /* [IFRA] IFrame */
 
