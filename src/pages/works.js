@@ -19,16 +19,16 @@ export default function Works() {
 
       <h2>Select a sub-section:</h2>
 
-      <div class="collapsible-main-container collapsible-title">
+      <div class="non-collapsible-title t24ourmusic">
         24Our Music
       </div>
-      <div class="collapsible-main-container collapsible-title">
+      <div class="non-collapsible-title amp-the-sound">
         Amp the Sound
       </div>
-      <div class="collapsible-main-container collapsible-title">
+      <div class="non-collapsible-title dollargamers">
         Dollar Gamers
       </div>
-      <div class="collapsible-main-container collapsible-title">
+      <div class="non-collapsible-title feedmycuriosity">
         Feed My Curiosity
       </div>
       <Collapsible 

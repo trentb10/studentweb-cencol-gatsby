@@ -15,7 +15,7 @@
     
   [HEAD] 	Header
   [HEIM]    Header-Image
-  [HENA]    Navi
+  [NAVI]    Navi
 
   [PGTL]	Page Title
 
@@ -178,7 +178,7 @@ div.image-header {
   min-width: 300px;
 }
 
-/* [HENA] Navigation Bar */
+/* [NAVI] Navigation Bar */
 
 .mainNavi {
   font-family: $header1;
@@ -403,17 +403,7 @@ blockquote cite {
 
 }
 
-.cencol {
-  border-bottom: 5px solid #d4df38;
-  color: #d4df38;
-}
-
-.uoft {
-  border-bottom: 5px solid #7ba4d9;
-  color: #7ba4d9;
-}
-
-.collapsible-title:hover {
+.collapsible-title:hover, .non-collapsible-title:hover{
   background-color: $hoverBlack;
   transition: 0.4s;
 }
@@ -467,6 +457,67 @@ ul {
   background-color: $hoverBlack;
   transition:0.4s;
 }
+
+/* For non-collapsibles that look like collapsibles but are actually not */
+
+.non-collapsible-title {
+  font-family: $header1;
+  box-shadow: 5px 5px 8px $midnightBlack;
+  display: block;
+  background-color: $midnightBlack;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 18px;
+  text-align: left;
+  transition: 0.4s;
+  outline: none;
+
+  /* Disable Text Selection */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+
+}
+
+/* Collapsible colour themes */
+
+$t24ourmusic: #44c8f2;
+$ampthesound: #c70eed;
+$dollargamers: #b3b3b3;
+$feedmycuriosity: #eaa876;
+$cencol: #d4df38;
+$uoft: #7ba4d9;
+
+.t24ourmusic {
+  border-bottom: 5px solid $t24ourmusic;
+  color: $t24ourmusic;
+}
+
+.amp-the-sound {
+  border-bottom: 5px solid $ampthesound;
+  color: $ampthesound;
+}
+
+.dollargamers {
+  border-bottom: 5px solid $dollargamers;
+  color: $dollargamers;
+}
+
+.feedmycuriosity {
+  border-bottom: 5px solid $feedmycuriosity;
+  color: $feedmycuriosity;
+}
+
+.cencol {
+  border-bottom: 5px solid $cencol;
+  color: $cencol;
+}
+
+.uoft {
+  border-bottom: 5px solid $uoft;
+  color: $uoft;
+}
+
 
 /* [COFI] Figure Captions */
 
