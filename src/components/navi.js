@@ -18,7 +18,7 @@ export default function Header() {
         <li class="dropdown">
           <Link to="/works"><div class="dropbtn">Works</div></Link>
           <div class="dropdown-content">
-            <Link to=""><div>24Our Music</div></Link>
+            <Link to="/works/24our-music"><div>24Our Music</div></Link>
             <Link to="/works/amp-the-sound"><div>Amp the Sound</div></Link>
             <Link to=""><div>Dollar Gamers</div></Link>
             <Link to=""><div>Feed My Curiosity</div></Link>

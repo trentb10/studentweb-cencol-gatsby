@@ -19,9 +19,11 @@ export default function Works() {
 
       <h2>Select a sub-section:</h2>
 
-      <div class="non-collapsible-title t24ourmusic">
-        24Our Music
-      </div>
+      <a><Link to ="/works/24our-music">
+        <div class="non-collapsible-title t24ourmusic">
+          24Our Music
+        </div>
+      </Link></a>
       <a><Link to="/works/amp-the-sound">
         <div class="non-collapsible-title amp-the-sound">
           Amp the Sound
