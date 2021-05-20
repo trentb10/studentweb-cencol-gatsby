@@ -22,9 +22,11 @@ export default function Works() {
       <div class="non-collapsible-title t24ourmusic">
         24Our Music
       </div>
-      <div class="non-collapsible-title amp-the-sound">
-        Amp the Sound
-      </div>
+      <a><Link to="/works/amp-the-sound">
+        <div class="non-collapsible-title amp-the-sound">
+          Amp the Sound
+        </div>
+      </Link></a>
       <div class="non-collapsible-title dollargamers">
         Dollar Gamers
       </div>
