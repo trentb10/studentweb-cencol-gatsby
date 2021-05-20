@@ -118,8 +118,8 @@ export default function AmpTheSound() {
 
       <p>
         I can't exactly remember why I didn't include the "fade effect" in the 
-        digital drafts, but I think I didn't like how it turned out. Without the
-        fade effect, the logo looks clean.
+        digital drafts, but if I were to guess,  I didn't like how it turned out. 
+        Without the fade effect, the logo looks clean.
       </p>
 
       <p>
