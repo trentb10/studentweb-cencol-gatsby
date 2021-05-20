@@ -89,14 +89,27 @@ export default function Twenty4OurMusic() {
         <div>
           <img src={tfourmusic1} />
         </div>
-        <div class="figure-caption">Caption 1</div>
+        <div class="figure-caption">
+          One of the publications for 24Our Music, with myself listed as a 
+          Staff Writer.
+        </div>
       </p>
 
       <p>
         <div>
           <img src={tfourmusic2} />
         </div>
-        <div class="figure-caption">Caption 2</div>
+        <div class="figure-caption">
+          One of my articles published for the same issue as seen above! I was 
+          particularly proud of this article, and the song I wrote on is one 
+          of my favourites, which I still listen to today!
+        </div>
+      </p>
+
+      <p>
+        <form action="https://issuu.com/24ourmusic/docs" target="_blank">
+          <input type="submit" value="View all 24Our Music Issues" />
+        </form>
       </p>
     </Layout>
   );
