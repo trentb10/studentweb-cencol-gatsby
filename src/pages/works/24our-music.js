@@ -7,8 +7,9 @@ import Layout from '../../components/layout';
 
 // Image imports
 
-import tfourmusic1 from '../../images/works/24ourmusic/24ourmusic-magazine-1.png'
-import tfourmusic2 from '../../images/works/24ourmusic/24ourmusic-magazine-2.png'
+import tfourmusiclogo from '../../images/works/24ourmusic/24ourmusic-logo.png';
+import tfourmusic1 from '../../images/works/24ourmusic/24ourmusic-magazine-1.png';
+import tfourmusic2 from '../../images/works/24ourmusic/24ourmusic-magazine-2.png';
 
 // Image styling
 
@@ -23,6 +24,15 @@ export default function Twenty4OurMusic() {
       <Helmet>
         <title>24Our Music - {siteMetadata.title}</title>
       </Helmet>
+
+      <p>
+        <div>
+          <img src={tfourmusiclogo} />
+        </div>
+        <div class="figure-caption">
+          The logo for 24Our Music.
+        </div>
+      </p>
 
       <p>
         For three years I was a writer for 24Our Music. It was my first job and 
