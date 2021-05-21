@@ -34,9 +34,11 @@ export default function Works() {
         Dollar Gamers
       </div>
       </Link></a>
+      <a><Link to="/works/feed-my-curiosity">
       <div class="non-collapsible-title feedmycuriosity">
         Feed My Curiosity
       </div>
+      </Link></a>
       <Collapsible 
         classParentString="collapsible-main-container"
         triggerClassName="collapsible-title"

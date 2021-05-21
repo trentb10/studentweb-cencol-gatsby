@@ -21,7 +21,7 @@ export default function Header() {
             <Link to="/works/24our-music"><div>24Our Music</div></Link>
             <Link to="/works/amp-the-sound"><div>Amp the Sound</div></Link>
             <Link to="/works/dollar-gamers"><div>Dollar Gamers</div></Link>
-            <Link to=""><div>Feed My Curiosity</div></Link>
+            <Link to="/works/feed-my-curiosity"><div>Feed My Curiosity</div></Link>
             <Link to=""><div>Personal Works</div></Link>
           </div>
         </li>
