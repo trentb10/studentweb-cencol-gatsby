@@ -29,9 +29,11 @@ export default function Works() {
           Amp the Sound
         </div>
       </Link></a>
+      <a><Link to="/works/dollar-gamers">
       <div class="non-collapsible-title dollargamers">
         Dollar Gamers
       </div>
+      </Link></a>
       <div class="non-collapsible-title feedmycuriosity">
         Feed My Curiosity
       </div>
