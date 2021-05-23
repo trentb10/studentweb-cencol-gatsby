@@ -148,17 +148,30 @@ export default function AboutMe() {
 
       <p>
         <div style={experienceTitle}>
-          <h3>Writer &mdash; Review & Write-Up Articles</h3>
-          <h3>(May 2014 - Jul. 2017)</h3>
+          <h3>Writer &mdash; YouTube Video Scripts</h3>
+          <h3>(2018 - present)</h3>
         </div>
-        24Our Music
+        Feed My Curiosity
         <ul>
           <li>
-            Wrote articles and reviews for albums, sometimes at the request from
-            artists themselves, paid or free
+            Writing video scripts covering a variety of topics including
+            technology, history, nature, space, food, and more.
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <div style={experienceTitle}>
+          <h3>Writer &mdash; Review and Write-Up Articles</h3>
+          <h3>(2019)</h3>
+        </div>
+        Dollar Gamers
+        <ul>
+          <li>
+            Wrote articles and reviews for cheap indie games
           </li>
           <li>
-            Handled the social media accounts (Facebook, Twitter)
+            Handled the social media accounts
           </li>
           <li>
             Uploaded articles to the website via WordPress
@@ -191,30 +204,17 @@ export default function AboutMe() {
 
       <p>
         <div style={experienceTitle}>
-          <h3>Writer &mdash; YouTube Video Scripts</h3>
-          <h3>(2018 - present)</h3>
+          <h3>Writer &mdash; Review & Write-Up Articles</h3>
+          <h3>(May 2014 - Jul. 2017)</h3>
         </div>
-        Feed My Curiosity
+        24Our Music
         <ul>
           <li>
-            Writing video scripts covering a variety of topics including
-            technology, history, nature, space, food, and more.
-          </li>
-        </ul>
-      </p>
-
-      <p>
-        <div style={experienceTitle}>
-          <h3>Writer &mdash; Review and Write-Up Articles</h3>
-          <h3>(2019)</h3>
-        </div>
-        Dollar Gamers
-        <ul>
-          <li>
-            Wrote articles and reviews for cheap indie games
+            Wrote articles and reviews for albums, sometimes at the request from
+            artists themselves, paid or free
           </li>
           <li>
-            Handled the social media accounts
+            Handled the social media accounts (Facebook, Twitter)
           </li>
           <li>
             Uploaded articles to the website via WordPress
