@@ -41,10 +41,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "iosevka-seranna-tm26.css";
 
-$content: 'Iosevka Seranna TM26 Web', 'Trebuchet MS', sans-serif;
+$content: 'PT Sans', 'Trebuchet MS', sans-serif;
 $navi: 'Monda', Arial, Helvetica, sans-serif;
-$header1: 'Monda', Arial, Helvetica, sans-serif;
-$header2: 'PT Sans', Arial, Helvetica, sans-serif;
+$header1: 'Iosevka Seranna TM26 Web', Arial, Helvetica, sans-serif;
+$header2: 'Iosevka Seranna TM26 Web', Arial, Helvetica, sans-serif;
 $tagline: 'PT Sans', 'Trebuchet MS', sans-serif;
 
 /* [STCL] Styling Colours */
@@ -60,9 +60,9 @@ $green: #9fff50;
 $orange: #ff9f50;
 $yellow: #ffd35c;
 
-/* --------------------------- */
+/* ---------------------------- */
 /* -= [GLEL] Global Elements =- */
-/* --------------------------- */
+/* ---------------------------- */
 
 body {
   align-items: center;
@@ -318,7 +318,7 @@ h2 {
 
 .content-body {
   font-family: $content;
-  font-size: 1rem;
+  font-size: 1.125rem;
   background-image: linear-gradient($vampireBlack, $carbonBlack);
   border-top: 5px solid $blue;
   display: block;
