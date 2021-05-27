@@ -6,6 +6,11 @@ import Collapsible from 'react-collapsible';
 
 import Layout from '../../components/layout';
 
+// Images
+
+import thumbnailTbot from "../../images/works/personal-works/t-bot/thumbnail.png";
+import thumbnailDreamWorld from "../../images/works/personal-works/trentb-dream-world/thumbnail.png";
+
 export default function PersonalWorks() {
   return (
     <Layout title="Personal Works">
@@ -20,7 +25,8 @@ export default function PersonalWorks() {
       <h2>Select a project:</h2>
 
       <div class="personal-work-container">
-        <div class="personal-work-screenshot">
+        <div class="personal-work-thumbnail">
+          <img src={thumbnailTbot} />
         </div>
         <div class="personal-work-info-container">
           <div class="personal-work-info-title">
@@ -34,7 +40,8 @@ export default function PersonalWorks() {
       </div>
       
       <div class="personal-work-container">
-        <div class="personal-work-screenshot">
+        <div class="personal-work-thumbnail">
+          <img src={thumbnailDreamWorld} />
         </div>
         <div class="personal-work-info-container">
           <div class="personal-work-info-title">

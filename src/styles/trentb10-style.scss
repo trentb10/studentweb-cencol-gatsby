@@ -612,12 +612,12 @@ a:active {
   transition: 0.4s;
 }
 
-.personal-work-screenshot {
+.personal-work-thumbnail {
   background-color: grey;
   border: 1px solid $blue;
   margin: 12px;
-  min-width: 150px;
-  height: 100px;
+  max-width: 200px;
+  height: 100%;
 }
 
 .personal-work-info-container {
