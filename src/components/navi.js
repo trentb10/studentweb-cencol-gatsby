@@ -22,7 +22,7 @@ export default function Header() {
             <Link to="/works/amp-the-sound"><div>Amp the Sound</div></Link>
             <Link to="/works/dollar-gamers"><div>Dollar Gamers</div></Link>
             <Link to="/works/feed-my-curiosity"><div>Feed My Curiosity</div></Link>
-            <Link to=""><div>Personal Works</div></Link>
+            <Link to="/personal-works"><div>Personal Works</div></Link>
           </div>
         </li>
       </ul>

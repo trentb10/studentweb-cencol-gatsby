@@ -4,7 +4,7 @@ import { withPrefix, Link } from 'gatsby';
 import { siteMetadata } from '../../gatsby-config';
 import Collapsible from 'react-collapsible';
 
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 export default function PersonalWorks() {
   return (
