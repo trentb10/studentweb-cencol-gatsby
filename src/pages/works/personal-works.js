@@ -1,10 +1,10 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { withPrefix, Link } from 'gatsby';
-import { siteMetadata } from '../../gatsby-config';
+import { siteMetadata } from '../../../gatsby-config';
 import Collapsible from 'react-collapsible';
 
-import Layout from '../components/layout';
+import Layout from '../../components/layout';
 
 export default function PersonalWorks() {
   return (
