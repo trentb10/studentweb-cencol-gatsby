@@ -22,6 +22,7 @@
   [CONT]  Content
   [BLQT]    Blockquotes
   [COCO]    Collapsibles
+  [COPW]    Personal Works List
   [COPB]    Profile Box    
   [COSB]    Skill Box
   [LINK]    Links
@@ -589,6 +590,44 @@ a:active {
   font-family: 'PT Sans', 'Trebuchet MS', Arial;
   font-size: 24px;
   color: $blue;
+}
+
+/* [COPW] Personal Works List */
+
+.personal-work-container {
+  background-color: $vampireBlack;
+  border: 2px solid $blue;
+  display: flex;
+  flex-direction: row;
+  min-width: 550px;
+}
+
+.personal-work-screenshot {
+  background-color: grey;
+  border: 1px solid $blue;
+  margin: 12px;
+  min-width: 150px;
+  height: 100px;
+}
+
+.personal-work-info-container {
+  background-color: $hoverBlack;
+  border: 2px solid $pink1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0.83rem;
+}
+
+.personal-work-info-divider {
+  border-bottom: 5px solid $blue;
+  margin: 30px 0 30px 0;
+  width: 80%;
+}
+
+.personal-work-info-title {
+  font-family: $header1;
+  font-size: 1.75rem;
 }
 
 /* [COSB] Skill Box */

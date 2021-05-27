@@ -19,12 +19,15 @@ export default function PersonalWorks() {
 
       <h2>Select a project:</h2>
 
-      <div class="non-collapsible-title">
-        T-Bot Guild Moderation
-      </div>
-
-      <div class="non-collapsible-title">
-        Trent B's Dream World!
+      <div class="personal-work-container">
+        <div class="personal-work-screenshot">
+        </div>
+        <div class="personal-work-info-container">
+          <div class="personal-work-info-title">
+            Trent B's Dream World!
+          </div>
+          <span class="personal-work-info-divider" />
+        </div>
       </div>
 
     </Layout>
