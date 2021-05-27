@@ -12,8 +12,21 @@ export default function PersonalWorks() {
       <Helmet>
         <title>Personal Works - {siteMetadata.title}</title>
       </Helmet>
-    </Layout>
 
-    
+      <p>
+        Here's all of the personal works and projects I have undertaken! 
+      </p>
+
+      <h2>Select a project:</h2>
+
+      <div class="non-collapsible-title">
+        T-Bot Guild Moderation
+      </div>
+
+      <div class="non-collapsible-title">
+        Trent B's Dream World!
+      </div>
+
+    </Layout>
   );
 }
