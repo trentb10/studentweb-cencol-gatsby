@@ -24,9 +24,26 @@ export default function PersonalWorks() {
         </div>
         <div class="personal-work-info-container">
           <div class="personal-work-info-title">
+            T-Bot Guild Moderation
+          </div>
+          <span class="personal-work-info-divider" />
+          <div class="personal-work-info-desc">
+            A Discord guild moderation bot I am currently making!
+          </div>
+        </div>
+      </div>
+      
+      <div class="personal-work-container">
+        <div class="personal-work-screenshot">
+        </div>
+        <div class="personal-work-info-container">
+          <div class="personal-work-info-title">
             Trent B's Dream World!
           </div>
           <span class="personal-work-info-divider" />
+          <div class="personal-work-info-desc">
+            My personal website made using GatsbyJS!
+          </div>
         </div>
       </div>
 
