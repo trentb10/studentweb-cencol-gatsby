@@ -39,12 +39,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import "iosevka-seranna-tm26.css";
+@import "iosevka-seranna-tm10.css";
 
 $content: 'PT Sans', 'Trebuchet MS', sans-serif;
 $navi: 'Monda', Arial, Helvetica, sans-serif;
-$header1: 'Iosevka Seranna TM26 Web', Arial, Helvetica, sans-serif;
-$header2: 'Iosevka Seranna TM26 Web', Arial, Helvetica, sans-serif;
+$header1: 'Iosevka Seranna TM10 Web', Arial, Helvetica, sans-serif;
+$header2: 'Iosevka Seranna TM10 Web', Arial, Helvetica, sans-serif;
 $tagline: 'PT Sans', 'Trebuchet MS', sans-serif;
 
 /* [STCL] Styling Colours */
@@ -331,7 +331,7 @@ h2 {
 }
 
 .tagline {
-  font-family: $header2, 'Trebuchet MS', Arial;
+  font-family: $tagline, 'Trebuchet MS', Arial;
   display: block;
   margin: 0.83em 0 0.83em;
   font-size: 1.5rem;
