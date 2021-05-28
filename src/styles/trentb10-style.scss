@@ -22,7 +22,7 @@
   [CONT]  Content
   [BLQT]    Blockquotes
   [COCO]    Collapsibles
-  [COPW]    Personal Works List
+  [COPI]    Personal Works Info Box
   [COPB]    Profile Box    
   [COSB]    Skill Box
   [LINK]    Links
@@ -280,7 +280,7 @@ li.dropdown {
   background-color: $hoverBlack;
 }
 
-.mainNavi .dropdown-content :hover {
+.mainNavi .dropdown-content > :hover {
   background-color:$hoverBlack;
   color: $green;
   transition: 0.4s;
@@ -552,7 +552,57 @@ a, a:visited {
 
 a:hover {
   color: $green;
+  transition-duration: 0.4s;
+}
+
+/* [COPI] Personal Works Info Box */
+
+.personal-work-container {
+  background-color: $vampireBlack;
+  border: 2px solid $blue;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  min-width: 550px;
+  margin: 40px 0;
+
   transition: 0.4s;
+}
+
+.personal-work-container:hover {
+  border: 2px solid $green;
+  transition: 0.4s;
+}
+
+a:hover > .personal-work-container  {
+  color: white;
+}
+
+.personal-work-thumbnail {
+  background-color: grey;
+  border: 1px solid $blue;
+  margin: 12px;
+  max-width: 200px;
+  height: 100%;
+}
+
+.personal-work-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0.83rem;
+}
+
+.personal-work-info-divider {
+  border-bottom: 2px solid white;
+  margin: 30px 0 30px 0;
+  width: 85%;
+}
+
+.personal-work-info-title {
+  font-family: $header1;
+  font-size: 1.75rem;
 }
 
 a:active {
@@ -590,52 +640,6 @@ a:active {
   font-family: 'PT Sans', 'Trebuchet MS', Arial;
   font-size: 24px;
   color: $blue;
-}
-
-/* [COPW] Personal Works List */
-
-.personal-work-container {
-  background-color: $vampireBlack;
-  border: 2px solid $blue;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: row;
-  cursor: pointer;
-  min-width: 550px;
-  margin: 40px 0;
-
-  transition: 0.4s;
-}
-
-.personal-work-container:hover {
-  border: 2px solid $pink1;
-  transition: 0.4s;
-}
-
-.personal-work-thumbnail {
-  background-color: grey;
-  border: 1px solid $blue;
-  margin: 12px;
-  max-width: 200px;
-  height: 100%;
-}
-
-.personal-work-info-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 0.83rem;
-}
-
-.personal-work-info-divider {
-  border-bottom: 2px solid white;
-  margin: 30px 0 30px 0;
-  width: 85%;
-}
-
-.personal-work-info-title {
-  font-family: $header1;
-  font-size: 1.75rem;
 }
 
 /* [COSB] Skill Box */
