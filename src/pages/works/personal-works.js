@@ -23,36 +23,39 @@ export default function PersonalWorks() {
       </p>
 
       <h2>Select a project:</h2>
-
-      <div class="personal-work-container">
-        <div class="personal-work-thumbnail">
-          <img src={thumbnailTbot} />
-        </div>
-        <div class="personal-work-info-container">
-          <div class="personal-work-info-title">
-            T-Bot Guild Moderation
+      <Link to="">
+        <div class="personal-work-container">
+          <div class="personal-work-thumbnail">
+            <img src={thumbnailTbot} />
           </div>
-          <span class="personal-work-info-divider" />
-          <div class="personal-work-info-desc">
-            A Discord guild moderation bot I am currently making!
+          <div class="personal-work-info-container">
+            <div class="personal-work-info-title">
+              T-Bot Guild Moderation
+            </div>
+            <span class="personal-work-info-divider" />
+            <div class="personal-work-info-desc">
+              A Discord guild moderation bot I am currently making!
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
       
-      <div class="personal-work-container">
-        <div class="personal-work-thumbnail">
-          <img src={thumbnailDreamWorld} />
-        </div>
-        <div class="personal-work-info-container">
-          <div class="personal-work-info-title">
-            Trent B's Dream World!
+      <Link to="trentb-dream-world">
+        <div class="personal-work-container">
+          <div class="personal-work-thumbnail">
+            <img src={thumbnailDreamWorld} />
           </div>
-          <span class="personal-work-info-divider" />
-          <div class="personal-work-info-desc">
-            My personal website made using GatsbyJS!
+          <div class="personal-work-info-container">
+            <div class="personal-work-info-title">
+              Trent B's Dream World!
+            </div>
+            <span class="personal-work-info-divider" />
+            <div class="personal-work-info-desc">
+              My personal website made using GatsbyJS!
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
 
     </Layout>
   );
