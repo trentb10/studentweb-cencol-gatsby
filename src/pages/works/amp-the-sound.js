@@ -42,15 +42,15 @@ export default function AmpTheSound() {
       </p>
 
       <p>
-        Because we were a startup, I had the opportunity to design the logo (see 
-        Figure 1):
+        Because we were a startup, we didn't have a logo yet and I took the 
+        opportunity to try and design one!
       </p>
 
       <p>
         <div>
           <img src={atsSketch1} />
         </div>
-        <div class="figure-caption">Figure 1: Logo sketches for Amp the Sound.</div>
+        <div class="figure-caption">Logo sketches for Amp the Sound.</div>
       </p>
 
       <p>
@@ -64,7 +64,7 @@ export default function AmpTheSound() {
 
       <p>
         I played around with the use of the volume knob being represented in the
-        "a", as seen in Figure 2:
+        "a":
       </p>
 
       <p>
@@ -72,7 +72,7 @@ export default function AmpTheSound() {
           <img src={atsSketch2} />
         </div>
         <div class="figure-caption">
-          Figure 2: Logo sketches experimenting with the use of the volume knob 
+          Logo sketches experimenting with the use of the volume knob 
           in the letter A.
         </div>
       </p>
@@ -86,8 +86,7 @@ export default function AmpTheSound() {
 
       <p>
         Multiple drafts of the logo were done digitally in Adobe Photoshop CS6, 
-        with different colour schemes (see Figure 3) and with the volume knob 
-        symbol and effect (see Figure 4):
+        with different colour schemes and with the volume knob symbol and effect.
       </p>
 
       <p>
@@ -95,7 +94,7 @@ export default function AmpTheSound() {
           <img src={atsSketch3} />
         </div>
         <div class="figure-caption">
-          Figure 3: Digital sketches of the logo with different colour schemes.
+          Digital sketches of the logo with different colour schemes.
         </div>
       </p>
 
@@ -104,8 +103,8 @@ export default function AmpTheSound() {
           <img src={atsSketch4} />
         </div>
         <div class="figure-caption">
-          Figure 4: Digital sketches of the logo with more colour schemes and 
-          the volume knob.
+          Digital sketches of the logo with more colour schemes and the volume 
+          knob.
         </div>
       </p>
 
@@ -124,8 +123,7 @@ export default function AmpTheSound() {
 
       <p>
         After consultations with my business partners for the magazine, the 
-        final versions of the logos were released (see Figures 5, 6, 7, 8, and 
-        9).
+        final versions of the logos were released.
       </p>
 
       <p>
@@ -133,8 +131,7 @@ export default function AmpTheSound() {
           <img src={atsFinal1} />
         </div>
         <div class="figure-caption">
-          Figure 5: The final logo for Amp the Sound, full text, purple on 
-          transparent.
+          The final logo for Amp the Sound, full text, purple on transparent.
         </div>
       </p>
 
@@ -143,8 +140,7 @@ export default function AmpTheSound() {
           <img src={atsFinal2} />
         </div>
         <div class="figure-caption">
-          Figure 6: The final logo for Amp the Sound, full text, dark on 
-          transparent.
+          The final logo for Amp the Sound, full text, dark on transparent.
         </div>
       </p>
       
@@ -153,8 +149,7 @@ export default function AmpTheSound() {
           <img src={atsFinal3} />
         </div>
         <div class="figure-caption">
-          Figure 7: The final logo for Amp the Sound, full text, lite on 
-          transparent.
+          The final logo for Amp the Sound, full text, lite on transparent.
         </div>
       </p>
 
@@ -163,8 +158,7 @@ export default function AmpTheSound() {
           <img style={imageResize} src={atsFinal4} />
         </div>
         <div class="figure-caption">
-          Figure 8: The final logo for Amp the Sound, in "ATS" form, purple on 
-          transparent.
+          The final logo for Amp the Sound, in "ATS" form, purple on transparent.
         </div>
       </p>
 
@@ -173,8 +167,8 @@ export default function AmpTheSound() {
           <img style={imageResize} src={atsFinal5} />
         </div>
         <div class="figure-caption">
-          Figure 9: The final logo for Amp the Sound, in its icon form, purple 
-          on transparent.
+          The final logo for Amp the Sound, in its icon form, purple on 
+          transparent.
         </div>
       </p>
       
