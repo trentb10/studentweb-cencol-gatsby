@@ -69,7 +69,80 @@ export default function TrentBDreamWorld() {
         projects. Other frameworks I have considered include Spring Boot and 
         ASP.NET since I've also used these in COMP303 Java EE Development and 
         COMP229 Web Application Development respectively, as well as Vue.js, 
-        AngularJS, and Express.js.
+        AngularJS, Express.js, GatsbyJS, and Riot.js.
+      </p>
+
+      <p>
+        After reading up on GatsbyJS and trying out the tutorial, I ended up 
+        liking it a lot and decided that I'd use it for my website. I also found 
+        that users on StackOverflow and Reddit would agree that GatsbyJS is the 
+        best for building small static websites and is based on React. Deciding 
+        on using GatsbyJS over other frameworks I've already learned gave me an 
+        opportunity to learn GatsbyJS, and it's now one of my favourites 😊.
+      </p>
+
+      <p>
+        I'm really impressed with how easy it is to make components and re-use 
+        them without writing unecessary, extra code. The main layout page, the 
+        navigation bar, and the footer are re-used exactly the way I imagined it 
+        to be! And I can easily define the page title in the Layout tag and refer 
+        to the site title variable in the config file. EZ 👏
+      </p>
+
+      <h2>A closer look at the features...</h2>
+
+      <p>
+        Here's a closer look at some of the features my website has.
+      </p>
+
+      <h3>The skillbox</h3>
+
+      <p>
+        The skillbox is tricky to implement and often recommended against because 
+        you can't really gouge how skilled you are at something based on 
+        <i>percentages</i>, and it makes sense too: How do you be 100% skilled 
+        in JavaScript, and how would that percentage change if you suddenly learn 
+        a bunch of new things with JS?
+      </p> 
+
+      <p>
+        I decided to include a skillbox because I thought it would be a great 
+        opportunity to exercise what I already know with CSS. However, I didn't 
+        really like any of the examples I found online because they all used 
+        percentages. Since I didn't find anything with a scale that I like, I 
+        decided the best approach was to build my own custom skill-box.
+      </p>
+
+      <p>
+        Sometimes, I like to sketch how things would look like before I go and 
+        implement it with code, so I tried to sketch the skillbox I was imagining:
+      </p>
+
+      <p>
+        placeholder image goes here
+      </p>
+
+      <p>
+        Since I sketched it out, I was able to see which ones would be divs and 
+        how it would be styled using flexbox.
+      </p>
+
+      <p>
+        Once I was satisfied with my sketches, the next step was to code up a 
+        draft in a separate, sandbox environment using just HTML, CSS, and JS. 
+        It was easy to code because I had already laid everything out on paper, 
+        and the collapsible code was the same code I used for the <i>Assignments</i>
+        page, which was used from a W3Schools tutorial.
+      </p>
+
+      <p>
+        placeholder image goes here
+      </p>
+
+      <p>
+        I was able to implement the custom skillbox for my website within the 
+        GatsbyJS environment, but there were a few issues I had:
+        
       </p>
     </Layout>
   );
