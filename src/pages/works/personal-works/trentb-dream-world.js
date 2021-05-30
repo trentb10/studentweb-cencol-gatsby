@@ -47,20 +47,29 @@ export default function TrentBDreamWorld() {
       </h2>
 
       <p>
-        One thing I wanted to achieve for my website was reusable components 
-        like the navigation bar and the footer. I was somewhat able to achieve 
-        this using seperate HTML pages and JQuery but on the long run it didn't 
-        really make much sense to use when I was nesting web-pages inside 
-        folders and I would have to unecessarily re-use code. 
+        The original plan was to build the website using plain static HTML5 and 
+        CSS just as I did with my studentweb cencol website. One of the things I 
+        wanted to do for my website was to use reusable components like the 
+        navigation bar and the footer being used for every page. I was somewhat 
+        able to achieve this using seperate HTML pages and JQuery but on the long 
+        run it didn't really make much sense to use when I was nesting web-pages 
+        inside folders and I would have to unecessarily re-use code. 
       </p>
 
       <p>
-        So I figured the best way to make my site was to use some sort of 
-        library framework.
+        So I figured the best way to achieve the way I wanted to build my site 
+        was to use some sort of library framework.
       </p>
 
       <p>
-        
+        One of the libraries I have considered using was React since I have used
+        it in COMP308 Emerging Technologies. Although it would accomplish what 
+        I would want to do, I wasn't sure if it was appropriate to use given that 
+        my personal site is just a small site and React is good for larger 
+        projects. Other frameworks I have considered include Spring Boot and 
+        ASP.NET since I've also used these in COMP303 Java EE Development and 
+        COMP229 Web Application Development respectively, as well as Vue.js, 
+        AngularJS, and Express.js.
       </p>
     </Layout>
   );
