@@ -48,12 +48,13 @@ export default function TrentBDreamWorld() {
 
       <p>
         The original plan was to build the website using plain static HTML5 and 
-        CSS just as I did with my studentweb cencol website. One of the things I 
-        wanted to do for my website was to use reusable components like the 
-        navigation bar and the footer being used for every page. I was somewhat 
-        able to achieve this using seperate HTML pages and JQuery but on the long 
-        run it didn't really make much sense to use when I was nesting web-pages 
-        inside folders and I would have to unecessarily re-use code. 
+        CSS just as I did with my studentweb cencol website, and publish it on 
+        GitHub Pages. One of the things I wanted to do for my website was to use 
+        reusable components like the navigation bar and the footer being used for 
+        every page. I was somewhat able to achieve this using seperate HTML pages 
+        and JQuery but on the long run it didn't really make much sense to use 
+        when I was nesting web-pages inside folders and I would have to 
+        unecessarily re-type code. 
       </p>
 
       <p>
@@ -83,7 +84,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         I'm really impressed with how easy it is to make components and re-use 
-        them without writing unecessary, extra code. The main layout page, the 
+        them without writing the same code over again. The main layout page, the 
         navigation bar, and the footer are re-used exactly the way I imagined it 
         to be! And I can easily define the page title in the Layout tag and refer 
         to the site title variable in the config file. EZ 👏
@@ -124,15 +125,15 @@ export default function TrentBDreamWorld() {
 
       <p>
         Since I sketched it out, I was able to see which ones would be divs and 
-        how it would be styled using flexbox.
+        how it would be styled using <code>flexbox</code>.
       </p>
 
       <p>
         Once I was satisfied with my sketches, the next step was to code up a 
         draft in a separate, sandbox environment using just HTML, CSS, and JS. 
         It was easy to code because I had already laid everything out on paper, 
-        and the collapsible code was the same code I used for the <i>Assignments</i>
-        page, which was used from a W3Schools tutorial.
+        and the collapsible code was the same code I used for 
+        the <i>Assignments</i> page, which was used from a W3Schools tutorial.
       </p>
 
       <p>

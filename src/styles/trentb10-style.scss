@@ -40,17 +40,20 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "iosevka-seranna-tm10.css";
 
-$content: 'PT Sans', 'Trebuchet MS', sans-serif;
 $navi: 'Monda', Arial, Helvetica, sans-serif;
 $header1: 'Iosevka Seranna TM10 Web', Arial, Helvetica, sans-serif;
 $header2: 'Iosevka Seranna TM10 Web', Arial, Helvetica, sans-serif;
+$content: 'PT Sans', 'Trebuchet MS', sans-serif;
+$code: 'Share Tech Mono', 'Consolas', monospace;
 $tagline: 'PT Sans', 'Trebuchet MS', sans-serif;
 
 /* [STCL] Styling Colours */
 
 $blue: #50ffff;
+$codeblue: #7cc4ff;
 $carbonBlack: #212121;
 $vampireBlack: #141414;
 $midnightBlack: #0a0a0a;
@@ -119,7 +122,7 @@ input[type=button], [type=reset], [type=submit] {
   background: #343434;
   border: none;
   color: $blue;
-  font-family: "Share Tech Mono", monospace;
+  font-family: $code;
   font-size: 16px;
   padding: 10px;
   text-transform: uppercase;
@@ -315,6 +318,13 @@ h2 {
   font-size: 1.75rem;
   color: $blue;
   font-weight: normal;
+}
+
+code {
+  font-family: $code;
+  color: $codeblue;
+  background-color: $midnightBlack;
+  padding: 0 5px;
 }
 
 .content-body {
