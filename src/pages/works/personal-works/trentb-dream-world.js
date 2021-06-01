@@ -142,9 +142,34 @@ export default function TrentBDreamWorld() {
 
       <p>
         I was able to implement the custom skillbox for my website within the 
-        GatsbyJS environment, but there were a few issues I had:
-        
+        GatsbyJS environment, but there was one glaring issue I had: The 
+        collapsible code used for the skillbox is the same as the collapsible 
+        code for the <i>Assignments</i> page. Although it would be much better 
+        for both the Assignment collapsibles and the skillbox to use the same JS
+        script file, it just wasn't possible with how GatsbyJS handles static 
+        vanilla JS files. Collapsibles break when using the skillbox, and then 
+        accessing the <i>Assignments</i> page and using the collapsibles.
       </p>
+
+      <p>
+        I was able to solve this issue by using a <a href="https://www.npmjs.com/package/react-collapsible">
+          React plugin
+        </a>, which is another great advantage of using GatsbyJS. Both the 
+        skillbox and the collapsibles in the <i>Assignments</i> and <i>Works</i> page 
+        uses the collapsible plugin, and after reading the documentation for the 
+        plugin, I was able to get collapsibles to look the way I wanted to!
+      </p>
+
+      <p>
+        Thanks to the way <code>.js</code> files in GatsbyJS work, I can build 
+        the skillbox and define the scores very easily without repeating too 
+        much code:
+      </p>
+
+      <p>
+        Placeholder image
+      </p>
+      
     </Layout>
   );
 }
