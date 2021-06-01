@@ -7,6 +7,8 @@ import Layout from '../../../components/layout';
 
 // Image imports
 
+import tbdw1 from '../../../images/works/personal-works/trentb-dream-world/tbdw-iosevka.png';
+
 import thumbnailDreamWorld from "../../../images/works/personal-works/trentb-dream-world/thumbnail.png";
 
 export default function TrentBDreamWorld() {
@@ -96,12 +98,64 @@ export default function TrentBDreamWorld() {
         Here's a closer look at some of the features my website has.
       </p>
 
+      <h3>The fonts</h3>
+
+      <p>
+        Here are the fonts I have used for the website:
+        <ul>
+          <li>
+            <a 
+              href="https://fonts.google.com/specimen/PT+Sans">
+              PT Sans
+            </a>
+            : My favourite font that I've used almost anywhere: It's the default 
+            font I've set for OneNote and Word, and it's a font I've set as the 
+            system default using a regedit script. It's only fitting that it's 
+            also the default font for the content body.
+          </li>
+          <li>
+            <a
+              href="https://fonts.google.com/specimen/Monda">
+              Monda
+            </a>
+            : Its nice blocky style makes it a good font for the navigation bar, 
+            and it blends in very well with the other fonts on this site.
+          </li>
+          <li>
+            <a
+              href="https://fonts.google.com/specimen/Share+Tech+Mono">
+              Share Tech Mono
+            </a>
+            : This is one of my favourite monospaced fonts! I've used it as my 
+            default font in my IDEs for quite a long time, and it's currently my 
+            default font for my Command Prompt, Powershell, and Terminal. It's 
+            the same font used for the terminals in Fallout 4, one of my favourite 
+            single player video games.
+          </li>
+          <li>
+            Iosevka: This variant of Iosevka used for the headers is actually a 
+            customized version built through Node.js. I really like how I'm able 
+            to change some of the letters to build the perfect font I'd use 
+            everyday in my IDE's.
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <div>
+          <img src={tbdw1} />
+        </div>
+        <div class="figure-caption">
+          My customized version of Iosevka.
+        </div>
+      </p>
+
       <h3>The skillbox</h3>
 
       <p>
         The skillbox is tricky to implement and often recommended against because 
-        you can't really gouge how skilled you are at something based on 
-        <i>percentages</i>, and it makes sense too: How do you be 100% skilled 
+        you can't really gouge how skilled you are at something based on <i>percentages</i>, 
+        and it makes sense too: How do you be 100% skilled 
         in JavaScript, and how would that percentage change if you suddenly learn 
         a bunch of new things with JS?
       </p> 
