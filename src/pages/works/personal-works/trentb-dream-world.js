@@ -150,6 +150,31 @@ export default function TrentBDreamWorld() {
         </div>
       </p>
 
+      <h3>The navigation bar</h3>
+
+      <p>
+        The navigation bar is one of my favourite features of the website! At 
+        first I experimented with a navbar for <a href="https://trentb10.github.io/studentweb-cencol-github-pages/comp213-002/assignment3/assignment3.html">
+          Assignment 3
+        </a> for COMP213. A couple of its CSS attributes are <code>position: sticky</code> and <code>top: 0</code>, 
+        so once the user scrolls down the page and passes the default position 
+        of the navbar, it will stick to the top of the window screen. This 
+        navbar navigates for that page specifically, including a link that 
+        jumps back to the top (it just routes to <code>#</code>) and a link 
+        that goes back to the index.
+      </p>
+
+      <p>
+        placeholder image
+      </p>
+
+      <p>
+        I eventually implemented a navbar for the index too (when my site was 
+        still hosted on studentweb cencol) and it worked well for the most part. 
+        I used a seperate HTML file for the navbar code and then used JQuery to 
+        insert it into the pages I wanted.
+      </p>
+
       <h3>The skillbox</h3>
 
       <p>
