@@ -7,9 +7,11 @@ import Layout from '../../../components/layout';
 
 // Image imports
 
-import tbdw1 from '../../../images/works/personal-works/trentb-dream-world/tbdw-iosevka.png';
-
 import thumbnailDreamWorld from "../../../images/works/personal-works/trentb-dream-world/thumbnail.png";
+import tbdwIosevka from '../../../images/works/personal-works/trentb-dream-world/tbdw-iosevka.png';
+import tbdwDetermineSkillMethod from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillmethod.png';
+import tbdwDetermineSkillMethodCall from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillmethodcall.png';
+import tbdwDetermineSkillValues from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillvalues.png';
 
 export default function TrentBDreamWorld() {
   return (
@@ -143,7 +145,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         <div>
-          <img src={tbdw1} />
+          <img src={tbdwIosevka} />
         </div>
         <div class="figure-caption">
           My customized version of Iosevka.
@@ -172,7 +174,25 @@ export default function TrentBDreamWorld() {
         I eventually implemented a navbar for the index too (when my site was 
         still hosted on studentweb cencol) and it worked well for the most part. 
         I used a seperate HTML file for the navbar code and then used JQuery to 
-        insert it into the pages I wanted.
+        insert it into the pages I wanted. However, it wouldn't work as well 
+        when I was planning to publish this site on GitHub Pages and nest pages 
+        in folders. I guess it would be fine if I kept everything on one page 
+        and the navbar would just navigate to headers on different parts of the 
+        site, but the way I wanted to structure the folders and files means I 
+        would have to copy and paste code, which just doens't make sense at all.
+      </p>
+
+      <p>
+        The navbar is one of the reasons why I chose to use GatsbyJS, since I 
+        can use the navbar as a component. The navbar component is inserted into 
+        the main layout component, which means every page I create for this site 
+        will always have the navbar! No copy and paste required.
+      </p>
+
+      <p>
+        It's been awhile since I created the navbar so I can't remember exactly 
+        which tutorial I followed to create it, but it's probably a combination
+        of the navbar tutorials from W3Schools and CSS-Tricks.
       </p>
 
       <h3>The skillbox</h3>
@@ -246,7 +266,32 @@ export default function TrentBDreamWorld() {
       </p>
 
       <p>
-        Placeholder image
+        <div>
+          <img src={tbdwDetermineSkillValues} />
+        </div>
+        <div class="figure-caption">
+          I can easily determine values for my skills by passing it into a 
+          method.
+        </div>
+      </p>
+      
+      <p>
+        <div>
+          <img src={tbdwDetermineSkillMethod} />
+        </div>
+        <div class="figure-caption">
+          The method "fills in the boxes" like so.
+        </div>
+      </p>
+
+      <p>
+        <div>
+          <img src={tbdwDetermineSkillMethodCall} />
+        </div>
+        <div class="figure-caption">
+          And then I call the method when coding in the collapsibles for the 
+          skillbox.
+        </div>
       </p>
       
     </Layout>

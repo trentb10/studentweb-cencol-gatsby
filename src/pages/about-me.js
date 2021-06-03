@@ -23,8 +23,6 @@ export default function AboutMe() {
   let actionscript = determineSkill("ActionScript", 2);
   let python = determineSkill("Python", 1);
 
-  
-
   return (
     <Layout title="About Me!">
       <Helmet>
@@ -401,7 +399,8 @@ export default function AboutMe() {
               develop in VB again!
             </p>
           </div>
-        </Collapsible><Collapsible
+        </Collapsible>
+        <Collapsible
           trigger={actionscript}
         >
           <div class="skillbox-skill-info">
