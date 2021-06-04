@@ -45,9 +45,11 @@ export default function Works() {
         triggerOpenedClassName="collapsible-title"
         trigger="Personal Projects"
       >
-        <div class="collapsible-content">
-          T-Bot Guild Moderation
-        </div>
+        <Link to="personal-works/t-bot">
+          <div class="collapsible-content">
+            T-Bot Guild Moderation
+          </div>
+        </Link>
         <Link to="personal-works/trentb-dream-world">
           <div class="collapsible-content">
             Trent B's Dream World!

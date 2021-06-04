@@ -23,7 +23,7 @@ export default function PersonalWorks() {
       </p>
 
       <h2>Select a project:</h2>
-      <Link to="">
+      <Link to="t-bot">
         <div class="personal-work-container">
           <div class="personal-work-thumbnail">
             <img src={thumbnailTbot} />
