@@ -12,6 +12,8 @@ import tbdwIosevka from '../../../images/works/personal-works/trentb-dream-world
 import tbdwDetermineSkillMethod from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillmethod.png';
 import tbdwDetermineSkillMethodCall from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillmethodcall.png';
 import tbdwDetermineSkillValues from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillvalues.png';
+import tbdwAssignmentNavbar from '../../../images/works/personal-works/trentb-dream-world/tbdw-assignmentnavbar.png';
+import tbdwSkillboxSandbox from '../../../images/works/personal-works/trentb-dream-world/tbdw-skillboxsandbox.gif';
 
 export default function TrentBDreamWorld() {
   return (
@@ -167,7 +169,13 @@ export default function TrentBDreamWorld() {
       </p>
 
       <p>
-        placeholder image
+        <div>
+          <img src={tbdwAssignmentNavbar} />
+        </div>
+        <div class="figure-caption">
+          The navbar I made for COMP213 Assignment 3 would stick to the top as 
+          you scroll down past the navbar's original position.
+        </div>
       </p>
 
       <p>
@@ -236,12 +244,17 @@ export default function TrentBDreamWorld() {
       </p>
 
       <p>
-        placeholder image goes here
+        <div>
+          <img src={tbdwSkillboxSandbox} />
+        </div>
+        <div class="figure-caption">
+          The skillbox I built in a sandbox environment.
+        </div>
       </p>
 
       <p>
-        I was able to implement the custom skillbox for my website within the 
-        GatsbyJS environment, but there was one glaring issue I had: The 
+        Although I was able to implement the custom skillbox for my website 
+        within the GatsbyJS environment, I had one glaring issue I had: The 
         collapsible code used for the skillbox is the same as the collapsible 
         code for the <i>Assignments</i> page. Although it would be much better 
         for both the Assignment collapsibles and the skillbox to use the same JS
