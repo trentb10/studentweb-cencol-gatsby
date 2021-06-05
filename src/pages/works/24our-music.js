@@ -117,9 +117,7 @@ export default function Twenty4OurMusic() {
       </p>
 
       <p>
-        <form action="https://issuu.com/24ourmusic/docs" target="_blank">
-          <input type="submit" value="View all 24Our Music Issues" />
-        </form>
+        <a href="https://issuu.com/24ourmusic/docs">View all 24Our Music Issues!</a>
       </p>
     </Layout>
   );
