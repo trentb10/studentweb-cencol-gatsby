@@ -222,41 +222,10 @@ export default function AboutMe() {
 
       <p>
         Now that I've given an overview of my experiences, I will go into further
-        detail about myself, including which programming languages, frameworks/
-        libraries, and IDEs and office suites I'm proficient in!
+        detail about my experiences with different technologies!
       </p>
 
-      <p>
-        To measure my proficiency, I used a skillbox with my own defined scale:
-      </p>
-
-      <p>
-        1 - Willing to Learn More! I've used it for a little bit and I can do
-        some basic stuff with it, but I'm not as proficient and comfortable 
-        with it as the others as much as I like. I'm willing to devote some 
-        time and learn more about it so I can become more proficient and familiar 
-        with it!
-      </p>
-
-      <p>
-        2 - Familiar! I've used it and had some practice with it, allowing me to
-        build some small/medium projects. In some cases I haven't used it in a 
-        long time, or I still think there's more to learn, but a little refresher 
-        or a review will help me become more proficient with it.
-      </p>
-
-      <p>
-        3 - Fairly Proficient! I've used it for a good amount of time and I've 
-        built a number of projects with it. With a given language/framework, I 
-        can visualize/sketch out a task and have an idea of how I want to 
-        approach the task before I go and write out the code.
-      </p>
-
-      <p>
-        4 - Very Proficient! I'm so good with it I can use it with my eyes closed!
-      </p>
-
-      <h2>My Proficiencies in Programming Languages</h2>
+      <h2>My Experiences with Different Programming Languages</h2>
 
       <p>
         Here is an in-depth list of languages I have used before.
