@@ -13,7 +13,14 @@ import tbdwDetermineSkillMethod from '../../../images/works/personal-works/trent
 import tbdwDetermineSkillMethodCall from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillmethodcall.png';
 import tbdwDetermineSkillValues from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillvalues.png';
 import tbdwAssignmentNavbar from '../../../images/works/personal-works/trentb-dream-world/tbdw-assignmentnavbar.png';
-import tbdwSkillboxSandbox from '../../../images/works/personal-works/trentb-dream-world/tbdw-skillboxsandbox.gif';
+import tbdwSkillboxSandbox from '../../../images/works/personal-works/trentb-dream-world/tbdw-skillboxsandbox.gif';// Image styling
+
+// Image styling
+
+let imageResize = {
+  "width": "550px",
+  "height": "auto"
+}
 
 export default function TrentBDreamWorld() {
   return (
@@ -245,7 +252,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         <div>
-          <img src={tbdwSkillboxSandbox} />
+          <img src={tbdwSkillboxSandbox} style={imageResize} />
         </div>
         <div class="figure-caption">
           The skillbox I built in a sandbox environment.
