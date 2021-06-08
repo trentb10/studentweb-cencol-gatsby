@@ -154,7 +154,7 @@ export default function Cencol() {
 
       <li>
         <a 
-          href=""
+          href="https://github.com/trentb10/COMP228-F2019"
           target="_blank"
         >
           View GitHub Repository

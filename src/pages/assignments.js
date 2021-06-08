@@ -171,9 +171,14 @@ export default function Home() {
           triggerOpenedClassName="collapsible-nested-header"
           trigger="COMP228 Java Programming"
         >
-          <div class="collapsible-content">
-            Coming soon!
-          </div>
+          <a 
+            href="https://github.com/trentb10/COMP228-F2019"
+            target="_blank"
+          >
+            <div class="collapsible-content">
+              View GitHub Repository
+            </div>
+          </a>
         </Collapsible>
 
         <Collapsible
