@@ -8,9 +8,19 @@ import Layout from '../components/layout';
 
 import avatar from '../images/avatar.gif';
 
-let experienceTitle = {
+let experienceHeader = {
   display: "flex",
   "justify-content": "space-between"
+}
+
+let experienceTitle = {
+  "text-align": "left",
+  "margin-right": "20px"
+}
+
+let experienceDate = {
+  "text-align": "left",
+  "margin-left": "20px"
 }
 
 export default function AboutMe() {    
@@ -49,7 +59,7 @@ export default function AboutMe() {
             </a>
             &nbsp;|&nbsp;
           <a
-            href=""
+            href="https://www.linkedin.com/in/trentb-minia/"
             target="_blank">
             LinkedIn
           </a>
@@ -58,7 +68,7 @@ export default function AboutMe() {
       </div>
 
       <div class="tagline">
-        Writing code to make a difference on the WWW,<br/>
+        Writing code to make a difference<br/>
         one line at a time.
       </div>
 
@@ -96,9 +106,9 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <div style={experienceTitle}>
-          <h3>Centennial College</h3>
-          <h3>(Jan. 2019 - Apr. 2021)</h3>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>Centennial College</h3>
+          <h3 style={experienceDate}>(Jan. 2019 - Apr. 2021)</h3>
         </div>
         <ul>
           <li>Advanced Diploma in Software Engineering Technology</li>
@@ -106,9 +116,9 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <div style={experienceTitle}>
-          <h3>University of Toronto Scarborough</h3>
-          <h3>(Sept. 2014 - Dec. 2018)</h3>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>University of Toronto Scarborough</h3>
+          <h3 style={experienceDate}>(Sept. 2014 - Dec. 2018)</h3>
         </div>
         <ul>
           <li>
@@ -118,11 +128,11 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <div style={experienceTitle}>
-          <h3>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>
             Saint John Paul II Catholic Secondary School
           </h3>
-          <h3>
+          <h3 style={experienceDate}>
             (Sept. 2009 - June 2013)
           </h3>
         </div>
@@ -145,9 +155,9 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <div style={experienceTitle}>
-          <h3>Writer &mdash; YouTube Video Scripts</h3>
-          <h3>(2018 - present)</h3>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>Writer &mdash; YouTube Video Scripts</h3>
+          <h3 style={experienceDate}>(2018 - present)</h3>
         </div>
         Feed My Curiosity
         <ul>
@@ -159,9 +169,9 @@ export default function AboutMe() {
       </p>
 
       <p>
-        <div style={experienceTitle}>
-          <h3>Writer &mdash; Review and Write-Up Articles</h3>
-          <h3>(2019)</h3>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>Writer &mdash; Review and Write-Up Articles</h3>
+          <h3 style={experienceDate}>(2019)</h3>
         </div>
         Dollar Gamers
         <ul>
@@ -178,9 +188,9 @@ export default function AboutMe() {
       </p>
       
       <p>
-        <div style={experienceTitle}>
-          <h3>Writer &mdash; Review & Write-Up Articles</h3>
-          <h3>(Dec 2017 - Mar. 2018)</h3>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>Writer &mdash; Review & Write-Up Articles</h3>
+          <h3 style={experienceDate}>(Dec 2017 - Mar. 2018)</h3>
         </div>
         Amp the Sound
         <ul>
@@ -195,15 +205,15 @@ export default function AboutMe() {
             Uploaded articles to the website via WordPress
           </li>
           <li>
-            Designed the logo (Check it out here!)
+            Designed the logo (Check it out <Link to="../works/amp-the-sound">here</Link>!)
           </li>
         </ul>
       </p>
 
       <p>
-        <div style={experienceTitle}>
-          <h3>Writer &mdash; Review & Write-Up Articles</h3>
-          <h3>(May 2014 - Jul. 2017)</h3>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>Writer &mdash; Review & Write-Up Articles</h3>
+          <h3 style={experienceDate}>(May 2014 - Jul. 2017)</h3>
         </div>
         24Our Music
         <ul>
