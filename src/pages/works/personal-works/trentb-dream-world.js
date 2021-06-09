@@ -13,7 +13,9 @@ import tbdwDetermineSkillMethod from '../../../images/works/personal-works/trent
 import tbdwDetermineSkillMethodCall from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillmethodcall.png';
 import tbdwDetermineSkillValues from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillvalues.png';
 import tbdwAssignmentNavbar from '../../../images/works/personal-works/trentb-dream-world/tbdw-assignmentnavbar.png';
-import tbdwSkillboxSandbox from '../../../images/works/personal-works/trentb-dream-world/tbdw-skillboxsandbox.gif';// Image styling
+import tbdwSkillboxSandbox from '../../../images/works/personal-works/trentb-dream-world/tbdw-skillboxsandbox.gif';
+import tbdwSkillboxSketch from '../../../images/works/personal-works/trentb-dream-world/tbdw-skillboxsketchfull.jpg';
+import tbdwAboutMeBoxSketch from '../../../images/works/personal-works/trentb-dream-world/tbdw-aboutmeboxsketch.jpg';
 
 // Image styling
 
@@ -234,12 +236,15 @@ export default function TrentBDreamWorld() {
       </p>
 
       <p>
-        placeholder image goes here
-      </p>
-
-      <p>
-        Since I sketched it out, I was able to see which ones would be divs and 
-        how it would be styled using <code>flexbox</code>.
+        <div>
+          <img src={tbdwSkillboxSketch} />
+        </div>
+        <div class="figure-caption">
+          My sketches for the skillbox, which includes a neat version that allows 
+          me to see how it would visually look and a crude version that shows 
+          which elements would be used as a <code>div</code> and how they would 
+          be arranged using <code>flexbox</code>.
+        </div>
       </p>
 
       <p>
@@ -311,6 +316,27 @@ export default function TrentBDreamWorld() {
         <div class="figure-caption">
           And then I call the method when coding in the collapsibles for the 
           skillbox.
+        </div>
+      </p>
+
+      <h3>The About Me box</h3>
+
+      <p>
+        The About Me box is featured in the <Link to="/about-me">About Me</Link> page
+        and it's a simple box that shows my name, links, and my avatar.
+      </p>
+
+      <p>
+        Just as I did with the Skillbox, I did a quick sketch of how I wanted 
+        the About Me box to visually look:
+      </p>
+
+      <p>
+        <div>
+          <img src={tbdwAboutMeBoxSketch} />
+        </div>
+        <div class="figure-caption">
+          My sketch for the About Me box.
         </div>
       </p>
       
