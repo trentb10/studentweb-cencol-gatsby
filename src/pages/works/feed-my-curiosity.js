@@ -41,15 +41,15 @@ export default function FeedMyCuriosity() {
       </p>
 
       <p>
-        After we perform brainstorming as a team and picked out a topic we like 
+        After we performed brainstorming as a team and picked out a topic we like 
         to do, as a scriptwriter, I begin to do research on the topic, put 
         together my sources, and write the script in Google Docs based on my 
         findings.
       </p>
 
       <p>
-        Once my script has been edited, I go over the suggested edits, make the
-        necessary changes, and I'm overall satisfied with the script, it's then 
+        After my script has been edited, I go over the suggested edits and make the
+        necessary changes. Once I'm overall satisfied with the script, it's then 
         sent to our voice-over guy for recording. My friend does the post-
         production and uploads the video to the YouTube channel.
       </p>
