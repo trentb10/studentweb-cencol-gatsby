@@ -163,6 +163,24 @@ export default function Cencol() {
 
       <h2>COMP308 Emerging Technologies</h2>
 
+      <li>
+        <a 
+          href="https://github.com/trentb10/COMP308-W2021"
+          target="_blank"
+        >
+          View GitHub Repository
+        </a>
+      </li>
+
+      <li>
+        <a 
+          href="https://github.com/abhishek1998/COMP308-ProjectAssignment"
+          target="_blank"
+        >
+          Project Assignment
+        </a>
+      </li>
+
       <h2>COMP397 Web Game Programming</h2>
 
       <li>

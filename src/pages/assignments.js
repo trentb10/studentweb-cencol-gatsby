@@ -186,9 +186,22 @@ export default function Home() {
           triggerOpenedClassName="collapsible-nested-header"
           trigger="COMP308 Emerging Technologies"
         >
-          <div class="collapsible-content">
-            Coming soon!
-          </div>
+          <a 
+            href="https://github.com/trentb10/COMP308-W2021"
+            target="_blank"
+          >
+            <div class="collapsible-content">
+              View GitHub Repository
+            </div>
+          </a>
+          <a 
+            href="https://github.com/abhishek1998/COMP308-ProjectAssignment"
+            target="_blank"
+          >
+            <div class="collapsible-content">
+              Project Assignment
+            </div>
+          </a>
         </Collapsible>
 
         <Collapsible
