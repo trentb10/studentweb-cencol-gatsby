@@ -161,6 +161,17 @@ export default function Cencol() {
         </a>
       </li>
 
+      <h2>COMP303 Java EE Programming</h2>
+
+      <li>
+        <a
+          href="https://github.com/MATNaruse/F20_COMP303_A4"
+          target="_blank"
+        >
+          Assignment 4
+        </a>
+      </li>
+
       <h2>COMP308 Emerging Technologies</h2>
 
       <li>

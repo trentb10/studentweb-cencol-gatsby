@@ -184,6 +184,21 @@ export default function Home() {
         <Collapsible
           triggerClassName="collapsible-nested-header"
           triggerOpenedClassName="collapsible-nested-header"
+          trigger="COMP303 Java EE Programming"
+        >
+          <a 
+            href="https://github.com/MATNaruse/F20_COMP303_A4"
+            target="_blank"
+          >
+            <div class="collapsible-content">
+              Assignment 4
+            </div>
+          </a>
+        </Collapsible>
+
+        <Collapsible
+          triggerClassName="collapsible-nested-header"
+          triggerOpenedClassName="collapsible-nested-header"
           trigger="COMP308 Emerging Technologies"
         >
           <a 
