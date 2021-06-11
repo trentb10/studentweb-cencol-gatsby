@@ -9,7 +9,7 @@ import Layout from '../../components/layout';
 // Images
 
 import thumbnailTbot from "../../images/works/personal-works/t-bot/thumbnail.png";
-import thumbnailDreamWorld from "../../images/works/personal-works/trentb-dream-world/thumbnail.png";
+import thumbnailTbog from "../../images/works/personal-works/trentb-on-gatsby/thumbnail.png";
 
 export default function PersonalWorks() {
   return (
@@ -40,14 +40,14 @@ export default function PersonalWorks() {
         </div>
       </Link>
       
-      <Link to="trentb-dream-world">
+      <Link to="trentb-on-gatsby">
         <div class="personal-work-container">
           <div class="personal-work-thumbnail">
-            <img src={thumbnailDreamWorld} />
+            <img src={thumbnailTbog} />
           </div>
           <div class="personal-work-info-container">
             <div class="personal-work-info-title">
-              Trent B's Dream World!
+              Trent B on Gatsby!
             </div>
             <span class="personal-work-info-divider" />
             <div class="personal-work-info-desc">

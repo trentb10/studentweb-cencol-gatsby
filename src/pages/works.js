@@ -50,9 +50,9 @@ export default function Works() {
             T-Bot Guild Moderation
           </div>
         </Link>
-        <Link to="personal-works/trentb-dream-world">
+        <Link to="personal-works/trentb-on-gatsby">
           <div class="collapsible-content">
-            Trent B's Dream World!
+            Trent B on Gatsby!
           </div>
         </Link>
       </Collapsible>

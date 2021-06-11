@@ -7,15 +7,15 @@ import Layout from '../../../components/layout';
 
 // Image imports
 
-import thumbnailDreamWorld from "../../../images/works/personal-works/trentb-dream-world/thumbnail.png";
-import tbdwIosevka from '../../../images/works/personal-works/trentb-dream-world/tbdw-iosevka.png';
-import tbdwDetermineSkillMethod from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillmethod.png';
-import tbdwDetermineSkillMethodCall from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillmethodcall.png';
-import tbdwDetermineSkillValues from '../../../images/works/personal-works/trentb-dream-world/tbdw-determineskillvalues.png';
-import tbdwAssignmentNavbar from '../../../images/works/personal-works/trentb-dream-world/tbdw-assignmentnavbar.png';
-import tbdwSkillboxSandbox from '../../../images/works/personal-works/trentb-dream-world/tbdw-skillboxsandbox.gif';
-import tbdwSkillboxSketch from '../../../images/works/personal-works/trentb-dream-world/tbdw-skillboxsketchfull.jpg';
-import tbdwAboutMeBoxSketch from '../../../images/works/personal-works/trentb-dream-world/tbdw-aboutmeboxsketch.jpg';
+import thumbnailtrentbog from "../../../images/works/personal-works/trentb-on-gatsby/thumbnail.png";
+import tbogIosevka from '../../../images/works/personal-works/trentb-on-gatsby/tbog-iosevka.png';
+import tbogDetermineSkillMethod from '../../../images/works/personal-works/trentb-on-gatsby/tbog-determineskillmethod.png';
+import tbogDetermineSkillMethodCall from '../../../images/works/personal-works/trentb-on-gatsby/tbog-determineskillmethodcall.png';
+import tbogDetermineSkillValues from '../../../images/works/personal-works/trentb-on-gatsby/tbog-determineskillvalues.png';
+import tbogAssignmentNavbar from '../../../images/works/personal-works/trentb-on-gatsby/tbog-assignmentnavbar.png';
+import tbogSkillboxSandbox from '../../../images/works/personal-works/trentb-on-gatsby/tbog-skillboxsandbox.gif';
+import tbogSkillboxSketch from '../../../images/works/personal-works/trentb-on-gatsby/tbog-skillboxsketchfull.jpg';
+import tbogAboutMeBoxSketch from '../../../images/works/personal-works/trentb-on-gatsby/tbog-aboutmeboxsketch.jpg';
 
 // Image styling
 
@@ -24,21 +24,21 @@ let imageResize = {
   "height": "auto"
 }
 
-export default function TrentBDreamWorld() {
+export default function TrentBOnGatsby() {
   return (
-    <Layout title="Trent B's Dream World!">
+    <Layout title="Trent B on Gatsby!">
       <Helmet>
-        <title>Trent B's Dream World! - {siteMetadata.title}</title>
+        <title>Trent B on Gatsby! - {siteMetadata.title}</title>
       </Helmet>
 
       <p>
         <div>
-          <img src={thumbnailDreamWorld} />
+          <img src={thumbnailtrentbog} />
         </div>
       </p>
 
       <p>
-        <i>Trent B's Dream World!</i> is my personal website made using GatsbyJS!
+        <i>Trent B on Gatsby!</i> is my personal website made using GatsbyJS!
       </p>
 
       <h2>How it started</h2>
@@ -156,7 +156,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         <div>
-          <img src={tbdwIosevka} />
+          <img src={tbogIosevka} />
         </div>
         <div class="figure-caption">
           My customized version of Iosevka.
@@ -179,7 +179,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         <div>
-          <img src={tbdwAssignmentNavbar} />
+          <img src={tbogAssignmentNavbar} />
         </div>
         <div class="figure-caption">
           The navbar I made for COMP213 Assignment 3 would stick to the top as 
@@ -237,7 +237,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         <div>
-          <img src={tbdwSkillboxSketch} />
+          <img src={tbogSkillboxSketch} />
         </div>
         <div class="figure-caption">
           My sketches for the skillbox, which includes a neat version that allows 
@@ -257,7 +257,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         <div>
-          <img src={tbdwSkillboxSandbox} style={imageResize} />
+          <img src={tbogSkillboxSandbox} style={imageResize} />
         </div>
         <div class="figure-caption">
           The skillbox I built in a sandbox environment.
@@ -292,7 +292,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         <div>
-          <img src={tbdwDetermineSkillValues} />
+          <img src={tbogDetermineSkillValues} />
         </div>
         <div class="figure-caption">
           I can easily determine values for my skills by passing it into a 
@@ -302,7 +302,7 @@ export default function TrentBDreamWorld() {
       
       <p>
         <div>
-          <img src={tbdwDetermineSkillMethod} />
+          <img src={tbogDetermineSkillMethod} />
         </div>
         <div class="figure-caption">
           The method "fills in the boxes" like so.
@@ -311,7 +311,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         <div>
-          <img src={tbdwDetermineSkillMethodCall} />
+          <img src={tbogDetermineSkillMethodCall} />
         </div>
         <div class="figure-caption">
           And then I call the method when coding in the collapsibles for the 
@@ -333,7 +333,7 @@ export default function TrentBDreamWorld() {
 
       <p>
         <div>
-          <img src={tbdwAboutMeBoxSketch} />
+          <img src={tbogAboutMeBoxSketch} />
         </div>
         <div class="figure-caption">
           My sketch for the About Me box.

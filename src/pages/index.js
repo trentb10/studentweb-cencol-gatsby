@@ -14,7 +14,7 @@ import Layout from '../components/layout';
 
 export default function Home() {
 	return (
-		<Layout title="Trent B's Dream World!">
+		<Layout title="Trent B on Gatsby!">
 			<Helmet>
 				<title>{siteMetadata.title}</title>
 			</Helmet>
