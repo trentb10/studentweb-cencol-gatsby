@@ -27,4 +27,47 @@ the website on the cloud
 new features will be developed and pushed to this branch before being released 
 and pushed to the `main` branch.
 
-# Quick Feature Overview
+# Feature Overview Summary
+
+*Trent B on Gatsby!* is my personal website implemented using GatsbyJS! During 
+development, my site's working title was *Trent B's Dream World!*
+
+## Page Navigation Map
+
+My site may be navigated using the navbar at the top. The navigable pages are:
+
+* `Home`
+* `About Me`
+* `Assignments`
+  * `Centennial College`
+  * `University of Toronto`
+* `Works`
+  * `24Our Music`
+  * `Amp the Sound`
+  * `Dollar Gamers`
+  * `Feed My Curiosity`
+  * `Personal Works`
+
+Each bullet point has its own page. `Works` and `Assignments` pages features 
+collapsibles. `About Me` has a skillbox, that is also made using collapsibles.
+
+## Fonts
+
+The following fonts were used:
+
+ * PT Sans
+ * Monda
+ * Share Tech Mono
+ * Customized Iosevka
+
+![Customized Iosevka](src/images/works/personal-works/trentb-on-gatsby/tbog-iosevka.png)
+My customized Iosevka font I built via `npm`.
+
+## Plugins
+
+Aside from the necessary GatsbyJS dependencies installed via `npm` at project 
+creation, the following plugins were also used:
+
+* [gatsby-plugin-sass](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-sass) and [sass](https://github.com/sass/sass)
+* [react-collapsible](https://github.com/glennflanagan/react-collapsible)
+* [react-helmet](https://github.com/nfl/react-helmet)
