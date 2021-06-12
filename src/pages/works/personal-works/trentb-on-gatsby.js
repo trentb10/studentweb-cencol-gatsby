@@ -17,6 +17,12 @@ import tbogSkillboxSandbox from '../../../images/works/personal-works/trentb-on-
 import tbogSkillboxSketch from '../../../images/works/personal-works/trentb-on-gatsby/tbog-skillboxsketchfull.jpg';
 import tbogAboutMeBoxSketch from '../../../images/works/personal-works/trentb-on-gatsby/tbog-aboutmeboxsketch.jpg';
 
+import HeaderImage1 from '../../../images/headers/header-1.png';
+import HeaderImage2 from '../../../images/headers/header-2.png';
+import HeaderImage3 from '../../../images/headers/header-3.png';
+import HeaderImage4 from '../../../images/headers/header-4.png';
+import HeaderImage5 from '../../../images/headers/header-5.png';
+
 // Image styling
 
 let imageResize = {
@@ -339,7 +345,48 @@ export default function TrentBOnGatsby() {
           My sketch for the About Me box.
         </div>
       </p>
-      
+
+      <h3>Header Images</h3>
+
+      <p>
+        I couldn't really settle on one header image so I decided to use multiple 
+        images instead! There are a total of five images that are randomly selected
+        upon page load.
+      </p>
+
+      <p>
+        <img src={HeaderImage1} style={imageResize} /> <br />
+        <img src={HeaderImage2} style={imageResize} /> <br />
+        <img src={HeaderImage3} style={imageResize} /> <br />
+        <img src={HeaderImage4} style={imageResize} /> <br />
+        <img src={HeaderImage5} style={imageResize} /> <br />
+      </p>
+
+      <h3>Plugins</h3>
+
+      <p>
+        Aside from the pre-requisites installed at GatsbyJS project creation, the 
+        following additonal plugins were also used to make this website:
+
+        <ul>
+          <li>
+            <a 
+              href="https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-sass"
+            >gatsby-plugin-sass</a> and <a href="https://github.com/sass/sass">sass</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/glennflanagan/react-collapsible"
+            >react-collapsible</a>
+          </li>
+          <li>
+            <a 
+              href="https://github.com/nfl/react-helmet"
+            >react-helmet</a>
+          </li>
+        </ul>
+      </p>
+
     </Layout>
   );
 }
