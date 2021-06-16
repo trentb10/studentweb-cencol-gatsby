@@ -306,12 +306,14 @@ export default function AboutMe() {
               a little more of what I have to say about it. For this, I've used 
               a <a href="https://www.npmjs.com/package/react-collapsible">React
               plugin</a> for collapsibles, the same plugin I used for the <Link
-              to="/assignments">Assignments</Link> page as well.
+              to="/assignments">Assignments</Link> page as well. The collapsible 
+              plugin uses SASS/SCSS for styling; Not only did I learn how to use 
+              SASS I actually prefer it over CSS now!
             </p>
             <p>
               Once I sketched out how I wanted my skill box to look like, I began 
-              building it from scratch with CSS. You can see my sketches in the 
-              Works &#62; Personal Works section!
+              building it from scratch with CSS. You can see my 
+              sketches <Link to="../works/personal-works/trentb-on-gatsby">here</Link>!
             </p>
           </div>
         </Collapsible>
@@ -362,7 +364,7 @@ export default function AboutMe() {
               >here</a> and <a 
                 href="https://github.com/trentb10/COMP397-W2021-Group14-Final" 
                 target="_blank"
-              >here!</a>
+              >here</a>!
             </p>
           </div>
         </Collapsible>
