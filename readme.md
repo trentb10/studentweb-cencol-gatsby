@@ -61,7 +61,7 @@ The following fonts were used:
  * Customized Iosevka
 
 ![Customized Iosevka](src/images/works/personal-works/trentb-on-gatsby/tbog-iosevka.png)
-My customized Iosevka font I built via `npm`.
+<center>My customized Iosevka font I built via `npm`.</center>
 
 ## Plugins
 
