@@ -230,12 +230,7 @@ export default function AboutMe() {
         </ul>
       </p>
 
-      <p>
-        Now that I've given an overview of my experiences, I will go into further
-        detail about my experiences with different technologies!
-      </p>
-
-      <h2>My Experiences with Different Programming Languages</h2>
+      <h2>Programming Languages</h2>
 
       <p>
         Here is an in-depth list of languages I have used before.
@@ -422,6 +417,14 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
+
+      <h2>Excited to Work Together!</h2>
+
+      <p>
+        I am up for any project and willing to do what it takes to get the job 
+        done. Let's work together!
+      </p>
+
     </Layout>
   );
 }
