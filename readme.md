@@ -16,6 +16,8 @@ This repository is used to host the website on the GatsbyJS cloud.
 
 # Release Notes
 
+**2021-06-22**: Version 1.0 released on Gatsby Cloud!
+
 # Branch Notes
 
 As soon as Trent B on Gatsby! reaches Version 1.0 release, there will be two 
