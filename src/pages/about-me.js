@@ -111,7 +111,7 @@ export default function AboutMe() {
           <h3 style={experienceDate}>(Jan. 2019 - Apr. 2021)</h3>
         </div>
         <ul>
-          <li>Advanced Diploma in Software Engineering Technology</li>
+          <li>Advanced Diploma in Software Engineering Technology with Honours</li>
         </ul>
       </p>
 
