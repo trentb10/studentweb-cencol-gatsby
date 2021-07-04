@@ -16,7 +16,11 @@ This repository is used to host the website on the GatsbyJS cloud.
 
 # Release Notes
 
-**2021-06-22**: Version 1.0 released on Gatsby Cloud!
+**2021-07-03**: Version 1.0.1
+ - Minor changes made to the About Me page, the footer, and readme
+
+**2021-06-22**: Version 1.0
+ - Released on Gatsby Cloud!
 
 # Branch Notes
 
@@ -26,8 +30,8 @@ branches set up to manage the project the rest of the way:
 * `main`: The main branch of the project repository that will be used to publish 
 the website on the cloud
 * `development`: The development branch of the project repository. All changes 
-new features will be developed and pushed to this branch before being released 
-and pushed to the `main` branch.
+and new features will be developed and pushed to this branch before being 
+released and pushed to the `main` branch.
 
 # Feature Overview Summary
 
