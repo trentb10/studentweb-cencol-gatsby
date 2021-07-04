@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <div class="footer-content">
-      <p>&copy;&nbsp;Trent B on Gatsby! 2019 - 2021</p>
+      <p>&copy;&nbsp;Trent B on Gatsby! Version 1.0.1 2019 - 2021</p>
     </div>
   );
 }

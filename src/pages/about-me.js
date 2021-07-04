@@ -165,13 +165,16 @@ export default function AboutMe() {
             Writing video scripts covering a variety of topics including
             technology, history, nature, space, food, and more.
           </li>
+          <li>
+            Handled the social media accounts
+          </li>
         </ul>
       </p>
 
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer &mdash; Review and Write-Up Articles</h3>
-          <h3 style={experienceDate}>(2019)</h3>
+          <h3 style={experienceDate}>(May 2019 - Aug. 2019)</h3>
         </div>
         Dollar Gamers
         <ul>
@@ -190,7 +193,7 @@ export default function AboutMe() {
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer &mdash; Review & Write-Up Articles</h3>
-          <h3 style={experienceDate}>(Dec 2017 - Mar. 2018)</h3>
+          <h3 style={experienceDate}>(Dec. 2017 - Mar. 2018)</h3>
         </div>
         Amp the Sound
         <ul>
@@ -248,7 +251,7 @@ export default function AboutMe() {
             Familiar!
           </div>
           <div class="skillbox-skill-legend-label">
-            Fairly proficient!
+            Proficient!
           </div>
           <div class="skillbox-skill-legend-label">
             Very proficient!
