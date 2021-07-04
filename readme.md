@@ -16,6 +16,9 @@ This repository is used to host the website on the GatsbyJS cloud.
 
 # Release Notes
 
+**2021-07-03**: Version 1.0.2
+ - Updated education
+
 **2021-07-03**: Version 1.0.1
  - Minor changes made to the About Me page, the footer, and readme
 
