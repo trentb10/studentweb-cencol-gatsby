@@ -76,7 +76,8 @@ export default function AboutMe() {
 
       <p>
         Hi! My name is Trent B Minia, and I'm a recent graduate from Centennial
-        College with an Advanced Diploma in Software Engineering Technology.
+        College with an Advanced Diploma in Software Engineering Technology with
+        Honours!
       </p>
 
       <p>
@@ -84,7 +85,7 @@ export default function AboutMe() {
       </p>
 
       <ul>
-        <li>Passion for programming, especially for the web</li>
+        <li>Passion for programming, writing clean and organized working code</li>
         <li>Familiar with HTML, CSS, JavaScript, Java, and C#</li>
         <li>Good with troubleshooting computer-related issues</li>
         <li>
@@ -93,18 +94,14 @@ export default function AboutMe() {
         </li>
         <li>Proficient in WordPress and other blog-publishing websites</li>
         <li>
-          Experience with music and video editing for education, as well as 
-          graphic design for work
+          Experience with music and video editing, as well as graphic design with 
+          school and work-related projects!
         </li>
         <li>Works well independently or with a team!</li>
       </ul>
 
       <h2>Education</h2>
-
-      <p>
-        Here is an overview of my education:
-      </p>
-
+      
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Centennial College</h3>
@@ -151,22 +148,15 @@ export default function AboutMe() {
       <h2>Work</h2>
 
       <p>
-        Here is an overview of my work experience:
-      </p>
-
-      <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer &mdash; YouTube Video Scripts</h3>
-          <h3 style={experienceDate}>(2018 - present)</h3>
+          <h3 style={experienceDate}>(Jul. 2018 - present)</h3>
         </div>
         Feed My Curiosity
         <ul>
           <li>
             Writing video scripts covering a variety of topics including
             technology, history, nature, space, food, and more.
-          </li>
-          <li>
-            Handled the social media accounts
           </li>
         </ul>
       </p>
@@ -180,9 +170,6 @@ export default function AboutMe() {
         <ul>
           <li>
             Wrote articles and reviews for cheap indie games
-          </li>
-          <li>
-            Handled the social media accounts
           </li>
           <li>
             Uploaded articles to the website via WordPress
@@ -202,10 +189,10 @@ export default function AboutMe() {
             artists themselves, paid or free
           </li>
           <li>
-            Handled the social media accounts (Facebook, Twitter)
+            Uploaded articles to the website via WordPress
           </li>
           <li>
-            Uploaded articles to the website via WordPress
+            Proofread, edited, and designed articles uploaded by other writers
           </li>
           <li>
             Designed the logo (Check it out <Link to="../works/amp-the-sound">here</Link>!)
@@ -225,18 +212,18 @@ export default function AboutMe() {
             artists themselves, paid or free
           </li>
           <li>
-            Handled the social media accounts (Facebook, Twitter)
+            Uploaded articles to the website via WordPress
           </li>
           <li>
-            Uploaded articles to the website via WordPress
+            Proofread, edited, and designed articles uploaded by other writers
           </li>
         </ul>
       </p>
 
-      <h2>Programming Languages</h2>
+      <h2>My list of Programming Languages</h2>
 
       <p>
-        Here is an in-depth list of languages I have used before.
+        Here is an in-depth list of languages I have used before:
       </p>
 
       <div class="skillbox-container">
@@ -425,7 +412,8 @@ export default function AboutMe() {
 
       <p>
         I am up for any project and willing to do what it takes to get the job 
-        done. Let's work together!
+        done. Find me on my <a href="https://www.linkedin.com/in/trentb-minia/">LinkedIn</a> and 
+        let's work together!
       </p>
 
     </Layout>
