@@ -108,7 +108,10 @@ export default function AboutMe() {
           <h3 style={experienceDate}>(Jan. 2019 - Apr. 2021)</h3>
         </div>
         <ul>
-          <li>Advanced Diploma in Software Engineering Technology with Honours</li>
+          <li>
+            Advanced Diploma in Software Engineering Technology with Honours 
+            (3.9 GPA)
+          </li>
         </ul>
       </p>
 
@@ -150,7 +153,7 @@ export default function AboutMe() {
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer &mdash; YouTube Video Scripts</h3>
-          <h3 style={experienceDate}>(Jul. 2018 - present)</h3>
+          <h3 style={experienceDate}>(July 2018 - present)</h3>
         </div>
         Feed My Curiosity
         <ul>
@@ -172,7 +175,8 @@ export default function AboutMe() {
             Wrote articles and reviews for cheap indie games
           </li>
           <li>
-            Uploaded articles to the website via WordPress
+            Uploaded articles to the website, as well as proofread, edited, and 
+            designed articles uploaded by others via WordPress
           </li>
         </ul>
       </p>
@@ -185,14 +189,11 @@ export default function AboutMe() {
         Amp the Sound
         <ul>
           <li>
-            Wrote articles and reviews for albums, sometimes at the request from
-            artists themselves, paid or free
+            Wrote articles and reviews for music
           </li>
           <li>
-            Uploaded articles to the website via WordPress
-          </li>
-          <li>
-            Proofread, edited, and designed articles uploaded by other writers
+            Uploaded articles to the website, as well as proofread, edited, and 
+            designed articles uploaded by others via WordPress
           </li>
           <li>
             Designed the logo (Check it out <Link to="../works/amp-the-sound">here</Link>!)
@@ -203,27 +204,24 @@ export default function AboutMe() {
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer &mdash; Review & Write-Up Articles</h3>
-          <h3 style={experienceDate}>(May 2014 - Jul. 2017)</h3>
+          <h3 style={experienceDate}>(May 2014 - July 2017)</h3>
         </div>
         24Our Music
         <ul>
           <li>
-            Wrote articles and reviews for albums, sometimes at the request from
-            artists themselves, paid or free
+            Wrote articles and reviews for music
           </li>
           <li>
-            Uploaded articles to the website via WordPress
-          </li>
-          <li>
-            Proofread, edited, and designed articles uploaded by other writers
+            Uploaded articles to the website, as well as proofread, edited, and 
+            designed articles uploaded by others via WordPress
           </li>
         </ul>
       </p>
 
-      <h2>My list of Programming Languages</h2>
+      <h2>My list of Technologies</h2>
 
       <p>
-        Here is an in-depth list of languages I have used before:
+        Here is an in-depth list of different technologies I have used before:
       </p>
 
       <div class="skillbox-container">
@@ -249,17 +247,14 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-              The earliest exposure I had to HTML was building web pages through 
-              web development tools. In high school, I built a web site using Dreamweaver!
-              I wish I had saved this site, but it was on a flash drive that became 
-              corrupted 😭. All I can tell you about that site was that it was about 
-              Katy Perry...
+              In high school, I have used Dreamweaver to build a website for a 
+              school assignment!
             </p>
             <p>
-              The first time I built a web site using a text editor was for Centennial 
-              College, when I wrote HTML code for COMP213 Assignment 1 in Sublime 
-              Text! I'm pretty comfortable writing HTML in text editors, as I'm 
-              doing so right now for this web site in VS Code!
+              I also used Sublime Text 3, Visual Studio Code, and Expression 
+              Web to build a variety of websites for assignments during my time 
+              at Centennial College. VS Code is currently my preferred text 
+              editor, which I'm using to build this website!
             </p>
           </div>
         </Collapsible>
@@ -268,37 +263,11 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-              I can't remember whether I used CSS with that Katy Perry website I 
-              made for high school. Although COMP213 Assignment 1 didn't use CSS 
-              and was just styled using the style attribute, I did learn to use 
-              CSS afterward, and I re-coded Assignment 1 to use styles from a CSS 
-              file.
-            </p>
-            <p>
-              Out of all the parts regarding web design, I consider writing CSS 
-              to be the most fun. I enjoy adding attributes to elements and classes 
-              and watching the web site "come alive."
-            </p>
-            <p>
-              Something I've had to build from scratch using CSS is this skill box, 
-              for example. I didn't really like most of the examples on the web 
-              because they didn't really fit what I was looking for in a skill box. 
-              I didn't want to use progress bars with percentages because I don't 
-              think that's an appropriate way to gouge how good a programmer is 
-              with a language. I wanted a skill box with my own scale defined, 
-              and I wanted to make it possible for the user to click on a skill 
-              so the description container is expanded and the user can read 
-              a little more of what I have to say about it. For this, I've used 
-              a <a href="https://www.npmjs.com/package/react-collapsible">React
-              plugin</a> for collapsibles, the same plugin I used for the <Link
-              to="/assignments">Assignments</Link> page as well. The collapsible 
-              plugin uses SASS/SCSS for styling; Not only did I learn how to use 
-              SASS I actually prefer it over CSS now!
-            </p>
-            <p>
-              Once I sketched out how I wanted my skill box to look like, I began 
-              building it from scratch with CSS. You can see my 
-              sketches <Link to="../works/personal-works/trentb-on-gatsby">here</Link>!
+              I've also used CSS as part of building websites during my time at
+              Centennial College. As part of building this website, I've used 
+              a plugin called <a href="https://www.npmjs.com/package/react-collapsible">react-collapsible</a>,
+              which uses SASS for styling. SASS is what I currently use for this 
+              website, and it's what I currently prefer over CSS!
             </p>
           </div>
         </Collapsible>
@@ -307,16 +276,11 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-              I didn't learn JavaScript until my second term at Centennial College,
-              but it has quickly become one of my favourite languages, along with 
-              HTML, CSS, and Java. I am comfortable programming in JS for client-side 
-              web development as well as for non-browser applications. During my 
-              last term at Centennial College, I have programmed in Node.js to build 
-              applications using the Express.js framework and the React library.
-            </p>
-            <p>
-              My current JavaScript projects include a Discord bot using the Discord.js 
-              library, as well as this website using Gatsby!
+              I've used JavaScript for client-side web development, as well as 
+              for Node.js development at Centennial College. Currently, I'm using 
+              Node.js for a couple of personal projects: 
+              A <Link to="/works/personal-works/t-bot">Discord moderation bot</Link> and
+              my <Link to="/works/personal-works/trentb-on-gatsby">personal website</Link>!
             </p>
           </div>
         </Collapsible>
@@ -325,11 +289,11 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-              I have been learning and developing Java applications since high school.
-              throughout high-school and my third term at Centennial College, I 
-              have programmed Java console applications. In the following terms, 
-              I used Java to build Android applications in Android Studio as well 
-              as web applications using Spring MVC and Spring Boot. 
+              I have been learning Java applications since high school and is
+              one of the first programming languages I've ever learned. I've 
+              developed a variety of console applications, and at Centennial 
+              College I've also used Java to develop Android applications and 
+              web applications using Spring MVC and Spring Boot.
             </p>
           </div>
         </Collapsible>
@@ -338,12 +302,12 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-              C# was the language I've learned and used for the majority of my academic 
-              career at Centennial College. Among the kinds of applications I have
-              developed using C# include console applications, windows forms, WPF 
-              forms, and web applications. I've also used C# in Unity for COMP397 
-              Web Game Programming, in which my group and I developed <i>Robo 
-              Escape</i> for our term project. You may check it out <a 
+              I have built a variety of applications using C# during my time at 
+              Centennial College, including console applications, windows forms,
+              WPF forms, and web applications. I've also used C# in Unity for 
+              COMP397 Web Game Programming, in which my group and I  
+              developed <i>Robo Escape</i> for our term project. You may check 
+              it out <a 
                 href="https://github.com/trentb10/COMP397-W2021-Group14-Assignment1-Part3-BUILD" 
                 target="_blank"
               >here</a> and <a 
@@ -383,21 +347,15 @@ export default function AboutMe() {
         >
           <div class="skillbox-skill-info">
             <p>
-              I was fortunate to have learned Python in a course at Centennial College
-              that wasn't actually dedicated to Python. It was a course on Linux 
-              systems and I didn't learn Python until the second half of the course.
+              I had an opportunity to learn Python in a course called COMP301 
+              Unix Linux Operating Systems at Centennial College, in which I 
+              developed and ran console applications in Ubuntu. I also used 
+              Python in a course for COMP309 Data Warehouse & Mining. 
             </p>
-            <p>    
-              The most I did with Python was write basic console applications, as 
-              well as running and modifying code for lab assignments for COMP309 
-              Data Warehouse & Mining. 
-            </p>
-            <p>    
-              Although I don't have much experience with Python as I'd like to, 
-              I aim to find more learning opportunities so I can practice Python 
-              as much as I can and become proficient with it! I've recently enrolled
-              myself into <i>Automate the Boring Stuff with Python Programming</i>
-              on Udemy!
+            <p>
+              I'm looking forward for more learning opportunities with Python, 
+              as I've enrolled myself in the <i>Automate the Boring Stuff with 
+              Python Programming</i> course on Udemy!
             </p>
           </div>
         </Collapsible>
@@ -411,8 +369,9 @@ export default function AboutMe() {
       <h2>Excited to Work Together!</h2>
 
       <p>
-        I am up for any project and willing to do what it takes to get the job 
-        done. Find me on my <a href="https://www.linkedin.com/in/trentb-minia/">LinkedIn</a> and 
+        I am up for the challenge and am willing to do what it takes to get the 
+        job done. Contact me on  
+        my <a href="https://www.linkedin.com/in/trentb-minia/">LinkedIn</a> and 
         let's work together!
       </p>
 
