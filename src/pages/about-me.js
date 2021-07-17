@@ -23,10 +23,13 @@ let experienceDate = {
   "margin-left": "20px"
 }
 
-export default function AboutMe() {    
+export default function AboutMe() {
+  let office = determineSkill("MS Office", 4);
+  let drive = determineSkill("Google Drive", 4);
+  let wp = determineSkill("WordPress", 4);
   let html = determineSkill("HTML5", 3);
   let css = determineSkill("CSS", 3);
-  let js = determineSkill("JavaScript", 3)
+  let js = determineSkill("JavaScript", 3);
   let java = determineSkill("Java", 3);
   let csharp = determineSkill("C#", 3);
   let vb = determineSkill("VB", 2);
@@ -75,7 +78,7 @@ export default function AboutMe() {
       <h2>Nice to meet you!</h2>
 
       <p>
-        Hi! My name is Trent B Minia, and I'm a recent graduate from Centennial
+        Hi! My name is Trent and I'm a recent graduate from Centennial
         College with an Advanced Diploma in Software Engineering Technology with
         Honours!
       </p>
@@ -242,13 +245,52 @@ export default function AboutMe() {
             Very proficient!
           </div>
         </div>
+        <Collapsible 
+          trigger={office}
+        >
+          <div class="skillbox-skill-info">
+            <p>
+              I have used Microsoft Office extensively over the course of my 
+              post-secondary career, especially Word for writing academic essays 
+              and documentation, Excel for spreadsheet tasks, and PowerPoint for 
+              class presentations.
+            </p>
+          </div>
+        </Collapsible>
+        <Collapsible
+          trigger={drive}
+        >
+          <div class="skillbox-skill-info">
+            I have used Google Drive extensively over the course of my 
+            post-secondary career and it's a number one choice of mine due to 
+            its ability to easily collaborate with others! I used Docs for all 
+            word-processing assignments; Sheets for spreadsheet tasks and for 
+            keeping track of project progress and schedules; and Slides for 
+            class presentations. Docs is also my current choice for writing 
+            scripts for Feed My Curiosity, and we make extensive use of the 
+            review and editing feature.
+          </div>
+        </Collapsible>
+        <Collapsible
+          trigger={wp}
+        >
+          <div class="skillbox-skill-info">
+            <p>
+              I have used WordPress to upload, proofread, edit, and design 
+              articles for 24Our Music, Amp the Sound, and Dollar Gamers. Part 
+              of my work experience involving HTML also comes from using WordPress,
+              in which I would use <code>iFrame</code> embeds to insert media 
+              into articles.
+            </p>
+          </div>
+        </Collapsible>
         <Collapsible
           trigger={html}
         >
           <div class="skillbox-skill-info">
             <p>
-              In high school, I have used Dreamweaver to build a website for a 
-              school assignment!
+              In high school, I have used Dreamweaver to build a website for an
+              assignment!
             </p>
             <p>
               I also used Sublime Text 3, Visual Studio Code, and Expression 
