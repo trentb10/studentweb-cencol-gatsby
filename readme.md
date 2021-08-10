@@ -16,6 +16,9 @@ This repository is used to host the website on the GatsbyJS cloud.
 
 # Release Notes
 
+**2021-08-10**: Version 1.0.5
+ - Updated index
+
 **2021-07-16**: Version 1.0.4
  - Updated about-me section
    - Renamed list of programming languages to list of technologies
