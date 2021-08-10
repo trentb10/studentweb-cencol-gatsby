@@ -42,7 +42,7 @@ export default function Home() {
 				of my past works and assignments I did as a student at Centennial 
 				and UofT; a writer with 24OurMusic, Amp the Sound, and Feed My 
 				Curiosity, which I am currently writing scripts for; and of 
-				course, my resume!
+				course, my curriculum vitae!
 			</p>
 	
 			<p>
