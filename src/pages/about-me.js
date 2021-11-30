@@ -70,17 +70,20 @@ export default function AboutMe() {
         </div>
       </div>
 
-      <div class="tagline">
-        Writing code to make a difference<br/>
-        one line at a time.
-      </div>
+      {/* <div class="tagline">
+      </div> */}
 
       <h2>Nice to meet you!</h2>
 
       <p>
-        Hi! My name is Trent and I'm a recent graduate from Centennial
-        College with an Advanced Diploma in Software Engineering Technology with
-        Honours!
+        Hi! My name is Trent. I'm a recent graduate of Centennial College with 
+        an Advanced Diploma in Software Engineering Technology with Honours! I'm 
+        also a graduate of the University of Toronto, majoring in Media Studies 
+        and minoring in English and Psychology. Currently, I'm a writer for the 
+        YouTube channel <a 
+          href="https://www.youtube.com/c/FeedMyCuriosityChannel"
+          target="_blank">Feed My Curiosity
+        </a>.
       </p>
 
       <p>
@@ -89,6 +92,7 @@ export default function AboutMe() {
 
       <ul>
         <li>Passion for programming, writing clean and organized working code</li>
+        <li>Passion for writing articles and video scripts</li>
         <li>Familiar with HTML, CSS, JavaScript, Java, and C#</li>
         <li>Good with troubleshooting computer-related issues</li>
         <li>
