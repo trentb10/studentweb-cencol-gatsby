@@ -16,6 +16,10 @@ This repository is used to host the website on the GatsbyJS cloud.
 
 # Release Notes
 
+**2022-03-19**: Version 1.0.6.1
+ - Updated footer to show correct version
+ - Took this as an opportunity to see if I properly installed nvm-windows, gatsby, and git on my new laptop 🏃‍♀️
+
 **2021-11-29**: Verison 1.0.6
  - Updated about-me section
 
