@@ -39,16 +39,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import "iosevka-seranna-tm10.css";
+@import "iosevka-margaret-tm10.css";
 
-$navi: 'Monda', Arial, Helvetica, sans-serif;
-$header1: 'Iosevka Seranna TM10 Web', Arial, Helvetica, sans-serif;
-$header2: 'Iosevka Seranna TM10 Web', Arial, Helvetica, sans-serif;
-$content: 'PT Sans', 'Trebuchet MS', sans-serif;
+$navi: 'Overpass', Arial, Helvetica, sans-serif;
+$header1: 'Iosevka Margaret TM10 Web', Arial, Helvetica, sans-serif;
+$header2: 'Iosevka Margaret TM10 Web', Arial, Helvetica, sans-serif;
+$content: 'Overpass Thin', 'Trebuchet MS', sans-serif;
 $code: 'Share Tech Mono', 'Consolas', monospace;
-$tagline: 'Iosevka Seranna TM10 Web', 'Share Tech Mono', monospace;
+$tagline: 'Iosevka Margaret TM10 Web', 'Share Tech Mono', monospace;
 
 /* [STCL] Styling Colours */
 
@@ -646,7 +647,7 @@ a:active {
 }
 
 .profilebox-name {
-  font-family: 'PT Sans', 'Trebuchet MS', Arial;
+  font-family: 'Iosevka Margaret TM10', 'Consolas', Arial;
   font-size: 24px;
   color: $blue;
 }
