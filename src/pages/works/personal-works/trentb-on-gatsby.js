@@ -124,21 +124,14 @@ export default function TrentBOnGatsby() {
         <ul>
           <li>
             <a 
-              href="https://fonts.google.com/specimen/PT+Sans">
-              PT Sans
+              href="https://fonts.google.com/specimen/Overpass">
+              Overpass
             </a>
-            : My favourite font that I've used almost anywhere: It's the default 
-            font I've set for OneNote and Word, and it's a font I've set as the 
-            system default using a regedit script. It's only fitting that it's 
-            also the default font for the content body.
-          </li>
-          <li>
-            <a
-              href="https://fonts.google.com/specimen/Monda">
-              Monda
-            </a>
-            : Its nice blocky style makes it a good font for the navigation bar, 
-            and it blends in very well with the other fonts on this site.
+            : Based on the Highway Gothic font, I've used it for Cities Skylines
+            and started to like it so much that I began using it as my system 
+            default font. For the website, it's currently used for the navigation 
+            bar and the content body. The alternate fonts are Arial and Helvetica 
+            for the navi and Trebuchet MS for the content body.
           </li>
           <li>
             <a
@@ -149,13 +142,17 @@ export default function TrentBOnGatsby() {
             default font in my IDEs for quite a long time, and it's currently my 
             default font for my Command Prompt, Powershell, and Terminal. It's 
             the same font used for the terminals in Fallout 4, one of my favourite 
-            single player video games.
+            single player video games. For this website, it's currently used for 
+            <code>inline code displays</code>. The alternate font is Consolas.
           </li>
           <li>
-            Iosevka: This variant of Iosevka used for the headers is actually a 
-            customized version built through Node.js. I really like how I'm able 
-            to change some of the letters to build the perfect font I'd use 
-            everyday in my IDE's.
+            <a
+              href="https://github.com/be5invis/Iosevka">
+              Iosevka
+            </a>
+            : I've custom-built Iosevka through Node.js that I'm using for my 
+            IDE's. For this website, it's being used for content headers. The 
+            alternate fonts are Arial and Helvetica. 
           </li>
         </ul>
       </p>
