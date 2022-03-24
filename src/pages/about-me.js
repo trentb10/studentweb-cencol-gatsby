@@ -104,7 +104,7 @@ export default function AboutMe() {
           Experience with music and video editing, as well as graphic design with 
           school and work-related projects!
         </li>
-        <li>Works well independently or with a team!</li>
+        <li>Works well independently and with a team!</li>
       </ul>
 
       <h2>Education</h2>
