@@ -88,13 +88,12 @@ collapsibles. `About Me` has a skillbox, that is also made using collapsibles.
 
 The following fonts were used:
 
- * PT Sans
- * Monda
- * Share Tech Mono
- * Customized Iosevka
+ * [Overpass](https://fonts.google.com/specimen/Overpass)
+ * [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono)
+ * [Iosevka](https://github.com/be5invis/Iosevka), custom-built from source
 
 ![Customized Iosevka](src/images/works/personal-works/trentb-on-gatsby/tbog-iosevka.png)
-<center>My customized Iosevka font I built via `npm`.</center>
+<center>My custom Iosevka font I built from source using `npm`.</center>
 
 ## Plugins
 
