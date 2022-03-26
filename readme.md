@@ -20,6 +20,7 @@ This repository is used to host the website on the GatsbyJS cloud.
  - Update fonts
    - Updated customized Iosevka font
    - Switched from PT Sans to Overpass
+ - Updated personal-works/trentb-on-gatsby page
 
 **2022-03-19**: Version 1.0.6.1
  - Updated footer to show correct version
