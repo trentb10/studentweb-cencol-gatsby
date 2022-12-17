@@ -42,12 +42,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+Plus+1:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "iosevka-margaret-tm10.css";
 
-$navi: 'Overpass', Arial, Helvetica, sans-serif;
-$header1: 'Iosevka Margaret TM10 Web', Arial, Helvetica, sans-serif;
-$header2: 'Iosevka Margaret TM10 Web', Arial, Helvetica, sans-serif;
-$content: 'M Plus 1', 'Trebuchet MS', sans-serif;
+$navi: 'M Plus 1', Arial, Helvetica, sans-serif;
+$header1: 'M Plus 1', Arial, Helvetica, sans-serif;
+$header2: 'M Plus 1', Arial, Helvetica, sans-serif;
+$content: 'Libre Franklin', 'Trebuchet MS', sans-serif;
 $code: 'Share Tech Mono', 'Consolas', monospace;
 $tagline: 'Iosevka Margaret TM10 Web', 'Share Tech Mono', monospace;
 
@@ -330,7 +331,7 @@ code {
 
 .content-body {
   font-family: $content;
-  font-size: 1rem;
+  font-size: 1.125rem;
   background-color: $vampireBlack;
   border-top: 5px solid $blue;
   display: block;
@@ -647,7 +648,7 @@ a:active {
 }
 
 .profilebox-name {
-  font-family: 'Iosevka Margaret TM10', 'Consolas', Arial;
+  font-family: 'M Plus 1', 'Consolas', Arial;
   font-size: 24px;
   color: $blue;
 }
