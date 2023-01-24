@@ -54,17 +54,14 @@ $tagline: 'Iosevka Margaret TM10 Web', 'Share Tech Mono', monospace;
 
 /* [STCL] Styling Colours */
 
-$blue: #50ffff;
+$blue: #64f0ff;
 $codeblue: #7cc4ff;
 $carbonBlack: #212121;
 $vampireBlack: #141414;
 $midnightBlack: #0a0a0a;
 $hoverBlack: #383838;
-$pink1: #f26995;
-$pink2: #ff5085;
-$green: #9fff50;
-$orange: #ff9f50;
-$yellow: #ffd35c;
+$pink1: #ff46dc;
+$green: #beff1e;
 $amber: #ffc800;
 
 /* ---------------------------- */
@@ -167,12 +164,12 @@ tr:nth-child(odd) {
 /* [TXSL] Text Selection */
 
 ::selection {
-  background: $pink1; 
+  background: $blue; 
   color: $carbonBlack;
 }
 
 ::-moz-selection {
-  background: $pink1;
+  background: $blue;
   color: $carbonBlack;
 }
 
@@ -216,7 +213,7 @@ div.image-header {
 }
 
 .ulNavi {
-  border-bottom: 5px solid $orange;
+  border-bottom: 5px solid $blue;
   max-width: 1024px;
   min-width: 480px;
   display: flex;
@@ -230,7 +227,7 @@ div.image-header {
   font-weight: bold;
   background-color: $carbonBlack;
   display: block;
-  color: $orange;
+  color: $blue;
   text-align: center;
   padding: 12px 36px 12px 36px;
 }
@@ -244,7 +241,7 @@ div.image-header {
 }
 
 .mainNavi .item:hover, .mainNavi .dropbtn:hover {
-  color: $orange;
+  color: $blue;
   background-color: $hoverBlack;
   transition: 0.4s;
 }
@@ -298,7 +295,7 @@ li.dropdown {
 
 div.page-title {
   background-color: $carbonBlack;
-  border-top: 5px solid $pink1;
+  border-top: 5px solid $blue;
   max-width: 1024px;
   margin: 30px auto 30px auto;
   padding: 10px 40px 10px 40px;
@@ -309,7 +306,7 @@ h1 {
   font-family: $header1;
   font-size: 2.25rem;
   font-weight: normal;
-  color: $pink1;
+  color: $blue;
 }
 
 /* -------------------- */
@@ -319,7 +316,7 @@ h1 {
 h2 {
   font-family: $header2;
   font-size: 1.75rem;
-  color: $blue;
+  color: $amber;
   font-weight: normal;
 }
 
@@ -334,7 +331,7 @@ code {
   font-family: $content;
   font-size: 1.125rem;
   background-color: $vampireBlack;
-  border-top: 5px solid $blue;
+  border-top: 5px solid $amber;
   display: block;
   margin: 30px auto 30px auto;
   max-width: 1024px;
@@ -350,7 +347,7 @@ code {
   margin: 0.83em 0 0.83em;
   font-size: 1.5rem;
   font-style: italic;
-  color: $pink1;
+  color: $blue;
   text-align: center;
 }
 
@@ -359,7 +356,7 @@ h3 {
   margin: 0 0 0 0;
   font-family: $header2;
   font-weight: normal;
-  color: $yellow;
+  color: $blue;
 }
 
 /* [BLQT] Blockquotes */
@@ -619,7 +616,7 @@ a:hover > .personal-work-container  {
 }
 
 a:active {
-  color: $pink1;
+  color: $blue;
   transition-duration: 0s;
 }
 
@@ -747,10 +744,10 @@ a:active {
 
 .footer-content {
   background-color: $carbonBlack;
-  border-top: 5px solid $pink1;
+  border-top: 5px solid $blue;
   border-top-style: solid;
   border-width: 5px;
-  color: $pink1; 
+  color: $blue; 
   font-size: 0.875rem;
   font-family: $header1;
   max-width: 1024px;
@@ -761,7 +758,7 @@ a:active {
 /* [FOLI] Footer Links */
 
 .footer-content a, .footer-content a:visited {
-  color: $pink1;
+  color: $blue;
 }
 
 .footer-content a:hover{
@@ -769,7 +766,7 @@ a:active {
 }
 
 .footer-content a:active {
-  color: $pink1;
+  color: $blue;
 }
 
 /**
