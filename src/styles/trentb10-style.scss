@@ -37,19 +37,18 @@
 
 /* [FOIM] Font Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+Plus+1:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Assistant:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "iosevka-margaret-tm10.css";
 
 $navi: 'M Plus 1', Arial, Helvetica, sans-serif;
 $header1: 'M Plus 1', Arial, Helvetica, sans-serif;
 $header2: 'M Plus 1', Arial, Helvetica, sans-serif;
-$content: 'Assistant', 'Trebuchet MS', sans-serif;
-$code: 'Share Tech Mono', 'Consolas', monospace;
+$content: 'Assistant', 'Trebuchet MS', Helvetica, sans-serif;
+$code: 'Iosevka Margaret TM10 Web', 'Consolas', monospace;
 $tagline: 'Iosevka Margaret TM10 Web', 'Share Tech Mono', monospace;
 
 /* [STCL] Styling Colours */
