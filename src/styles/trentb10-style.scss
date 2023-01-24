@@ -743,10 +743,10 @@ a:active {
 
 .footer-content {
   background-color: $carbonBlack;
-  border-top: 5px solid $blue;
+  border-top: 5px solid $pink;
   border-top-style: solid;
   border-width: 5px;
-  color: $blue; 
+  color: $pink; 
   font-size: 0.875rem;
   font-family: $header1;
   max-width: 1024px;
@@ -757,7 +757,7 @@ a:active {
 /* [FOLI] Footer Links */
 
 .footer-content a, .footer-content a:visited {
-  color: $blue;
+  color: $pink;
 }
 
 .footer-content a:hover{
@@ -765,7 +765,7 @@ a:active {
 }
 
 .footer-content a:active {
-  color: $blue;
+  color: $pink;
 }
 
 /**
