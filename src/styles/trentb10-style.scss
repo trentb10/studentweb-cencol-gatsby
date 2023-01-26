@@ -752,6 +752,11 @@ a:active {
   max-width: 1024px;
   margin: 30px auto 40px auto;
   padding: 10px 10px 10px 10px;
+
+  /* Disable Text Selection */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 /* [FOLI] Footer Links */
