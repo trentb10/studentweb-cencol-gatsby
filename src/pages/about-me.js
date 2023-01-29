@@ -24,6 +24,7 @@ let experienceDate = {
 }
 
 export default function AboutMe() {
+  // Range is between 1 - 4
   let office = determineSkill("MS Office", 4);
   let drive = determineSkill("Google Drive", 4);
   let wp = determineSkill("WordPress", 4);
@@ -87,24 +88,19 @@ export default function AboutMe() {
       </p>
 
       <p>
-        Here's a summary about who I am, my skills, and my experiences:
+        Here's a summary about who I am and my skills:
       </p>
 
       <ul>
-        <li>Passion for programming, writing clean and organized working code</li>
-        <li>Passion for writing articles and video scripts</li>
-        <li>Familiar with HTML, CSS, JavaScript, Java, and C#</li>
-        <li>Good with troubleshooting computer-related issues</li>
+        <li>Passion for programming and writing</li>
+        <li>Proficient with HTML, CSS, JavaScript, Java, and C#</li>
         <li>
           Proficient in Microsoft Office, Google Drive, and other related office
           suite products
         </li>
         <li>Proficient in WordPress and other blog-publishing websites</li>
-        <li>
-          Experience with music and video editing, as well as graphic design with 
-          school and work-related projects!
-        </li>
-        <li>Works well independently and with a team!</li>
+        <li>Proficient with troubleshooting computer-related issues</li>
+        <li>I work well independently and with a team!</li>
       </ul>
 
       <h2>Education</h2>
@@ -112,7 +108,7 @@ export default function AboutMe() {
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Centennial College</h3>
-          <h3 style={experienceDate}>(Jan. 2019 - Apr. 2021)</h3>
+          <h3 style={experienceDate}>(Graduated Apr. 2021)</h3>
         </div>
         <ul>
           <li>
@@ -125,7 +121,7 @@ export default function AboutMe() {
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>University of Toronto Scarborough</h3>
-          <h3 style={experienceDate}>(Sept. 2014 - Dec. 2018)</h3>
+          <h3 style={experienceDate}>(Graduated Dec. 2018)</h3>
         </div>
         <ul>
           <li>
@@ -133,7 +129,7 @@ export default function AboutMe() {
           </li>
         </ul>
       </p>
-
+{/* 
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>
@@ -153,14 +149,14 @@ export default function AboutMe() {
             Focus on Information Technology (FIT) program
           </li>
         </ul>
-      </p>
+      </p> */}
       
-      <h2>Work</h2>
+      <h2>Work Experience</h2>
 
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer &mdash; YouTube Video Scripts</h3>
-          <h3 style={experienceDate}>(July 2018 - present)</h3>
+          <h3 style={experienceTitle}>Writer</h3>
+          <h3 style={experienceDate}>(Jul. 2018 - present)</h3>
         </div>
         Feed My Curiosity
         <ul>
@@ -173,7 +169,7 @@ export default function AboutMe() {
 
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer &mdash; Review and Write-Up Articles</h3>
+          <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(May 2019 - Aug. 2019)</h3>
         </div>
         Dollar Gamers
@@ -190,7 +186,7 @@ export default function AboutMe() {
       
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer &mdash; Review & Write-Up Articles</h3>
+          <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(Dec. 2017 - Mar. 2018)</h3>
         </div>
         Amp the Sound
@@ -210,7 +206,7 @@ export default function AboutMe() {
 
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer &mdash; Review & Write-Up Articles</h3>
+          <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(May 2014 - July 2017)</h3>
         </div>
         24Our Music
