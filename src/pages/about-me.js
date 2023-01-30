@@ -45,7 +45,7 @@ export default function AboutMe() {
 
       <div class="profilebox-container">
         <div class="profilebox-pfp">
-          <img src={avatar}></img>
+          <img style={{borderRadius: "24px"}} src={avatar}></img>
         </div>
         <div class="profilebox-info">
           <div class="profilebox-name">

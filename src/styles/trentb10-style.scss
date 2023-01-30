@@ -62,6 +62,7 @@ $hoverBlack: #383838;
 $pink: #ff46dc;
 $green: #beff1e;
 $amber: #ffc800;
+$amberlite: #ffde64;
 
 /* ---------------------------- */
 /* -= [GLEL] Global Elements =- */
@@ -623,16 +624,23 @@ a:active {
 
 .profilebox-container {
   background-color: $carbonBlack;
-  border: 2px solid $blue;
+  border: 2px solid $amber;
   border-radius: 24px;
   display: flex;
   flex-direction: row;
   max-width: 550px;
   margin: 0.83em auto 0.83em auto;
+  transition: 0.4s;
+}
+
+.profilebox-container:hover {
+  border: 2px solid $amberlite;
+  transition: 0.4s;
 }
 
 .profilebox-pfp {
   background-color: grey;
+  border-radius: 24px;
   margin: 25px;
   width: 200px;
   height: 200px;
@@ -647,7 +655,7 @@ a:active {
 .profilebox-name {
   font-family: 'M Plus 1', 'Consolas', Arial;
   font-size: 24px;
-  color: $blue;
+  color: $amber;
 }
 
 /* [COSB] Skill Box */
