@@ -219,13 +219,13 @@ div.image-header {
   display: flex;
   list-style-type: none;
   margin: 30px auto 30px auto;
-  background-color: $carbonBlack;
+  background-color: $vampireBlack;
   padding: 0;
 }
 
 .title {
   font-weight: bold;
-  background-color: $carbonBlack;
+  background-color: $vampireBlack;
   display: block;
   color: $blue;
   text-align: center;
@@ -260,7 +260,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: $carbonBlack;
+  background-color: $vampireBlack;
   min-width: 160px;
   transition: 0.4s;
   z-index: 1;
@@ -294,7 +294,7 @@ li.dropdown {
 /* ----------------------- */
 
 div.page-title {
-  background-color: $carbonBlack;
+  background-color: $vampireBlack;
   border-top: 5px solid $blue;
   max-width: 1024px;
   margin: 30px auto 30px auto;
@@ -428,7 +428,7 @@ ul {
 
 /* triggerClassName and triggerOpenedClassName */
 .collapsible-nested-header {
-  background-color: $carbonBlack;
+  background-color: $vampireBlack;
   color: $blue;
   cursor: default;
   padding: 12px 24px;
@@ -750,7 +750,7 @@ a:active {
 /* ------------------- */
 
 .footer-content {
-  background-color: $carbonBlack;
+  background-color: $vampireBlack;
   border-top: 5px solid $pink;
   border-top-style: solid;
   border-width: 5px;
