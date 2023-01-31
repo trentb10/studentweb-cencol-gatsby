@@ -403,7 +403,7 @@ export default function AboutMe() {
         </Collapsible>
         <div class="skillbox-skill-legend-container">
           <div class="skillbox-skill-hint">
-            Click on a programming language to see what I have to say about it!
+            Click on an item to see what I have to say about it!
           </div>
         </div>
       </div>
