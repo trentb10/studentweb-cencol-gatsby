@@ -680,6 +680,7 @@ a:active {
 }
 
 .skillbox-skill-container:hover {
+  color: $amber;
   background-color: $hoverBlack;
   transition: 0.4s;
 }
