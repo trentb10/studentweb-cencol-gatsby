@@ -92,14 +92,23 @@ export default function AboutMe() {
       </p>
 
       <ul>
-        <li>Passion for programming and writing</li>
-        <li>Proficient with HTML, CSS, JavaScript, Java, and C#</li>
         <li>
-          Proficient in Microsoft Office, Google Drive, and other related office
-          suite products
+          Graduated from Centennial College with an Advanced Diploma in 
+          Software Engineering Technology  
         </li>
-        <li>Proficient in WordPress and other blog-publishing websites</li>
+        <li>
+          Graduated from the University of Toronto with an Honours Bachelor 
+          of Arts, majoring in media studies and minoring in English and 
+          Psychology 
+        </li>
+        <li>Proficient with HTML, CSS/SASS, JavaScript, Java, and C#</li>
+        <li>
+          Proficient in Microsoft Office, Google Drive, and LibreOffice
+        </li>
+        <li>Proficient in WordPress</li>
+        <li>Proficient in Windows 10 and Windows 11</li>
         <li>Proficient with troubleshooting computer-related issues</li>
+        <li>I'm a fast typer &ndash; Roughly about 100 words per minute</li>
         <li>I work well independently and with a team!</li>
       </ul>
 
@@ -125,7 +134,10 @@ export default function AboutMe() {
         </div>
         <ul>
           <li>
-            Honours Bachelor of Arts in Media Studies, English, Psychology
+            Honours Bachelor of Arts
+          </li>
+          <li>
+            Media studies major, English minor, psychology minor
           </li>
         </ul>
       </p>
@@ -167,7 +179,7 @@ export default function AboutMe() {
         </ul>
       </p>
 
-      <p>
+      {/* <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(May 2019 - Aug. 2019)</h3>
@@ -182,9 +194,9 @@ export default function AboutMe() {
             designed articles uploaded by others via WordPress
           </li>
         </ul>
-      </p>
+      </p> */}
       
-      <p>
+      {/* <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(Dec. 2017 - Mar. 2018)</h3>
@@ -202,7 +214,7 @@ export default function AboutMe() {
             Designed the logo (Check it out <Link to="../works/amp-the-sound">here</Link>!)
           </li>
         </ul>
-      </p>
+      </p> */}
 
       <p>
         <div style={experienceHeader}>
@@ -212,11 +224,12 @@ export default function AboutMe() {
         24Our Music
         <ul>
           <li>
-            Wrote articles and reviews for music
+            Wrote review articles and write-ups for music, sometimes submitted 
+            by bands and artists themselves
           </li>
           <li>
-            Uploaded articles to the website, as well as proofread, edited, and 
-            designed articles uploaded by others via WordPress
+            Designed articles on WordPress written by myself and others with 
+            HTML within the WordPress editor
           </li>
         </ul>
       </p>
