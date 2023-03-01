@@ -149,7 +149,7 @@ export default function AboutMe() {
             Saint John Paul II Catholic Secondary School
           </h3>
           <h3 style={experienceDate}>
-            (Sept. 2009 - June 2013)
+            (Graduated June 2013)
           </h3>
         </div>
         <ul>
