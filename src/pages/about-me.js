@@ -149,7 +149,7 @@ export default function AboutMe() {
             Saint John Paul II Catholic Secondary School
           </h3>
           <h3 style={experienceDate}>
-            (Graduated June 2013)
+            (Graduated Jun 2013)
           </h3>
         </div>
         <ul>
@@ -160,6 +160,58 @@ export default function AboutMe() {
           <li>
             Received a graduation certificate for fulfilling requirements for the 
             Focus on Information Technology (FIT) program
+          </li>
+        </ul>
+      </p>
+
+      <h2>Personal Projects</h2>
+
+      <p>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>
+            Personal Website &ndash; Trent B on Gatsby
+          </h3>
+          <h3 style={experienceDate}>
+            (Started Jun. 2021)
+          </h3>
+        </div>
+        <ul>
+          <li>
+            Developed my personal website using GatsbyJS
+          </li>
+          <li>
+            <a 
+              href="https://github.com/trentb10/studentweb-cencol-gatsby"
+              target="_blank">GitHub repository
+            </a>
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>
+            T-Bot Guild Moderation
+          </h3>
+          <h3 style={experienceDate}>
+            (Started Mar. 2021)
+          </h3>
+        </div>
+        <ul>
+          <li>
+            Developed a Discord guild moderation bot using the discord.js Nodejs library
+          </li>
+          <li>
+            <a 
+              href="https://github.com/trentb10/t-bot-guild-moderation"
+              target="_blank">GitHub repository
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://trentbon.gatsbyjs.io/works/personal-works/t-bot"
+              target="_blank">Demonstration
+            </a>
           </li>
         </ul>
       </p>
