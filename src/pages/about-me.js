@@ -26,6 +26,7 @@ let experienceDate = {
 export default function AboutMe() {
   // Range is between 1 - 4
   let office = determineSkill("MS Office", 4);
+  let libreoffice = determineSkill("LibreOffice", 4);
   let drive = determineSkill("Google Drive", 4);
   let wp = determineSkill("WordPress", 4);
   let html = determineSkill("HTML5", 3);
@@ -141,7 +142,7 @@ export default function AboutMe() {
           </li>
         </ul>
       </p>
-{/* 
+
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>
@@ -161,7 +162,7 @@ export default function AboutMe() {
             Focus on Information Technology (FIT) program
           </li>
         </ul>
-      </p> */}
+      </p>
       
       <h2>Work Experience</h2>
 
@@ -179,7 +180,7 @@ export default function AboutMe() {
         </ul>
       </p>
 
-      {/* <p>
+      <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(May 2019 - Aug. 2019)</h3>
@@ -194,9 +195,9 @@ export default function AboutMe() {
             designed articles uploaded by others via WordPress
           </li>
         </ul>
-      </p> */}
+      </p>
       
-      {/* <p>
+      <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(Dec. 2017 - Mar. 2018)</h3>
@@ -214,7 +215,7 @@ export default function AboutMe() {
             Designed the logo (Check it out <Link to="../works/amp-the-sound">here</Link>!)
           </li>
         </ul>
-      </p> */}
+      </p>
 
       <p>
         <div style={experienceHeader}>
@@ -237,7 +238,7 @@ export default function AboutMe() {
       <h2>My list of Technologies</h2>
 
       <p>
-        Here is an in-depth list of different technologies I have used before:
+        Here is an in-depth list of different technologies I have experience with:
       </p>
 
       <div class="skillbox-container">
@@ -267,6 +268,17 @@ export default function AboutMe() {
               post-secondary career, especially Word for writing academic essays 
               and documentation, Excel for spreadsheet tasks, and PowerPoint for 
               class presentations.
+            </p>
+          </div>
+        </Collapsible>
+        <Collapsible 
+          trigger={libreoffice}
+        >
+          <div class="skillbox-skill-info">
+            <p>
+              LibreOffice is an open-source office suite and is a fork of 
+              OpenOffice.org. I have used Writer for some word-processing 
+              including writing my resume.
             </p>
           </div>
         </Collapsible>
