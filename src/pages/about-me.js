@@ -24,7 +24,9 @@ let experienceDate = {
 }
 
 export default function AboutMe() {
+  // Range is between 1 - 4
   let office = determineSkill("MS Office", 4);
+  let libreoffice = determineSkill("LibreOffice", 4);
   let drive = determineSkill("Google Drive", 4);
   let wp = determineSkill("WordPress", 4);
   let html = determineSkill("HTML5", 3);
@@ -44,7 +46,7 @@ export default function AboutMe() {
 
       <div class="profilebox-container">
         <div class="profilebox-pfp">
-          <img src={avatar}></img>
+          <img style={{borderRadius: "24px"}} src={avatar}></img>
         </div>
         <div class="profilebox-info">
           <div class="profilebox-name">
@@ -87,24 +89,28 @@ export default function AboutMe() {
       </p>
 
       <p>
-        Here's a summary about who I am, my skills, and my experiences:
+        Here's a summary about who I am and my skills:
       </p>
 
       <ul>
-        <li>Passion for programming, writing clean and organized working code</li>
-        <li>Passion for writing articles and video scripts</li>
-        <li>Familiar with HTML, CSS, JavaScript, Java, and C#</li>
-        <li>Good with troubleshooting computer-related issues</li>
         <li>
-          Proficient in Microsoft Office, Google Drive, and other related office
-          suite products
+          Graduated from Centennial College with an Advanced Diploma in 
+          Software Engineering Technology  
         </li>
-        <li>Proficient in WordPress and other blog-publishing websites</li>
         <li>
-          Experience with music and video editing, as well as graphic design with 
-          school and work-related projects!
+          Graduated from the University of Toronto with an Honours Bachelor 
+          of Arts, majoring in media studies and minoring in English and 
+          Psychology 
         </li>
-        <li>Works well independently and with a team!</li>
+        <li>Proficient with HTML, CSS/SASS, JavaScript, Java, and C#</li>
+        <li>
+          Proficient in Microsoft Office, Google Drive, and LibreOffice
+        </li>
+        <li>Proficient in WordPress</li>
+        <li>Proficient in Windows 10 and Windows 11</li>
+        <li>Proficient with troubleshooting computer-related issues</li>
+        <li>I'm a fast typer &ndash; Roughly about 100 words per minute</li>
+        <li>I work well independently and with a team!</li>
       </ul>
 
       <h2>Education</h2>
@@ -112,7 +118,7 @@ export default function AboutMe() {
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Centennial College</h3>
-          <h3 style={experienceDate}>(Jan. 2019 - Apr. 2021)</h3>
+          <h3 style={experienceDate}>(Graduated Apr. 2021)</h3>
         </div>
         <ul>
           <li>
@@ -125,11 +131,14 @@ export default function AboutMe() {
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>University of Toronto Scarborough</h3>
-          <h3 style={experienceDate}>(Sept. 2014 - Dec. 2018)</h3>
+          <h3 style={experienceDate}>(Graduated Dec. 2018)</h3>
         </div>
         <ul>
           <li>
-            Honours Bachelor of Arts in Media Studies, English, Psychology
+            Honours Bachelor of Arts
+          </li>
+          <li>
+            Media studies major, English minor, psychology minor
           </li>
         </ul>
       </p>
@@ -140,7 +149,7 @@ export default function AboutMe() {
             Saint John Paul II Catholic Secondary School
           </h3>
           <h3 style={experienceDate}>
-            (Sept. 2009 - June 2013)
+            (Graduated Jun 2013)
           </h3>
         </div>
         <ul>
@@ -154,13 +163,65 @@ export default function AboutMe() {
           </li>
         </ul>
       </p>
-      
-      <h2>Work</h2>
+
+      <h2>Personal Projects</h2>
 
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer &mdash; YouTube Video Scripts</h3>
-          <h3 style={experienceDate}>(July 2018 - present)</h3>
+          <h3 style={experienceTitle}>
+            Personal Website &ndash; Trent B on Gatsby
+          </h3>
+          <h3 style={experienceDate}>
+            (Started Jun. 2021)
+          </h3>
+        </div>
+        <ul>
+          <li>
+            Developed my personal website using GatsbyJS
+          </li>
+          <li>
+            <a 
+              href="https://github.com/trentb10/studentweb-cencol-gatsby"
+              target="_blank">GitHub repository
+            </a>
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>
+            T-Bot Guild Moderation
+          </h3>
+          <h3 style={experienceDate}>
+            (Started Mar. 2021)
+          </h3>
+        </div>
+        <ul>
+          <li>
+            Developed a Discord guild moderation bot using the discord.js Nodejs library
+          </li>
+          <li>
+            <a 
+              href="https://github.com/trentb10/t-bot-guild-moderation"
+              target="_blank">GitHub repository
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://trentbon.gatsbyjs.io/works/personal-works/t-bot"
+              target="_blank">Demonstration
+            </a>
+          </li>
+        </ul>
+      </p>
+      
+      <h2>Work Experience</h2>
+
+      <p>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>Writer</h3>
+          <h3 style={experienceDate}>(Jul. 2018 - present)</h3>
         </div>
         Feed My Curiosity
         <ul>
@@ -173,7 +234,7 @@ export default function AboutMe() {
 
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer &mdash; Review and Write-Up Articles</h3>
+          <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(May 2019 - Aug. 2019)</h3>
         </div>
         Dollar Gamers
@@ -190,7 +251,7 @@ export default function AboutMe() {
       
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer &mdash; Review & Write-Up Articles</h3>
+          <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(Dec. 2017 - Mar. 2018)</h3>
         </div>
         Amp the Sound
@@ -210,17 +271,18 @@ export default function AboutMe() {
 
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer &mdash; Review & Write-Up Articles</h3>
+          <h3 style={experienceTitle}>Writer</h3>
           <h3 style={experienceDate}>(May 2014 - July 2017)</h3>
         </div>
         24Our Music
         <ul>
           <li>
-            Wrote articles and reviews for music
+            Wrote review articles and write-ups for music, sometimes submitted 
+            by bands and artists themselves
           </li>
           <li>
-            Uploaded articles to the website, as well as proofread, edited, and 
-            designed articles uploaded by others via WordPress
+            Designed articles on WordPress written by myself and others with 
+            HTML within the WordPress editor
           </li>
         </ul>
       </p>
@@ -228,7 +290,7 @@ export default function AboutMe() {
       <h2>My list of Technologies</h2>
 
       <p>
-        Here is an in-depth list of different technologies I have used before:
+        Here is an in-depth list of different technologies I have experience with:
       </p>
 
       <div class="skillbox-container">
@@ -258,6 +320,17 @@ export default function AboutMe() {
               post-secondary career, especially Word for writing academic essays 
               and documentation, Excel for spreadsheet tasks, and PowerPoint for 
               class presentations.
+            </p>
+          </div>
+        </Collapsible>
+        <Collapsible 
+          trigger={libreoffice}
+        >
+          <div class="skillbox-skill-info">
+            <p>
+              LibreOffice is an open-source office suite and is a fork of 
+              OpenOffice.org. I have used Writer for some word-processing 
+              including writing my resume.
             </p>
           </div>
         </Collapsible>
@@ -407,7 +480,7 @@ export default function AboutMe() {
         </Collapsible>
         <div class="skillbox-skill-legend-container">
           <div class="skillbox-skill-hint">
-            Click on a programming language to see what I have to say about it!
+            Click on an item to see what I have to say about it!
           </div>
         </div>
       </div>

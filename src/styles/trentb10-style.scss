@@ -37,32 +37,32 @@
 
 /* [FOIM] Font Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+Plus+1:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "iosevka-margaret-tm10.css";
 
-$navi: 'Overpass', Arial, Helvetica, sans-serif;
-$header1: 'Iosevka Margaret TM10 Web', Arial, Helvetica, sans-serif;
-$header2: 'Iosevka Margaret TM10 Web', Arial, Helvetica, sans-serif;
-$content: 'Overpass Thin', 'Trebuchet MS', sans-serif;
-$code: 'Share Tech Mono', 'Consolas', monospace;
+$navi: 'M Plus 1', Arial, Helvetica, sans-serif;
+$header1: 'M Plus 1', Arial, Helvetica, sans-serif;
+$header2: 'M Plus 1', Arial, Helvetica, sans-serif;
+$content: 'Arimo', 'Trebuchet MS', Helvetica, sans-serif;
+$code: 'Iosevka Margaret TM10 Web', 'Consolas', monospace;
 $tagline: 'Iosevka Margaret TM10 Web', 'Share Tech Mono', monospace;
 
 /* [STCL] Styling Colours */
 
-$blue: #50ffff;
+$blue: #2ddcff;
 $codeblue: #7cc4ff;
-$carbonBlack: #212121;
-$vampireBlack: #141414;
+$carbonBlack: #565656;
+$vampireBlack: #343434;
 $midnightBlack: #0a0a0a;
-$hoverBlack: #383838;
-$pink1: #f26995;
-$pink2: #ff5085;
-$green: #9fff50;
-$orange: #ff9f50;
-$yellow: #ffd35c;
+$hoverBlack: #242424;
+$pink: #ff46dc;
+$green: #beff1e;
+$amber: #ffc800;
+$amberlite: #ffde64;
 
 /* ---------------------------- */
 /* -= [GLEL] Global Elements =- */
@@ -164,12 +164,12 @@ tr:nth-child(odd) {
 /* [TXSL] Text Selection */
 
 ::selection {
-  background: $pink1; 
+  background: $amber; 
   color: $carbonBlack;
 }
 
 ::-moz-selection {
-  background: $pink1;
+  background: $amber;
   color: $carbonBlack;
 }
 
@@ -213,21 +213,21 @@ div.image-header {
 }
 
 .ulNavi {
-  border-bottom: 5px solid $orange;
+  border-bottom: 5px solid $blue;
   max-width: 1024px;
   min-width: 480px;
   display: flex;
   list-style-type: none;
   margin: 30px auto 30px auto;
-  background-color: $carbonBlack;
+  background-color: $vampireBlack;
   padding: 0;
 }
 
 .title {
   font-weight: bold;
-  background-color: $carbonBlack;
+  background-color: $vampireBlack;
   display: block;
-  color: $orange;
+  color: $blue;
   text-align: center;
   padding: 12px 36px 12px 36px;
 }
@@ -241,7 +241,7 @@ div.image-header {
 }
 
 .mainNavi .item:hover, .mainNavi .dropbtn:hover {
-  color: $orange;
+  color: $blue;
   background-color: $hoverBlack;
   transition: 0.4s;
 }
@@ -260,19 +260,19 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: $carbonBlack;
+  background-color: $midnightBlack;
   min-width: 160px;
   transition: 0.4s;
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
   transition: 0.4s;
+  border-bottom: 4px solid red;
 }
 
 .dropdown:hover .dropdown-content {
@@ -294,8 +294,8 @@ li.dropdown {
 /* ----------------------- */
 
 div.page-title {
-  background-color: $carbonBlack;
-  border-top: 5px solid $pink1;
+  background-color: $vampireBlack;
+  border-top: 5px solid $blue;
   max-width: 1024px;
   margin: 30px auto 30px auto;
   padding: 10px 40px 10px 40px;
@@ -306,7 +306,7 @@ h1 {
   font-family: $header1;
   font-size: 2.25rem;
   font-weight: normal;
-  color: $pink1;
+  color: $blue;
 }
 
 /* -------------------- */
@@ -316,7 +316,7 @@ h1 {
 h2 {
   font-family: $header2;
   font-size: 1.75rem;
-  color: $blue;
+  color: $amber;
   font-weight: normal;
 }
 
@@ -331,7 +331,7 @@ code {
   font-family: $content;
   font-size: 1.125rem;
   background-color: $vampireBlack;
-  border-top: 5px solid $blue;
+  border-top: 5px solid $amber;
   display: block;
   margin: 30px auto 30px auto;
   max-width: 1024px;
@@ -347,7 +347,7 @@ code {
   margin: 0.83em 0 0.83em;
   font-size: 1.5rem;
   font-style: italic;
-  color: $pink1;
+  color: $blue;
   text-align: center;
 }
 
@@ -356,7 +356,7 @@ h3 {
   margin: 0 0 0 0;
   font-family: $header2;
   font-weight: normal;
-  color: $yellow;
+  color: $green;
 }
 
 /* [BLQT] Blockquotes */
@@ -428,7 +428,7 @@ ul {
 
 /* triggerClassName and triggerOpenedClassName */
 .collapsible-nested-header {
-  background-color: $carbonBlack;
+  background-color: $vampireBlack;
   color: $blue;
   cursor: default;
   padding: 12px 24px;
@@ -616,7 +616,7 @@ a:hover > .personal-work-container  {
 }
 
 a:active {
-  color: $pink1;
+  color: $blue;
   transition-duration: 0s;
 }
 
@@ -624,16 +624,23 @@ a:active {
 
 .profilebox-container {
   background-color: $carbonBlack;
-  border: 2px solid $blue;
+  border: 2px solid $amber;
   border-radius: 24px;
   display: flex;
   flex-direction: row;
   max-width: 550px;
   margin: 0.83em auto 0.83em auto;
+  transition: 0.4s;
+}
+
+.profilebox-container:hover {
+  border: 2px solid $amberlite;
+  transition: 0.4s;
 }
 
 .profilebox-pfp {
   background-color: grey;
+  border-radius: 24px;
   margin: 25px;
   width: 200px;
   height: 200px;
@@ -646,9 +653,9 @@ a:active {
 }
 
 .profilebox-name {
-  font-family: 'Iosevka Margaret TM10', 'Consolas', Arial;
+  font-family: 'M Plus 1', 'Consolas', Arial;
   font-size: 24px;
-  color: $blue;
+  color: $amber;
 }
 
 /* [COSB] Skill Box */
@@ -673,6 +680,7 @@ a:active {
 }
 
 .skillbox-skill-container:hover {
+  color: $amber;
   background-color: $hoverBlack;
   transition: 0.4s;
 }
@@ -698,7 +706,7 @@ a:active {
 }
 
 .skillbox-skill-meter-pt {
-  background-color: $blue;
+  background-color: $amber;
   margin: 5px;
   padding: 2px;
   width: 80px;
@@ -720,7 +728,7 @@ a:active {
 
 .skillbox-skill-legend-label {
   font-size: 12px;
-  color: #959595;
+  color: #acacac;
   text-align: center;
   position: relative;
   top: 5px;
@@ -743,22 +751,27 @@ a:active {
 /* ------------------- */
 
 .footer-content {
-  background-color: $carbonBlack;
-  border-top: 5px solid $pink1;
+  background-color: $vampireBlack;
+  border-top: 5px solid $pink;
   border-top-style: solid;
   border-width: 5px;
-  color: $pink1; 
+  color: $pink; 
   font-size: 0.875rem;
   font-family: $header1;
   max-width: 1024px;
   margin: 30px auto 40px auto;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 40px;
+
+  /* Disable Text Selection */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 /* [FOLI] Footer Links */
 
 .footer-content a, .footer-content a:visited {
-  color: $pink1;
+  color: $pink;
 }
 
 .footer-content a:hover{
@@ -766,7 +779,7 @@ a:active {
 }
 
 .footer-content a:active {
-  color: $pink1;
+  color: $pink;
 }
 
 /**

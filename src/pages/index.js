@@ -41,8 +41,8 @@ export default function Home() {
 				I have now expanded it into my own little site to host some 
 				of my past works and assignments I did as a student at Centennial 
 				and UofT; a writer with 24OurMusic, Amp the Sound, and Feed My 
-				Curiosity, which I am currently writing scripts for; and of 
-				course, my curriculum vitae!
+				Curiosity, which I am currently writing scripts for; and to list my
+				skills and experience!
 			</p>
 	
 			<p>

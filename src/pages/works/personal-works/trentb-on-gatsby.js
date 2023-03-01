@@ -120,39 +120,33 @@ export default function TrentBOnGatsby() {
       <h3>The fonts</h3>
 
       <p>
-        Here are the fonts I have used for the website:
+        Since version 1.1 of the website, I changed around some of the fonts. Here 
+        is a list of what I currently use:
         <ul>
           <li>
-            <a 
-              href="https://fonts.google.com/specimen/Overpass">
-              Overpass
+            <a
+              href="https://fonts.google.com/specimen/M+PLUS+1">
+              M Plus 1
             </a>
-            : Based on the Highway Gothic font, I've used it for Cities Skylines
-            and started to like it so much that I began using it as my system 
-            default font. For the website, it's currently used for the navigation 
-            bar and the content body. The alternate fonts are Arial and Helvetica 
-            for the navi and Trebuchet MS for the content body.
+            : Currently used for the navigation bar and headers. The alternate font
+            is set to Arial and Helvetica.
           </li>
           <li>
             <a
-              href="https://fonts.google.com/specimen/Share+Tech+Mono">
-              Share Tech Mono
+              href="https://fonts.google.com/specimen/Assistant">
+              Assistant
             </a>
-            : This is one of my favourite monospaced fonts! I've used it as my 
-            default font in my IDEs for quite a long time, and it's currently my 
-            default font for my Command Prompt, Powershell, and Terminal. It's 
-            the same font used for the terminals in Fallout 4, one of my favourite 
-            single player video games. For this website, it's currently used for 
-            <code>inline code displays</code>. The alternate font is Consolas.
+            : Currently used for the content body. The alternate font is set to 
+            Trebuchet MS and Arial.
           </li>
           <li>
             <a
               href="https://github.com/be5invis/Iosevka">
               Iosevka
             </a>
-            : I've custom-built Iosevka through Node.js that I'm using for my 
-            IDE's. For this website, it's being used for content headers. The 
-            alternate fonts are Arial and Helvetica. 
+            : A custom-built Iosevka made via Node.js. For this website, it's being 
+            used for content headers. For this website, it is currently used for 
+            <code>inline code displays</code>. The alternate font is Consolas.
           </li>
         </ul>
       </p>
@@ -164,6 +158,34 @@ export default function TrentBOnGatsby() {
         <div class="figure-caption">
           My customized version of Iosevka.
         </div>
+      </p>
+
+      <p>
+        Here are the other fonts I have used for the website:
+        <ul>
+          <li>
+            <a 
+              href="https://fonts.google.com/specimen/Overpass">
+              Overpass
+            </a>
+            : Based on the Highway Gothic font, I've used it for Cities Skylines
+            and started to like it so much that I began using it as my system 
+            default font. For the website, it was used for the navigation 
+            bar and the content body.
+          </li>
+          <li>
+            <a
+              href="https://fonts.google.com/specimen/Share+Tech+Mono">
+              Share Tech Mono
+            </a>
+            : This is one of my favourite monospaced fonts! I've used it as my 
+            default font in my IDEs for quite a long time, and it's currently my 
+            default font for my Command Prompt, Powershell, and Terminal. It's 
+            the same font used for the terminals in Fallout 4, one of my favourite 
+            single player video games. For this website, it was used for 
+            <code>inline code displays</code>.
+          </li>
+        </ul>
       </p>
 
       <h3>The navigation bar</h3>

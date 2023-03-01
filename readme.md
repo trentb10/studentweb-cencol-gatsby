@@ -16,8 +16,17 @@ This repository is used to host the website on the GatsbyJS cloud.
 
 # Release Notes
 
+**2023-02-28**: Version 1.1
+ - Using a new set of fonts for the website:
+   - **Navigation Bar**: Overpass --> M Plus 1
+   - **Headers (h1 and h2)**: Iosevka --> M Plus 1
+   - **Content Body**: Overpass --> Arimo
+ - Adjusted the HEX colour values in the SASS styling sheet
+ - Updated about-me section
+ - Updated footer area appearance and disabled text selection for that area
+
 **2022-03-23**: Version 1.0.7
- - Update fonts
+ - Updated fonts
    - Updated customized Iosevka font
    - Switched from PT Sans to Overpass
  - Updated personal-works/trentb-on-gatsby page
