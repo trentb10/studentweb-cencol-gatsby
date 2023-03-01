@@ -20,11 +20,10 @@ This repository is used to host the website on the GatsbyJS cloud.
  - Using a new set of fonts for the website:
    - **Navigation Bar**: Overpass --> M Plus 1
    - **Headers (h1 and h2)**: Iosevka --> M Plus 1
-   - **Content Body**: Overpass --> Assistant
+   - **Content Body**: Overpass --> Arimo
  - Adjusted the HEX colour values in the SASS styling sheet
  - Updated about-me section
  - Disabled text selection in the footer area
- - 
 
 **2022-03-23**: Version 1.0.7
  - Updated fonts
