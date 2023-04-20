@@ -133,8 +133,8 @@ export default function TrentBOnGatsby() {
           </li>
           <li>
             <a
-              href="https://fonts.google.com/specimen/Assistant">
-              Assistant
+              href="https://fonts.google.com/specimen/Barlow">
+              Barlow
             </a>
             : Currently used for the content body. The alternate font is set to 
             Trebuchet MS and Arial.
