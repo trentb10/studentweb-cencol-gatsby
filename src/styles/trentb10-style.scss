@@ -37,7 +37,7 @@
 
 /* [FOIM] Font Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -46,8 +46,8 @@
 
 $navi: 'Overpass', Arial, Helvetica, sans-serif;
 $header1: 'Overpass', Arial, Helvetica, sans-serif;
-$header2: 'Overpass', Arial, Helvetica, sans-serif;
-$content: 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+$header2: 'Oxygen', Arial, Helvetica, sans-serif;
+$content: 'Oxygen Light', 'Trebuchet MS', Helvetica, sans-serif;
 $code: 'Iosevka Margaret TM10 Web', 'Consolas', monospace;
 $tagline: 'Iosevka Margaret TM10 Web', 'Share Tech Mono', monospace;
 
@@ -329,7 +329,7 @@ code {
 
 .content-body {
   font-family: $content;
-  font-size: 1.125rem;
+  font-size: 1rem;
   background-color: $vampireBlack;
   border-top: 5px solid $amber;
   display: block;
@@ -653,7 +653,7 @@ a:active {
 }
 
 .profilebox-name {
-  font-family: $content;
+  font-family: $header2;
   font-size: 24px;
   color: $amber;
 }
@@ -687,7 +687,7 @@ a:active {
 
 
 .skillbox-skill-header {
-  font-family: $header1;
+  font-family: $header2;
   font-size: 16px;
   font-weight: bold;
   text-align: right;
