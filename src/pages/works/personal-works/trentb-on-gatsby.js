@@ -123,47 +123,7 @@ export default function TrentBOnGatsby() {
         Since version 1.1 of the website, I changed around some of the fonts. Here 
         is a list of what I currently use:
         <ul>
-          <li>
-            <a
-              href="https://fonts.google.com/specimen/M+PLUS+1">
-              M Plus 1
-            </a>
-            : Currently used for the navigation bar and headers. The alternate font
-            is set to Arial and Helvetica.
-          </li>
-          <li>
-            <a
-              href="https://fonts.google.com/specimen/Barlow">
-              Barlow
-            </a>
-            : Currently used for the content body. The alternate font is set to 
-            Trebuchet MS and Arial.
-          </li>
-          <li>
-            <a
-              href="https://github.com/be5invis/Iosevka">
-              Iosevka
-            </a>
-            : A custom-built Iosevka made via Node.js. For this website, it's being 
-            used for content headers. For this website, it is currently used for 
-            <code>inline code displays</code>. The alternate font is Consolas.
-          </li>
-        </ul>
-      </p>
-
-      <p>
-        <div>
-          <img src={tbogIosevka} />
-        </div>
-        <div class="figure-caption">
-          My customized version of Iosevka.
-        </div>
-      </p>
-
-      <p>
-        Here are the other fonts I have used for the website:
-        <ul>
-          <li>
+        <li>
             <a 
               href="https://fonts.google.com/specimen/Overpass">
               Overpass
@@ -175,6 +135,16 @@ export default function TrentBOnGatsby() {
           </li>
           <li>
             <a
+              href="https://github.com/be5invis/Iosevka">
+              Iosevka
+            </a>
+            : A custom-built Iosevka made via Node.js. For this website, it's being 
+            used for content headers. For this website, it is currently used for 
+            <code>inline code displays</code>. The alternate font is Share Tech 
+            Mono and Consolas.
+          </li>
+          <li>
+            <a
               href="https://fonts.google.com/specimen/Share+Tech+Mono">
               Share Tech Mono
             </a>
@@ -182,10 +152,19 @@ export default function TrentBOnGatsby() {
             default font in my IDEs for quite a long time, and it's currently my 
             default font for my Command Prompt, Powershell, and Terminal. It's 
             the same font used for the terminals in Fallout 4, one of my favourite 
-            single player video games. For this website, it was used for 
-            <code>inline code displays</code>.
+            single player video games. For this website, it's the alternate font
+            for <code>inline code displays</code>.
           </li>
         </ul>
+      </p>
+
+      <p>
+        <div>
+          <img src={tbogIosevka} />
+        </div>
+        <div class="figure-caption">
+          My customized version of Iosevka.
+        </div>
       </p>
 
       <h3>The navigation bar</h3>
