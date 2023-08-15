@@ -37,15 +37,14 @@
 
 /* [FOIM] Font Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "iosevka-margaret-tm10.css";
 
 $navi: 'Overpass', Arial, Helvetica, sans-serif;
 $header1: 'Overpass', Arial, Helvetica, sans-serif;
-$header2: 'Oxygen', Arial, Helvetica, sans-serif;
-$content: 'Oxygen Light', 'Trebuchet MS', Helvetica, sans-serif;
+$header2: 'Overpass', Arial, Helvetica, sans-serif;
+$content: 'Overpass', 'Trebuchet MS', Helvetica, sans-serif;
 $code: 'Iosevka Margaret TM10 Web', 'Consolas', monospace;
 $tagline: 'Iosevka Margaret TM10 Web', 'Share Tech Mono', monospace;
 
@@ -303,7 +302,7 @@ h1 {
   /* for use inside div.pageTitle */
   font-family: $header1;
   font-size: 2.25rem;
-  font-weight: normal;
+  font-weight: 400;
   color: $blue;
 }
 
@@ -315,7 +314,7 @@ h2 {
   font-family: $header2;
   font-size: 1.75rem;
   color: $amber;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 code {
@@ -328,6 +327,7 @@ code {
 .content-body {
   font-family: $content;
   font-size: 1rem;
+  font-weight: 300;
   background-color: $vampireBlack;
   border-top: 5px solid $amber;
   display: block;
@@ -353,7 +353,7 @@ h3 {
   display: block;
   margin: 0 0 0 0;
   font-family: $header2;
-  font-weight: normal;
+  font-weight: 400;
   color: $green;
 }
 
@@ -370,7 +370,7 @@ blockquote p {
 
 blockquote q {
   font-style: italic;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 blockquote cite {
@@ -687,7 +687,7 @@ a:active {
 .skillbox-skill-header {
   font-family: $header2;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: right;
   margin: 5px;
   padding: 10px;
