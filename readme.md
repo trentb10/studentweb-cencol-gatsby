@@ -16,6 +16,9 @@ This repository is used to host the website on the GatsbyJS cloud.
 
 # Release Notes
 
+**2023-08-15**: Version 1.1.2
+ - Updated font for content body (Barlow --> Overpass)
+
 **2023-04-19**: Version 1.1.1
  - Updated font again for content body (Arimo --> Barlow)
 
