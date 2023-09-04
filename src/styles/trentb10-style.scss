@@ -187,7 +187,7 @@ div.image-header {
 
 .mainNavi {
   font-family: $navi;
-  font-size: 18px;
+  font-size: 1.1669rem;
   position: sticky;
   top: 0;
   transition: 0.4s;
@@ -687,7 +687,7 @@ a:active {
 
 .skillbox-skill-header {
   font-family: $header2;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   text-align: right;
   margin: 5px;
@@ -698,7 +698,7 @@ a:active {
 }
 
 .skillbox-skill-info {
-  font-size: 1rem;
+  font-size: 0.8331rem;
   background-color: $midnightBlack;
   padding: 6px 24px;
   cursor: default;
@@ -726,7 +726,7 @@ a:active {
 }
 
 .skillbox-skill-legend-label {
-  font-size: 12px;
+  font-size: 0.8331rem;
   color: #acacac;
   text-align: center;
   position: relative;
@@ -737,7 +737,7 @@ a:active {
 }
 
 .skillbox-skill-hint {
-  font-size: 12px;
+  font-size: 0.8331rem;
   color: #959595;
   text-align: right;
   margin: 5px;
