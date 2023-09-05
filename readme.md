@@ -16,8 +16,18 @@ This repository is used to host the website on the GatsbyJS cloud.
 
 # Release Notes
 
+**2023-09-04**: Version 1.1.2
+ - Updated font set for the website:
+   - **Navigation Bar, Headers (h1 and h2)**: Barlow --> Overpass
+   - **Content Body**: Barlow --> Comme
+   - Updated index, about-me, and personal-works/trentb-on-gatsby pages
+   - Cleaned up some uneccessary font imports in the SASS
+   - Migrated website to Netlify
+
 **2023-04-19**: Version 1.1.1
- - Updated font again for content body (Arimo --> Barlow)
+ - Updated font set for the website:
+   - **Navigation Bar, Headers (h1 and h2)**: M Plus 1 --> Barlow
+   - **Content Body**: Arimo --> Barlow
 
 **2023-02-28**: Version 1.1
  - Using a new set of fonts for the website:

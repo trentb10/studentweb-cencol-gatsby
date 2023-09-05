@@ -36,17 +36,9 @@ export default function Home() {
 				>Assignment 1</a> for COMP213 at Centennial College, and it was 
 				hosted on <a href="http://studentweb.cencol.ca/">studentweb.cencol.ca</a>.
 			</p>
-
-			<p>
-				I have now expanded it into my own little site to host some 
-				of my past works and assignments I did as a student at Centennial 
-				and UofT; a writer with 24OurMusic, Amp the Sound, and Feed My 
-				Curiosity, which I am currently writing scripts for; and to list my
-				skills and experience!
-			</p>
 	
 			<p>
-				Get started by using the navbar at the top!
+				Please get started by using the navbar at the top!
 			</p>
 		</Layout>
 	);

@@ -221,13 +221,27 @@ export default function AboutMe() {
       <p>
         <div style={experienceHeader}>
           <h3 style={experienceTitle}>Writer</h3>
-          <h3 style={experienceDate}>(Jul. 2018 - present)</h3>
+          <h3 style={experienceDate}>(Jul. 2023 - present)</h3>
+        </div>
+        Xbox Gaming Monthly
+        <ul>
+          <li>
+            Writing articles about gaming with a focus on the Xbox ecosystem and
+            publishing them on WordPress
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>Writer</h3>
+          <h3 style={experienceDate}>(Jul. 2018 - Jun. 2023)</h3>
         </div>
         Feed My Curiosity
         <ul>
           <li>
             Writing video scripts covering a variety of topics including
-            technology, history, nature, space, food, and more.
+            technology, history, nature, space, food, and more
           </li>
         </ul>
       </p>

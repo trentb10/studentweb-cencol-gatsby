@@ -37,18 +37,16 @@
 
 /* [FOIM] Font Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+Plus+1:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "iosevka-margaret-tm10.css";
 
-$navi: 'Barlow', Arial, Helvetica, sans-serif;
-$header1: 'Barlow', Arial, Helvetica, sans-serif;
-$header2: 'Barlow', Arial, Helvetica, sans-serif;
-$content: 'Barlow', 'Trebuchet MS', Helvetica, sans-serif;
-$code: 'Iosevka Margaret TM10 Web', 'Consolas', monospace;
+$navi: 'Overpass', Arial, Helvetica, sans-serif;
+$header1: 'Overpass', Arial, Helvetica, sans-serif;
+$header2: 'Overpass', Arial, Helvetica, sans-serif;
+$content: 'Comme', 'Trebuchet MS', Helvetica, sans-serif;
+$code: 'Iosevka Margaret TM10 Web', 'Share Tech Mono', 'Consolas', monospace;
 $tagline: 'Iosevka Margaret TM10 Web', 'Share Tech Mono', monospace;
 
 /* [STCL] Styling Colours */
@@ -189,7 +187,7 @@ div.image-header {
 
 .mainNavi {
   font-family: $navi;
-  font-size: 18px;
+  font-size: 1.1669rem;
   position: sticky;
   top: 0;
   transition: 0.4s;
@@ -305,7 +303,7 @@ h1 {
   /* for use inside div.pageTitle */
   font-family: $header1;
   font-size: 2.25rem;
-  font-weight: normal;
+  font-weight: 400;
   color: $blue;
 }
 
@@ -317,7 +315,7 @@ h2 {
   font-family: $header2;
   font-size: 1.75rem;
   color: $amber;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 code {
@@ -329,7 +327,8 @@ code {
 
 .content-body {
   font-family: $content;
-  font-size: 1.125rem;
+  font-size: 1rem;
+  font-weight: 300;
   background-color: $vampireBlack;
   border-top: 5px solid $amber;
   display: block;
@@ -355,7 +354,7 @@ h3 {
   display: block;
   margin: 0 0 0 0;
   font-family: $header2;
-  font-weight: normal;
+  font-weight: 400;
   color: $green;
 }
 
@@ -372,7 +371,7 @@ blockquote p {
 
 blockquote q {
   font-style: italic;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 blockquote cite {
@@ -653,7 +652,7 @@ a:active {
 }
 
 .profilebox-name {
-  font-family: $content;
+  font-family: $header2;
   font-size: 24px;
   color: $amber;
 }
@@ -687,9 +686,9 @@ a:active {
 
 
 .skillbox-skill-header {
-  font-family: $header1;
-  font-size: 16px;
-  font-weight: bold;
+  font-family: $header2;
+  font-size: 1rem;
+  font-weight: 700;
   text-align: right;
   margin: 5px;
   padding: 10px;
@@ -699,7 +698,7 @@ a:active {
 }
 
 .skillbox-skill-info {
-  font-size: 1rem;
+  font-size: 0.8331rem;
   background-color: $midnightBlack;
   padding: 6px 24px;
   cursor: default;
@@ -727,7 +726,7 @@ a:active {
 }
 
 .skillbox-skill-legend-label {
-  font-size: 12px;
+  font-size: 0.8331rem;
   color: #acacac;
   text-align: center;
   position: relative;
@@ -738,7 +737,7 @@ a:active {
 }
 
 .skillbox-skill-hint {
-  font-size: 12px;
+  font-size: 0.8331rem;
   color: #959595;
   text-align: right;
   margin: 5px;
