@@ -22,7 +22,7 @@ This repository is used to host the website on the GatsbyJS cloud.
    - **Content Body**: Barlow --> Comme
    - Updated index, about-me, and personal-works/trentb-on-gatsby pages
    - Cleaned up some uneccessary font imports in the SASS
-   - Migrated website to Netlify
+ - Migrated website to Netlify
 
 **2023-04-19**: Version 1.1.1
  - Updated font set for the website:
