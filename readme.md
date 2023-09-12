@@ -110,6 +110,7 @@ collapsibles. `About Me` has a skillbox, that is also made using collapsibles.
 
 The following fonts were used:
 
+ * [Comme](https://fonts.google.com/specimen/Comme)
  * [Overpass](https://fonts.google.com/specimen/Overpass)
  * [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono)
  * [Iosevka](https://github.com/be5invis/Iosevka), custom-built from source
