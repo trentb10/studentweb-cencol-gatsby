@@ -14,7 +14,7 @@ import Layout from '../components/layout';
 
 export default function Home() {
 	return (
-		<Layout title="Trent B on Gatsby!">
+		<Layout title="Trent B on Netlify!">
 			<Helmet>
 				<title>{siteMetadata.title}</title>
 			</Helmet>
