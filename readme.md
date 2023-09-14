@@ -17,9 +17,10 @@ This repository is used to host the website on the GatsbyJS cloud.
 # Release Notes
 
 **(new release date)**: Version 1.1.3 OR Version 2
- - Renamed Layout title for index page to "Trent B on Netlify!"
- - Reworded footer to "Trent B on Netlify!"
- - Reworded title in navigation bar to "Trent B on Netlify!"
+ - Made multiple changes to the website to reflect the site's migration to Netlify
+   - Renamed Layout title for index page to "Trent B on Netlify!"
+   - Reworded footer to "Trent B on Netlify!"
+   - Reworded title in navigation bar to "Trent B on Netlify!"
 
 **2023-09-04**: Version 1.1.2
  - Updated font set for the website:
