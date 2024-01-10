@@ -164,70 +164,36 @@ export default function AboutMe() {
         </ul>
       </p>
 
-      <h2>Personal Projects</h2>
-
-      <p>
-        <div style={experienceHeader}>
-          <h3 style={experienceTitle}>
-            Personal Website &ndash; Trent B on Gatsby
-          </h3>
-          <h3 style={experienceDate}>
-            (Started Jun. 2021)
-          </h3>
-        </div>
-        <ul>
-          <li>
-            Developed my personal website using GatsbyJS
-          </li>
-          <li>
-            <a 
-              href="https://github.com/trentb10/studentweb-cencol-gatsby"
-              target="_blank">GitHub repository
-            </a>
-          </li>
-        </ul>
-      </p>
-
-      <p>
-        <div style={experienceHeader}>
-          <h3 style={experienceTitle}>
-            T-Bot Guild Moderation
-          </h3>
-          <h3 style={experienceDate}>
-            (Started Mar. 2021)
-          </h3>
-        </div>
-        <ul>
-          <li>
-            Developed a Discord guild moderation bot using the discord.js Nodejs library
-          </li>
-          <li>
-            <a 
-              href="https://github.com/trentb10/t-bot-guild-moderation"
-              target="_blank">GitHub repository
-            </a>
-          </li>
-          <li>
-            <a 
-              href="https://trentbon.gatsbyjs.io/works/personal-works/t-bot"
-              target="_blank">Demonstration
-            </a>
-          </li>
-        </ul>
-      </p>
-      
       <h2>Work Experience</h2>
 
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer</h3>
-          <h3 style={experienceDate}>(Jul. 2023 - present)</h3>
+          <h3 style={experienceTitle}>Associate Content Creator</h3>
+          <h3 style={experienceDate}>(Oct. 2023 - present)</h3>
         </div>
-        Xbox Gaming Monthly
+        Ai Music Videos
         <ul>
           <li>
-            Writing articles about gaming with a focus on the Xbox ecosystem and
-            publishing them on WordPress
+            Generating AI images using Midjourney and Leonardo
+          </li>
+          <li>
+            Generating motion on the generated images via AI using Runway
+          </li>
+          <li>
+            Editing videos using Adobe Premiere
+          </li>
+          <li>
+            Managing the Ai Music Video Discord community server
+            <ul>
+              <li>
+                Developing a bot using C# and the DSharpPlus library to assist
+                in manage the server
+              </li>
+              <li>
+                Adding emotes based on content from Ai Music Videos for members 
+                to use in chat messages
+              </li>
+            </ul>
           </li>
         </ul>
       </p>
@@ -297,6 +263,58 @@ export default function AboutMe() {
           <li>
             Designed articles on WordPress written by myself and others with 
             HTML within the WordPress editor
+          </li>
+        </ul>
+      </p>
+
+      <h2>Personal Projects</h2>
+
+      <p>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>
+            Personal Website &ndash; Trent B on Gatsby
+          </h3>
+          <h3 style={experienceDate}>
+            (Started Jun. 2021)
+          </h3>
+        </div>
+        <ul>
+          <li>
+            Developed my personal website using GatsbyJS
+          </li>
+          <li>
+            <a 
+              href="https://github.com/trentb10/studentweb-cencol-gatsby"
+              target="_blank">GitHub repository
+            </a>
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>
+            T-Bot Guild Moderation
+          </h3>
+          <h3 style={experienceDate}>
+            (Started Mar. 2021)
+          </h3>
+        </div>
+        <ul>
+          <li>
+            Developed a Discord guild moderation bot using the discord.js Nodejs library
+          </li>
+          <li>
+            <a 
+              href="https://github.com/trentb10/t-bot-guild-moderation"
+              target="_blank">GitHub repository
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://trentbon.gatsbyjs.io/works/personal-works/t-bot"
+              target="_blank">Demonstration
+            </a>
           </li>
         </ul>
       </p>
