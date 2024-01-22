@@ -23,7 +23,8 @@ This repository is used to host the website on Netlify.
    - Added a short paragraph on the index to discuss the migration to Netlify
    - Reworded footer to "Trent B on Netlify!"
    - Reworded title in navigation bar to "Trent B on Netlify!"
- - Updated about-me section
+ - Updated about-me page
+ - Updated /works/personal-works/trentb-on-gatsby page
  - Updated set of fonts for the website:
    - **Navigation Bar, Header h1**: Monda
    - **Header h2, Content**: Barlow
