@@ -1,9 +1,10 @@
 ![trentb-on-gatsby](src/images/headers/header-1.png)
 
-# Trent B on Gatsby!
+# Trent B on Netlify!
 
-*Trent B on Gatsby!* is a GatsbyJS implementation of my personal website that 
-was developed using HTML, CSS, and JavaScript, and was hosted on 
+*Trent B on Netlify!* is a GatsbyJS implementation of my personal website 
+currently hosted on Netlify that was developed using HTML, CSS, and JavaScript, 
+and was hosted on 
 [Centennial College's Student Web server](http://studentweb.cencol.ca/)!
 
 [*trentb10 on GitHub Pages*](https://trentb10.github.io/studentweb-cencol-github-pages/) 
@@ -12,16 +13,20 @@ assignments for COMP213 Web Interface Design and COMP125 Client-Side Development
 at Centennial College. I had planned to host all features of my personal website
 on GitHub pages before I decided to use GatsbyJS instead.
 
-This repository is used to host the website on the GatsbyJS cloud.
+This repository is used to host the website on Netlify.
 
 # Release Notes
 
-**(new release date)**: Version 1.1.3 OR Version 2
+**2024-01-21**: Version 1.2
  - Made multiple changes to the website to reflect the site's migration to Netlify
    - Renamed Layout title for index page to "Trent B on Netlify!"
    - Added a short paragraph on the index to discuss the migration to Netlify
    - Reworded footer to "Trent B on Netlify!"
    - Reworded title in navigation bar to "Trent B on Netlify!"
+ - Updated about-me section
+ - Updated set of fonts for the website:
+   - **Navigation Bar, Header h1**: Monda
+   - **Header h2, Content**: Barlow
 
 **2023-09-04**: Version 1.1.2
  - Updated font set for the website:
@@ -80,7 +85,7 @@ This repository is used to host the website on the GatsbyJS cloud.
 
 # Branch Notes
 
-As soon as Trent B on Gatsby! reaches Version 1.0 release, there will be two 
+As soon as Trent B on Netlify! reaches Version 1.0 release, there will be two 
 branches set up to manage the project the rest of the way:
 
 * `main`: The main branch of the project repository that will be used to publish 
@@ -91,7 +96,7 @@ released and pushed to the `main` branch.
 
 # Feature Overview Summary
 
-*Trent B on Gatsby!* is my personal website implemented using GatsbyJS! During 
+*Trent B on Netlify!* is my personal website implemented using GatsbyJS! During 
 development, my site's working title was *Trent B's Dream World!*
 
 ## Page Navigation Map
@@ -117,8 +122,8 @@ collapsibles. `About Me` has a skillbox, that is also made using collapsibles.
 
 The following fonts were used:
 
- * [Comme](https://fonts.google.com/specimen/Comme)
- * [Overpass](https://fonts.google.com/specimen/Overpass)
+ * [Barlow](https://fonts.google.com/specimen/Barlow)
+ * [Monda](https://fonts.google.com/specimen/Monda)
  * [Share Tech Mono](https://fonts.google.com/specimen/Share+Tech+Mono)
  * [Iosevka](https://github.com/be5invis/Iosevka), custom-built from source
 
