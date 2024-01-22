@@ -80,10 +80,10 @@ export default function AboutMe() {
         Hi! My name is Trent. I'm a recent graduate of Centennial College with 
         an Advanced Diploma in Software Engineering Technology with Honours! I'm 
         also a graduate of the University of Toronto, majoring in Media Studies 
-        and minoring in English and Psychology. Currently, I'm a writer for the 
-        YouTube channel <a 
-          href="https://www.youtube.com/c/FeedMyCuriosityChannel"
-          target="_blank">Feed My Curiosity
+        and minoring in English and Psychology. Currently, I'm an Associate
+        Content Creator for the YouTube channel <a 
+          href="https://www.youtube.com/@Ai.Music.Videos"
+          target="_blank">Ai Music Videos
         </a>.
       </p>
 
