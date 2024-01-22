@@ -8,13 +8,14 @@
 
 import React from 'react';
 import Helmet from 'react-helmet';
+import { withPrefix, Link } from 'gatsby';
 import { siteMetadata } from '../../gatsby-config';
 
 import Layout from '../components/layout';
 
 export default function Home() {
 	return (
-		<Layout title="Trent B on Gatsby!">
+		<Layout title="Trent B on Netlify!">
 			<Helmet>
 				<title>{siteMetadata.title}</title>
 			</Helmet>
@@ -36,9 +37,16 @@ export default function Home() {
 				>Assignment 1</a> for COMP213 at Centennial College, and it was 
 				hosted on <a href="http://studentweb.cencol.ca/">studentweb.cencol.ca</a>.
 			</p>
+
+			<p>
+				My website was initially known as <Link to="/works/personal-works/trentb-on-gatsby/">Trent B on Gatsby!</Link> when 
+				it was published on Gatsby Cloud on June 22, 2021. After Netlify 
+				acquired Gatsby in February 2023, my website was migrated to Netlify 
+				Cloud on September 4, 2023 and was renamed to Trent B on Netlify!
+			</p>
 	
 			<p>
-				Please get started by using the navbar at the top!
+				Please get started by using the navbar at the top.
 			</p>
 		</Layout>
 	);

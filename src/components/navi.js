@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <nav class="mainNavi">
       <ul class="ulNavi">
-        <li class="title">Trent B on Gatsby!</li>
+        <li class="title">Trent B on Netlify!</li>
         <li><Link to="/"><div class="item">Home</div></Link></li>
         <li><Link to="/about-me"><div class="item">About Me</div></Link></li>
         <li class="dropdown">

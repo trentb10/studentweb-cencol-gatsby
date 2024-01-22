@@ -120,40 +120,30 @@ export default function TrentBOnGatsby() {
       <h3>The fonts</h3>
 
       <p>
-        Since version 1.1 of the website, I changed around some of the fonts. Here 
-        is a list of what I currently use:
+        I like to switch up the fonts. Here is a list of what I currently use
+        as of version 1.2:
         <ul>
-        <li>
+          <li>
             <a 
-              href="https://fonts.google.com/specimen/Overpass">
+              href="https://fonts.google.com/specimen/Barlow">
               Overpass
             </a>
-            : Based on the Highway Gothic font, I've used it for Cities Skylines
-            and started to like it so much that I began using it as my system 
-            default font. For the website, it was used for the navigation 
-            bar and the content body.
+            : Used for <code>content</code> and <code>h2</code>.
+          </li>
+          <li>
+            <a 
+              href="https://fonts.google.com/specimen/Monda">
+              Overpass
+            </a>
+            : Used for <code>navi</code> and <code>h1</code>.
           </li>
           <li>
             <a
               href="https://github.com/be5invis/Iosevka">
               Iosevka
             </a>
-            : A custom-built Iosevka made via Node.js. For this website, it's being 
-            used for content headers. For this website, it is currently used for 
-            <code>inline code displays</code>. The alternate font is Share Tech 
-            Mono and Consolas.
-          </li>
-          <li>
-            <a
-              href="https://fonts.google.com/specimen/Share+Tech+Mono">
-              Share Tech Mono
-            </a>
-            : This is one of my favourite monospaced fonts! I've used it as my 
-            default font in my IDEs for quite a long time, and it's currently my 
-            default font for my Command Prompt, Powershell, and Terminal. It's 
-            the same font used for the terminals in Fallout 4, one of my favourite 
-            single player video games. For this website, it's the alternate font
-            for <code>inline code displays</code>.
+            : A custom-built Iosevka made via Node.js. Used for 
+            <code>code</code> and <code>tagline</code>.
           </li>
         </ul>
       </p>

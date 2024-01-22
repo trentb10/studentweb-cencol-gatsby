@@ -36,7 +36,6 @@ export default function AboutMe() {
   let csharp = determineSkill("C#", 3);
   let vb = determineSkill("VB", 2);
   let actionscript = determineSkill("ActionScript", 2);
-  let python = determineSkill("Python", 1);
 
   return (
     <Layout title="About Me!">
@@ -81,10 +80,10 @@ export default function AboutMe() {
         Hi! My name is Trent. I'm a recent graduate of Centennial College with 
         an Advanced Diploma in Software Engineering Technology with Honours! I'm 
         also a graduate of the University of Toronto, majoring in Media Studies 
-        and minoring in English and Psychology. Currently, I'm a writer for the 
-        YouTube channel <a 
-          href="https://www.youtube.com/c/FeedMyCuriosityChannel"
-          target="_blank">Feed My Curiosity
+        and minoring in English and Psychology. Currently, I'm an Associate
+        Content Creator for the YouTube channel <a 
+          href="https://www.youtube.com/@Ai.Music.Videos"
+          target="_blank">Ai Music Videos
         </a>.
       </p>
 
@@ -164,70 +163,28 @@ export default function AboutMe() {
         </ul>
       </p>
 
-      <h2>Personal Projects</h2>
-
-      <p>
-        <div style={experienceHeader}>
-          <h3 style={experienceTitle}>
-            Personal Website &ndash; Trent B on Gatsby
-          </h3>
-          <h3 style={experienceDate}>
-            (Started Jun. 2021)
-          </h3>
-        </div>
-        <ul>
-          <li>
-            Developed my personal website using GatsbyJS
-          </li>
-          <li>
-            <a 
-              href="https://github.com/trentb10/studentweb-cencol-gatsby"
-              target="_blank">GitHub repository
-            </a>
-          </li>
-        </ul>
-      </p>
-
-      <p>
-        <div style={experienceHeader}>
-          <h3 style={experienceTitle}>
-            T-Bot Guild Moderation
-          </h3>
-          <h3 style={experienceDate}>
-            (Started Mar. 2021)
-          </h3>
-        </div>
-        <ul>
-          <li>
-            Developed a Discord guild moderation bot using the discord.js Nodejs library
-          </li>
-          <li>
-            <a 
-              href="https://github.com/trentb10/t-bot-guild-moderation"
-              target="_blank">GitHub repository
-            </a>
-          </li>
-          <li>
-            <a 
-              href="https://trentbon.gatsbyjs.io/works/personal-works/t-bot"
-              target="_blank">Demonstration
-            </a>
-          </li>
-        </ul>
-      </p>
-      
       <h2>Work Experience</h2>
 
       <p>
         <div style={experienceHeader}>
-          <h3 style={experienceTitle}>Writer</h3>
-          <h3 style={experienceDate}>(Jul. 2023 - present)</h3>
+          <h3 style={experienceTitle}>Associate Content Creator</h3>
+          <h3 style={experienceDate}>(Oct. 2023 - present)</h3>
         </div>
-        Xbox Gaming Monthly
+        Ai Music Videos
         <ul>
           <li>
-            Writing articles about gaming with a focus on the Xbox ecosystem and
-            publishing them on WordPress
+            Generating image and video assets using AI technology (Midjourney, 
+            Runway.ml, and Leonardo.ai)
+          </li>
+          <li>
+            Editing videos using Adobe Premiere Pro
+          </li>
+          <li>
+            Assisting in managing the Facebook and Instagram accounts using Meta 
+            Business Suite
+          </li>
+          <li>
+            Managing the community Discord server
           </li>
         </ul>
       </p>
@@ -297,6 +254,58 @@ export default function AboutMe() {
           <li>
             Designed articles on WordPress written by myself and others with 
             HTML within the WordPress editor
+          </li>
+        </ul>
+      </p>
+
+      <h2>Personal Projects</h2>
+
+      <p>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>
+            Personal Website &ndash; Trent B on Gatsby
+          </h3>
+          <h3 style={experienceDate}>
+            (Started Jun. 2021)
+          </h3>
+        </div>
+        <ul>
+          <li>
+            Developed my personal website using GatsbyJS
+          </li>
+          <li>
+            <a 
+              href="https://github.com/trentb10/studentweb-cencol-gatsby"
+              target="_blank">GitHub repository
+            </a>
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <div style={experienceHeader}>
+          <h3 style={experienceTitle}>
+            T-Bot Guild Moderation
+          </h3>
+          <h3 style={experienceDate}>
+            (Started Mar. 2021)
+          </h3>
+        </div>
+        <ul>
+          <li>
+            Developed a Discord guild moderation bot using the discord.js Nodejs library
+          </li>
+          <li>
+            <a 
+              href="https://github.com/trentb10/t-bot-guild-moderation"
+              target="_blank">GitHub repository
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://trentbon.gatsbyjs.io/works/personal-works/t-bot"
+              target="_blank">Demonstration
+            </a>
           </li>
         </ul>
       </p>
@@ -472,23 +481,6 @@ export default function AboutMe() {
               semester in high school. Although there aren't opportunities to 
               use ActionScript today, I just wanted to point out that I've used 
               it at some point!
-            </p>
-          </div>
-        </Collapsible>
-        <Collapsible
-          trigger={python}
-        >
-          <div class="skillbox-skill-info">
-            <p>
-              I had an opportunity to learn Python in a course called COMP301 
-              Unix Linux Operating Systems at Centennial College, in which I 
-              developed and ran console applications in Ubuntu. I also used 
-              Python in a course for COMP309 Data Warehouse & Mining. 
-            </p>
-            <p>
-              I'm looking forward for more learning opportunities with Python, 
-              as I've enrolled myself in the <i>Automate the Boring Stuff with 
-              Python Programming</i> course on Udemy!
             </p>
           </div>
         </Collapsible>
