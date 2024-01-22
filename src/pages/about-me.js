@@ -36,7 +36,6 @@ export default function AboutMe() {
   let csharp = determineSkill("C#", 3);
   let vb = determineSkill("VB", 2);
   let actionscript = determineSkill("ActionScript", 2);
-  let python = determineSkill("Python", 1);
 
   return (
     <Layout title="About Me!">
@@ -174,26 +173,18 @@ export default function AboutMe() {
         Ai Music Videos
         <ul>
           <li>
-            Generating AI images using Midjourney and Leonardo
+            Generating image and video assets using AI technology (Midjourney, 
+            Runway.ml, and Leonardo.ai)
           </li>
           <li>
-            Generating motion on the generated images via AI using Runway
+            Editing videos using Adobe Premiere Pro
           </li>
           <li>
-            Editing videos using Adobe Premiere
+            Assisting in managing the Facebook and Instagram accounts using Meta 
+            Business Suite
           </li>
           <li>
-            Managing the Ai Music Video Discord community server
-            <ul>
-              <li>
-                Developing a bot using C# and the DSharpPlus library to assist
-                in manage the server
-              </li>
-              <li>
-                Adding emotes based on content from Ai Music Videos for members 
-                to use in chat messages
-              </li>
-            </ul>
+            Managing the community Discord server
           </li>
         </ul>
       </p>
@@ -490,23 +481,6 @@ export default function AboutMe() {
               semester in high school. Although there aren't opportunities to 
               use ActionScript today, I just wanted to point out that I've used 
               it at some point!
-            </p>
-          </div>
-        </Collapsible>
-        <Collapsible
-          trigger={python}
-        >
-          <div class="skillbox-skill-info">
-            <p>
-              I had an opportunity to learn Python in a course called COMP301 
-              Unix Linux Operating Systems at Centennial College, in which I 
-              developed and ran console applications in Ubuntu. I also used 
-              Python in a course for COMP309 Data Warehouse & Mining. 
-            </p>
-            <p>
-              I'm looking forward for more learning opportunities with Python, 
-              as I've enrolled myself in the <i>Automate the Boring Stuff with 
-              Python Programming</i> course on Udemy!
             </p>
           </div>
         </Collapsible>
